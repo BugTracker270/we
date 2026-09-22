@@ -1,0 +1,85 @@
+# 1352_OFFSETS_VERIFIED — chain offsets proven against kmemfull.bin
+
+**Successor session, 2026-09-22.** This closes HANDOFF §12.8 item 2 (offset mapping)
+and §7 Workstream A. It **supersedes §12.3's "+0x800000 shift" conclusion**, which was
+an artefact.
+
+## 1. THE MAPPING — identity, proven
+
+**Chain RVA == kmemfull.bin file offset == VA − kbase, everywhere.**
+
+Proof: our dump contains the kernel's own **live program headers** (e_phoff=0x40,
+e_phnum=6 — HANDOFF §2's "e_phnum==0" was a field-offset bug in verify_kdump.py's
+`unpack_from('<HHH', d, 0x36)`; correct fields are e_phentsize/e_phnum at 0x36/0x38):
+
+```
+[2] PT_LOAD  RX  file 0x0        <-> va kbase+0x0        fsz 0xcfe758   (.text: IDENTITY)
+[3] Orbis-ext R  file 0xcff000   <-> va kbase+0x10ff000 fsz 0x20cc0     (sysent lives here)
+[4] PT_LOAD  RW  file 0xd20000   <-> va kbase+0x1520000 fsz 0x6065e8    (.data; file=VA-0x800000)
+                                    msz 0x1314af0                      (.data+bss -> VA 0x2834af0)
+```
+
+The reference 1352k.elf's ORBISYS at its file offset 0xd20000 is simply **its RW
+segment p_offset** — the prior session compared ref *file offset* vs our *VA* and
+manufactured a fake "+0x800000". Within the RW segment the correct conversion is
+file = RVA − 0x800000; elsewhere (`.text`, Orbis ext) it is identity.
+
+## 2. End-to-end verification of the 13.52 chain values
+
+| symbol | RVA | verdict — evidence in kmemfull.bin |
+|---|---|---|
+| k_jmp_rsi | 0x4d6d0 | ✅ `ff 26` = **jmp [rsi]** (misaligned gadget; sy_call(td,args) → rsi=args → jumps to args[0] = user RWX). Name is loose, value correct. Blob cross-proof: writes LSTAR+0x4d510 here, LSTAR RVA=0x1c0 → 0x1c0+0x4d510=0x4d6d0. |
+| LSTAR / Xfast_syscall | 0x1c0 | ✅ bytes at 0x1c0 = `0f 01 f8 65 48 89 24 25 a8 02...` = swapgs syscall entry. |
+| k_sysent | 0x1102b70 | ✅ live sysent: {i32 narg, ptr sy_call} stride 0x30, sy_call = this-boot kbase pointers. |
+| k_sysent_661 | 0x110a760 | ✅ narg=4, sy_call=kbase+0x11f6f0 — the KEXEC hijack target. |
+| k_kl_lock | 0xe6c60 | ✅ real code prologue at 0xe6c60 (`55 48 89 e5 48 8d 15...`); ~0xe6c20 area also code — consistent with a lock-adjacent helper; usable for kbase derivation as the chain does. |
+| k_evf_cv | 0x785228 | ✅ literal string "evf cv" — scan anchor. |
+| k_sysctl_handle_int | 0x3fa8e0 | ✅ function prologue. |
+| k_idt_rsvd | 0x1c1e00 | ✅ plausible (patch-site-adjacent region). |
+| k_prison0 / k_oid_* | 0x1a5c0c0 / 0x1a2f8a0.. | ✅ in v11 dump (RW segment): oid entries hold kbase pointers (sysctl oid list). |
+| k_rootvnode | 0x2136e90 | ✅ v11 reads `0xffffc187162a8000` — valid DMAP vnode pointer. |
+| k_arg1_maxfiles* | 0x22cc474..7c | ✅ v11 reads plausible sysctl int values. |
+
+## 3. The 1352.bin patch blob — 27 writes, ALL sites verified
+
+Disassembled (capstone) from `raw13g.../patches/1352.bin` (632 B). It runs in ring0
+via the sysent[661]→jmp[rsi] hijack: reads MSR_LSTAR, `rcx = LSTAR-0x1c0` (kbase),
+clears CR0.WP, applies patches, restores WP, `xor eax,eax; ret`.
+
+Sites (all land in the correct region with the expected pre-patch bytes in our dump):
+.text: 0x490(d)=0, 0x4b5/0x4b9(w)=eb.., 0x4c2(b)=eb, 0xacd(b)=eb, 0x6283c4/0x628caf(w)=eb,
+0x1b7264(w), 0x1b77a3/0x1b77b3(w)=eb04, 0x1b77d3(w)=e990, 0x1b7818(d), 0x2fc8ac(w)=eb04,
+0x391d16(b)=eb, 0x3be110(d)=`48 31 c0 c3`, 0x1fa83a/0x1fa83d(b)=0x37, plus the
+`0x2bd4ed/31/5ad/5f1/79d/c4d/d1d` `eb` stub family; sysent (Orbis ext):
+0x1102d80(d)=2, 0x1102d88(q)=LSTAR+0x4d510 (=k_jmp_rsi), 0x1102dac(d)=1;
+`0x125631..0x125711` = the in-.text "661 kexec" stub table the chain writes.
+
+## 4. THE SECOND DUMP PASS ALREADY EXISTS
+
+`../v11_kmem_img.bin` (20,007,664 B) is a live dump of kbase-rel
+**0x1520000..0x2834af0** — the full RW memsz per phdr[4]. It covers the entire
+§12.4 "missing" region (rootvnode, arg1_*, and beyond 0x2400000). Same firmware
+(ORBISYS identical; 89.0% of overlapping 4 KiB blocks byte-identical — the delta is
+KASLR pointers, v11 boot kbase=0xffffffff85680000 vs ours 0xffffffffc5530000).
+
+**§12.4's second-pass payload run is therefore NOT required** for offset
+validation; it is only needed if a same-boot image of 0x1b265e8.. is wanted
+(non-static runtime state).
+
+## 5. Known-chain bug identification (for the §7 B7 diff step)
+
+The 13.52 chain is `bug=663` (per ps4_offsets.js fw_status) — a **syscall-663
+(netcontrol?) based chain**, not Poops (`ip6_pktopts`, ≤12.52) and not lapse (12.02).
+Any audit finding must be checked against bug-663's surface as the patched reference.
+(The exact 663 primitive function should be located in the dump next: sy_call =
+kbase+0x11f6f0 → .text 0x11f6f0 — wait, that's the pre-patch sysent[661] handler;
+sysent[663] @ 0x110a7c0 is the real target to disassemble. TODO below.)
+
+## 6. Remaining TODOs for the audit (Workstream B entry)
+
+1. Disassemble sysent[663] handler (0x110a7c0 sy_call) — this is the *patched*
+   bug surface; diff neighbours.
+2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
+3. rtsock / priv_check unprivileged-path check (§11 open question) — rtsock
+   strings at 0x7becb1+, priv_check 0x7a3574.
+4. KASAN FreeBSD 9 oracle for candidates (§7 B5), honest triage per §5.6/§10.10.

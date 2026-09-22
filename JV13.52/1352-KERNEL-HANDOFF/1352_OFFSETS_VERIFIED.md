@@ -102,10 +102,45 @@ differently, 664/665/666 neighbours) must be diffed against this known-bug famil
 before being reported as new. The neighbouring syscalls and the copyin/alloca
 helpers (0x2bd4e0, 0x2bd790) are the first places to look for *un*patched cousins.
 
+### 7. aio_multi family audit (B7 diff base) — first results
+
+Handler map (string-xref proven):
+```
+sysent[662] narg=3  0x11f710  _aio_multi_delete
+sysent[663] narg=5  0x11ff50  _aio_multi_wait     <- the known bug=663
+sysent[664] narg=3  0x120c50  _aio_multi_poll
+sysent[665] narg=2  0x121130  _aio_multi_cancel + _aio_submit_cmd refs
+sysent[666] narg=3  0x121150  _aio_multi_cancel + _aio_submit_cmd refs
+sysent[669] narg=5  0x1219c0  _aio_submit_cmd
+```
+
+**Provenance discovered:** `_aio_multi_poll` @0x12100a references
+`W:\Build\J02697906\sys\freebsd\sys\kern\vfs_aio2` — the family is Sony's
+**vfs_aio2** (PS4-specific aio rework of FreeBSD's vfs_aio). Build id J02697906.
+(Generalizes the HANDOFF §7-B1 symbol trick: assert paths name the source file.)
+
+**Honest negative result (per §10.10):** all three multi_* handlers share an
+identical prologue: `count` validated `(count-1) < 0x81` (i.e. 1..0x81),
+then `alloca(count*4 + 15) & ~15` on the kernel stack, `copyin(arg0, dest,
+count*4)` via 0x2bd790. Max 516 B — **the stack-length-bug hypothesis is dead.**
+The handlers then loop over the copied ids (`id > 0x7fffff` filtered, low 16 bits
+= aio id, high 16 = idx) and manipulate aio contexts through the per-proc table
+(stride 0x598) with helpers 0x24e550 (lookup), 0x24e510 (release?), 0x24dd80,
+mtx/assert helper 0x68fb0, logfn 0x2e0510, debug-state call 0x2459b0.
+
+**Therefore bug=663 is most likely a race/UAF in the shared completion/lookup
+logic** (0x24e550/0x24e510 paths) rather than a length error — and 14.00 = 13.52
++8 bytes is consistent with a tiny fix (e.g. a refcount/flag check). The race
+surface between _aio_multi_wait (blocking) and _aio_multi_delete/_aio_multi_poll
+operating on the same per-proc aio table (stride 0x598, sel at +0x4a0) is the
+primary 0-day audit target this session bequeaths to Workstream B.
+
 ### Remaining audit TODOs (§7 Workstream B)
-1. Enumerate the whole aio_multi_* syscall family (scan .text for the sibling
-   `__func__` strings near `_aio_multi_wait` @0x797fbf) and audit each.
+1. Audit the shared lookup/release helpers 0x24e550 / 0x24e510 / 0x24dd80 for
+   missing locking/refcount on the aio context (delete vs wait race).
 2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
 3. rtsock / priv_check unprivileged-path check (§11) — rtsock strings at 0x7becb1+,
    priv_check 0x7a3574, `copyin` string anchor 0x7984fc now also known.
-4. KASAN FreeBSD 9 oracle for candidates (§7 B5), honest triage per §5.6/§10.10.
+4. KASAN FreeBSD 9 oracle for candidates (§7 B5) — note vfs_aio2 is Sony-specific,
+   so the FreeBSD 9 diff base only covers the stock portions, not this family.
+5. Honest triage per §5.6/§10.10; reject anything not reproducible cold-boot.

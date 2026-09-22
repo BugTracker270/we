@@ -1,0 +1,27 @@
+# Binaries
+bin/*.exe
+bin/*.dll
+out/
+
+# Dependencies
+vcpkg_installed
+
+# IDE
+.idea
+.vs
+
+# Objects
+*.a
+*.o
+
+# Python
+*.pyc
+
+# Private
+tools/private
+
+# TBD.
+CMakeSettings.json
+vcpkg.json
+externals
+assets/analysis/freebsd

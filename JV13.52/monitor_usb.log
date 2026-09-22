@@ -1,0 +1,48 @@
+
+=== monitor start 2026-09-20T18:08:14 ===
+18:08:14  FTP-OK   Cherry Blossom Lake.jpg=-1 | Cherry Blossom Lake_1.pkg=-1 | Cherry Blossom Lake_2.pkg=-1 | System Volume Information=-1 | pup-decrypt-1352.bin=-1
+18:08:19  FTP-OK   Cherry Blossom Lake.jpg=-1 | Cherry Blossom Lake_1.pkg=-1 | Cherry Blossom Lake_2.pkg=-1 | System Volume Information=-1 | pup-decrypt-1352.bin=-1
+18:08:24  FTP-OK   Cherry Blossom Lake.jpg=-1 | Cherry Blossom Lake_1.pkg=-1 | Cherry Blossom Lake_2.pkg=-1 | System Volume Information=-1 | pup-decrypt-1352.bin=-1
+18:08:29  FTP-OK   Cherry Blossom Lake.jpg=-1 | Cherry Blossom Lake_1.pkg=-1 | Cherry Blossom Lake_2.pkg=-1 | System Volume Information=-1 | pup-decrypt-1352.bin=-1
+
+=== monitor v2 start 2026-09-20T18:08:40 ===
+18:08:40  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | pup-decrypt-1352.bin=35820
+18:10:28  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=16565751 | pup-decrypt-1352.bin=35820
+18:10:33  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=31941703 | pup-decrypt-1352.bin=35820
+18:10:38  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=42821223 | pup-decrypt-1352.bin=35820
+18:10:43  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=60450535 | pup-decrypt-1352.bin=35820
+18:10:50  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=68230951 | pup-decrypt-1352.bin=35820
+18:10:55  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=82184567 | pup-decrypt-1352.bin=35820
+18:11:00  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=95953239 | pup-decrypt-1352.bin=35820
+18:11:05  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=111114599 | pup-decrypt-1352.bin=35820
+18:11:11  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=128612087 | pup-decrypt-1352.bin=35820
+18:11:17  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=143030007 | pup-decrypt-1352.bin=35820
+18:11:22  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=156658935 | pup-decrypt-1352.bin=35820
+18:11:27  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=166900439 | pup-decrypt-1352.bin=35820
+18:11:32  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=182655655 | pup-decrypt-1352.bin=35820
+18:11:37  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=194452135 | pup-decrypt-1352.bin=35820
+18:11:43  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=212801175 | pup-decrypt-1352.bin=35820
+18:11:49  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=224319543 | pup-decrypt-1352.bin=35820
+18:11:54  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=240572055 | pup-decrypt-1352.bin=35820
+18:12:00  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=252759607 | pup-decrypt-1352.bin=35820
+18:12:05  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=263620391 | pup-decrypt-1352.bin=35820
+18:12:10  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=276379687 | pup-decrypt-1352.bin=35820
+18:12:15  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=285811047 | pup-decrypt-1352.bin=35820
+18:12:21  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=302281767 | pup-decrypt-1352.bin=35820
+18:12:26  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=315514983 | pup-decrypt-1352.bin=35820
+18:12:31  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=2442688 | pup-decrypt-1352.bin=35820
+18:12:37  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=9747551 | pup-decrypt-1352.bin=35820
+18:12:42  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=18947855 | pup-decrypt-1352.bin=35820
+18:12:47  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=33265167 | pup-decrypt-1352.bin=35820
+18:12:53  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=45178111 | pup-decrypt-1352.bin=35820
+18:12:58  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=61101231 | pup-decrypt-1352.bin=35820
+18:13:03  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=74857823 | pup-decrypt-1352.bin=35820
+18:13:08  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=96600367 | pup-decrypt-1352.bin=35820
+18:13:13  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=105438751 | pup-decrypt-1352.bin=35820
+18:13:19  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=122262943 | pup-decrypt-1352.bin=35820
+18:13:24  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=129448911 | pup-decrypt-1352.bin=35820
+18:13:29  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=150689119 | pup-decrypt-1352.bin=35820
+18:13:34  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=154717167 | pup-decrypt-1352.bin=35820
+18:13:39  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=170349455 | pup-decrypt-1352.bin=35820
+18:13:44  FTP-OK    Cherry Blossom Lake.jpg=197435 | Cherry Blossom Lake_1.pkg=2228224 | Cherry Blossom Lake_2.pkg=26607616 | PS4UPDATE1.PUP.dec=326035559 | PS4UPDATE2.PUP.dec=177294015 | pup-decrypt-1352.bin=35820
+=== monitor v2 end 2026-09-20T18:23:41 ===

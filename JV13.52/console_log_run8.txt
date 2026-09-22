@@ -1,0 +1,468 @@
+pplicationId) 716):
+<118>	getPidWithIndex(0x60000d0c, 0) returned 0x80f40002.
+<118>[SceLncService] unlockSuspendBlock: appId={0x60000d0c}
+<118>[SceLncService] suspendApp() appId={0x60000e0d}, causeCode={0x00000000}
+<118>[SceLncService] BlockingKill() appId={0x60000d0c}, titleId={CUSA01015}, is_coredumpFinished={0}, forceKill={0}
+<118>[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+<118>[Syscore App] Kill App : 0x60000d0c CUSA01015
+<118>[Syscore App] Kill process: 0x47
+<118>[mbus] onSessionKilled. pid=71
+<118>[sceProcessStarter] OnIpcSessionClose()
+<118>[libSceSaveData] api_id: term, titleId=CUSA01015
+<118>@ removeSession:L184
+[KERNEL] dmem_handle_vmspace_exited map #0 0xffff9cb634519b28
+<118>[BGFT] [5156] GameSuspended(CUSA01015, 2)
+<118>Game Close detected
+<118>GnmCompositor Reset Sequence Start
+ +++ num clients 1
+<118>[VCS]checkApplicationStatus() [LNC->VCS] App was Suspended. appId = 0x60000d0c.
+<118>GnmCompositor set reset flag
+[KERNEL] dmem_handle_vmspace_exited pid: 71, app_maps_count[0], 1 -> 0
+gbase_free_vm_space_2 no vm space. vmid:1
+gbase_gvmsw_close free_vm_space error:-2142502907. vmid:1
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x47
+<118>[Syscore App] Kill process: 0x47 => 0
+<118>[Syscore App] process delete event : pid=0x47
+<118>[AppMgr Trace]: pid=0x47, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] All processes exited
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+<118>[AppMgr Trace]: AppId=0x60000d0c  deleted
+<118>[Syscore App] Kill App : 0xffffffff  => 0
+<118>[Syscore App] blockingKill(0x60000d0c, 0) complete
+<118>[AppMgr] checkAppTerminated invalid app.
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+<118>[SceLncService] start unmountAllForShellCoreInternal()
+<118>[SceLncService] end unmountAllForShellCoreInternal()
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(2175) getAppTitleId: LNC_ISOK::0x80940004
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_mount.cpp at 7081
+<118>sceLncServiceGetAppTitleId() ret = 80940004
+<118>[SceShellCore] Libc Heap Status: free 36%, in-use 3886.9 KB, trend +50.9 KB/min, peak 4278.6 KB, when 124 [sec]
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[libSceSaveData] wait 0 msec for session killed
+<118>[SceRnpsAppMgr] UnblockAllAppInstall(): CUSA01015(appId=0x60000d0c)
+<118>[SceLncService] KillApp() appId={0x60000e0d}, withSuspend={1}, forceKill={1} killReason={0}
+<118>[SceLncService] BlockingKill() appId={0x60000e0d}, titleId={NPXS22010}, is_coredumpFinished={0}, forceKill={1}
+<118>[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+<118>[Syscore App] Kill App : 0x60000e0d NPXS22010
+<118>[Syscore App] Kill process: 0x49
+<118>[mbus] onSessionKilled. pid=73
+<118>@ removeSession:L184
+<118>#PROFILE CACHE#: \profile_cache_server_event.cpp(92) : onSessionKilled : 
+<118>[VCS]closeSession() [APP->VCS] clientPid = 0x49.
+Context.cc:189 (ajmContextCleanup) - Codec MP3 Decoder was not properly unregistered.
+Context.cc:189 (ajmContextCleanup) - Codec ATRAC9 Decoder was not properly unregistered.
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x49
+<118>[Syscore App] Kill process: 0x49 => 0
+<118>[AppMgr Trace]: pid=0x49, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] All processes exited
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+<118>[AppMgr Trace]: AppId=0x60000e0d  deleted
+<118>[Syscore App] Kill App : 0xffffffff  => 0
+<118>[Syscore App] blockingKill(0x60000e0d, 1) complete
+<118>[AppMgr] checkAppTerminated invalid app.
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_APP_UNLOADED
+<118>[SceLncService] start unmountAllForShellCoreInternal()
+<118>[SceLncService] end unmountAllForShellCoreInternal()
+<118>[SceLncService] onAppExit() appId={0x60000d0c}
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[libSceSaveData] wait 0 msec for session killed
+<118>[SceRnpsAppMgr] UnblockAllAppInstall(): NPXS22010(appId=0x60000e0d)
+<118>[Syscore App] process delete event : pid=0x49
+<118>[SceLncService] ProcessTerm()
+<118>[SceLncService] ProcessTerm() returned
+<118>[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+<118>[SceLncService] Cleaning /av_contents/content_tmp
+<118>[SceLncService] onAppExit() appId={0x60000e0d}
+<118>[SceLncService] ProcessTerm()
+<118>[sceProcessStarter] ProcessTerm() big/mini app title_id = [CUSA01015] root_dir = [/mnt/sandbox/CUSA01015_000]
+<118>[sceProcessStarter] UnMountDownloadData() mount_path = [/mnt/sandbox/download/CUSA01015]
+[PFS] umount[0x0000657d5728bbb5] finished 0
+[PFS] umount[0x0000657d576b01c4] finished 0
+<118>[BGFT] [641] GameStopped(CUSA01015, 2) start
+<118>[BGFT] [643] GameStopped(CUSA01015, 2) end
+<118>[SceLncService] ProcessTerm() returned
+<118>[SceLncService] convertToSysCoreKillReason: {0x00000000}->{0x00000000}
+<118>Task 0000000b : 0000000124609639(22117 msec) [type=3,subtype=6,slot=00] : ended (state=0,runstate=2,error=0x0)
+<118>[VCS]checkApplicationStatus() [LNC->VCS] App was Killed. appId = 0x60000d0c.
+<118>[VCS]checkApplicationStatus() [LNC->VCS] App was Killed. appId = 0x60000e0d.
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingScene : LaunchWaitingScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [LaunchWaitingSceneBody : ApplicationExitScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : LaunchWaitingScene : LaunchWaitingScene
+<118>[ThemeColorManager] Update ThemeColor Skin to Purple
+<118>[SceLncService] launchApp(CUSA00063)
+<118>[SceLncService] category={gd} VRMode={0,0}
+<118>[SceLncService] hnm,psnf,pc,tk,ns={0,0,0,0,0} appBootMode={0}
+<118>[SceLncService] appType={SCE_LNC_APP_TYPE_BIG_APP} [] appVer={01.28}
+<118>[SceLncService] Waiting for LoginMgr
+<118>[SceLncService] Num. of logged-in users is 1
+<118>[SceLncService] PrepareProcessLaunchDirCheck()
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>[SceLncService] PrepareProcessLaunchDirCheck() returned
+<118>[SceSystemStateMgr] Power Mode Change: FULL_GAME
+<118>[SceSystemStateMgr] CPU  HLT CP SE CU ACLK DCLK ECLK LCLK SCLK SAMCLK VCLK DispCLK NCLK MemCLK MemP GMC DPM VDD      VDDNB    SOC      
+<118>[SceSystemStateMgr] 1600   0 NA  0 18  800  673  609  800  800    711  711     673 1400   1375   NA  NA   3 046/1100 048/1075 00710f31
+<118>[SceLncService] PrepareProcessLaunchDir()
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [SplashScreen : SplashScreenScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SplashScreen : SplashScreenScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101000]: with not preloaded user
+<118>[ScePatchChecker] (*) check (title_id='CUSA00063', app_version='01.28', check_option=0): status=0, trigger=1 userId=0xffffffff return 0
+<118>[ScePatchChecker] check (title_id='CUSA00063', app_version='01.28', check_option=0): status=0, dl_status=0, trigger=1 userId=0xffffffff return 0
+<118>[BGFT] [571] GameStartBoot(CUSA00063, 1) start
+<118>[BGFT] [573] GameStartBoot(CUSA00063, 1) end
+<118>[UIProcess] malloc stats freeSize:38827264 (93%) inuseSize:3115776 peakSize:4666656 [pid:0x3b]
+[PFS] mount [0x0000657d2e5a734d] finished 1 1 1 1 0 1 0
+[PFS] mount [0x0000657d46ca6271] finished 1 0 0 1 0 1 0
+[PFS] mount [0x0000657d46ca6738] finished 1 1 1 1 0 1 0
+[PFS] mount [0x0000657d2e5a4fb5] finished 1 0 0 1 0 1 0
+<118>ioctl(DIOCGSECTORSIZE): Inappropriate ioctl for device
+<118>sceFsUfsCheckFixedCylinderGroupSize: sceFsGetDeviceSectorsize() failed[80020019], assume DEV_BSIZE
+<118>[sceProcessStarter] MountDownloadData() title_id = [CUSA00063] data_path = [/user/download/CUSA00063/download0.dat] mount_path = [/mnt/sandbox/download/CUSA00063]
+<118>[BGFT] [606] GameWillStart(CUSA00063, 1) start
+<118>Task 00000051 : 0000000129633958 [type=3,subtype=6,slot=00] : started
+<118>BD Copy : 0x0
+<118>[BGFT] [576] task(00000051) CUSA00063
+<118>sceBdSchedConfigureCommon 118 : The specified package file is on /dev/cd0.
+g_bd_sched_init 4338 : BD scheduler is initialized. 
+g_bd_sched_init 4340 : bd_sched is built at 05:24:33 Jun 11 2026
+g_bd_sched_init 4349 : geom name is cd0.sched..
+bd_sched_ioctl_configure 5050 : size = 15679356928, offset = 0
+bd_sched_ioctl_configure 5087 : 30162 256
+check_extent_map 4894 : emap size=15679356928, physical=1074599936, logical=0
+count_copied_size 4965 : 239248 239248
+<118>[BGFT] sceBdSchedConfigure = 0x0
+<118>@@@@@@@@@@ sceBdSchedStopScheduling @@@@@@@@@@
+bd_sched_ioctl_start_game 5690 : prefetch=0, timeout for bg copy=1000[ms]
+<118>@@@@@@@@@@ sceBdSchedStartGame @@@@@@@@@@
+<118>[BDCOPY] 00000051 : transfer started (15679356928/15679356928)
+<118>[BDCOPY] 00000051 : transfer stopped (15679356928/15679356928)
+<118>[BGFT] [608] GameWillStart(CUSA00063, 1) end
+<118>[SceLncService] PrepareProcessLaunchDir() returned
+<118>[SceLncService] /av_contents/content_tmp is in the compatibility mode. (2000071)
+<118>[SceAutoMount] libcam: MaximizeSpeed
+<118>[SceAutoMount] libcam: set speed [speed:65535 kbyte/sec][rotation:0]
+<118>[SceLncService] spawnApp
+<118>[Syscore App] createApp CUSA00063
+<118>[Syscore App]  ExpandCpuSetMode : disable
+<118>[Syscore App] processSpawn(pid, 0x60000f0c, 0x10f0c190, appParam, processParam, 1, 1, 1, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0, rootPath = /mnt/sandbox/CUSA00063_000, titleId = CUSA00063
+<118>[Syscore App] processParam: elfPath = /app0/eboot.bin, fullPath = /mnt/sandbox/pfsmnt/CUSA00063-app0-patch0-union/eboot.bin
+<118>[Syscore App] new pid=0x58[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+W:\Build\J02697906\sys\freebsd\sys\kern\kern_exec.c(534) do_execve
+<118>[VCS]checkCpuUsage() [LNC->VCS] ShellUI is Bg. Reduce cpu usage.
+[KERNEL] dmem_start_app_process pid: 88, map=0xffff9cb6345198b0, app_maps_count[0], 0 -> 1
+<118>[Syscore App] Add event : pid=0x58
+<118>[AppMgr Trace]: New Process, pid=0x58, created.
+<118>[AppMgr Trace]: New App, appId=0x60000f0c, created
+<118>[Syscore App]  ExpandCpuSetMode : disable
+<118>[VCS]checkFocusStatus() [LNC->VCS] Focus Change. appType = 5(BIG_APP). appId = 0x60000f0c.
+mDBG: Process 88 untraced!
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SL] AppFocusChanged [NPXS20001] -> [CUSA00063]
+<118>[AppDb] openDb()[1063]: [File:Open] openDb() call dbutil::Connection::Open() path[/V3mmCvpiUy/priv/mms/app.db] flags[0x10000002] result[0x0, 0]
+<118>[AppDb] AppInfoDbInitializeDaemon()[54]: [File:Open] AppInfoDbInitializeDaemon() call DbAccessor::Init() path[/V3mmCvpiUy/priv/mms/app.db] result[0x0, 0].
+<118>[AppDb] AppInfoDbTerminateDaemon()[67]: [File:Close] AppInfoDbTerminateDaemon() call DbAccessor::Terminate().
+<118>[AppDb] Terminate()[768]: [File:Close] DbAccessor::Terminate() call dbutil::Connection::Close().
+<88> EXEC /app0/eboot.bin [user], vm#1, dmem#1  <149675 msec>
+ +++ num clients 2
+<118>**** Base Mode ****
+<118>[SceShellCore] Best effort threads use 2 CPU cores.
+<118>CMD_SETFREQUENCYDIVIDEROPERATION
+<118>CMD_SETLINESMOOTHENABLE
+<118>CMD_SETLINESTIPPLEENABLE
+<118>CMD_SETLINEWIDTH
+<118>CMD_SETLOGICOPENABLE
+<118>CMD_SETPOLYSMOOTHENABLE
+<118>[libSceSaveData] api_id: init, titleId=CUSA00063, installDir=, compiledSdkVer=0x02000071
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_mount.cpp at 6550
+<118>sceFsUfsCheckCleanFlag() clean flag : 0x0
+<118>sceFsUfsMkfsFormatPartition: 1024MiB (2097152 sectors) block size 32768, fragment size 4096
+<118>sceFsUfsMkfsFormatPartition: 	using 4 cylinder groups of 256MiB, 8193 blks, 16512 inodes.
+<118>sceFsUfsMkfsFormatPartition: 	with soft updates
+<118>sceFsUfsMkfsFormatPartition: super-block backups (for fsck -b #) at:
+<118>sceFsUfsMkfsFormatPartition: [0]: 192
+<118>sceFsUfsMkfsFormatPartition: [1]: 524544
+<118>sceFsUfsMkfsFormatPartition: [2]: 1048896
+<118>sceFsUfsMkfsFormatPartition: [3]: 1573248
+<118>fsinit: allocated 4096 at 1080 frag for rootino
+<118>[SceLncService] launchApp(NPXS22010)
+<118>[SceLncService] category={gdg} VRMode={0,0}
+<118>[SceLncService] hnm,psnf,pc,tk,ns={0,0,0,0,0} appBootMode={-1}
+<118>[SceLncService] appType={SCE_LNC_APP_TYPE_CDLG} [] appVer={00.00}
+<118>[SceLncService] Num. of logged-in users is 1
+<118>[SceLncService] PrepareProcessLaunchDebuggerCheck()
+<118>[SceLncService] PrepareProcessLaunchDebuggerCheck() returned
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002, blocks=16384, fingerprint=not set
+<118>[SceLncService] PrepareProcessLaunchDebugger()
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002(0x00000002), blocks=16384, fingerprint=not set
+<118>[SceLncService] PrepareProcessLaunchDebugger() returned
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceLncService] spawnApp
+<118>[Syscore App] createApp NPXS22010
+<118>[Syscore App] processSpawn(pid, 0x6000100d, 0x1100d1a0, appParam, processParam, 0, 0, 1, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x6, rootPath = /mnt/sandbox/NPXS22010_000, titleId = NPXS22010
+<118>[Syscore App] processParam: elfPath = /app0/eboot.bin, fullPath = /system/vsh/app/NPXS22010/eboot.bin
+<118>[Syscore App] new pid=0x59[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x59
+<118>[AppMgr Trace]: New Process, pid=0x59, created.
+<118>[AppMgr Trace]: New App, appId=0x6000100d, created
+<118>[Syscore App]  ExpandCpuSetMode : disable
+mDBG: Process 89 untraced!
+<89> EXEC /app0/eboot.bin [system], vm#0, dmem#0  <152109 msec>
+[PFS] mount [0x0000657d57fa2388] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVE, mountPoint=/savedata0
+<118>#PROFILE CACHE#: \profile_cache_server_event.cpp(38) : onNewClient : 
+<118>[PSM] PsmFramework::Initialize
+<118>PSM:b312d141fd9ff30befec12e68dc07072e0813a0d
+<118>MonoVM:7fba771a556d7aea290ce40db61c4d972fbd4190
+<118>BootParam :1   
+<118>[PSM] set assembly path for mono
+<118>[PSM] Loading Json
+<118>[PSM] Loading PsmUtil
+<118>[PSM] Loading Mono: libmono-btls-shared
+<118>[PSM] Loading Mono: libmonosgen-2.0
+<118>[PSM] LoadModulesInBG 0 msec
+<118>[PSM] Loading SysCore
+<118>[PSM] Loading libSceDipsw
+<118>[PSM] Loading SystemService
+<118>[PSM] ScePsmMonoSgenSetThreadType() thread_type = ::ORBIS
+<118>[PSM] Loading AudioOut
+<118>[PSM] Loading Camera
+<118>[PSM] debugger off
+<118>[PSM] AOT mode
+<118>[PSM] AOT mode
+<118>mount ---
+<118>[PSM] Loading VideoCoreServerInterface
+<118>[PSM] Loading Audiodec
+<118>[VCS]onNewClient() [APP->VCS] clientPid = 0x59, applicationId = 0x6000100d, sprxType = 0.
+<118>[PSM Mem] Allocated 12582912 bytes for Resource Heap
+<118>Initializing PSM Graphics for PGraphics
+<118>[mbus] onNewClient. clientNum 10 over 8
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x59 ch=7
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x59 ch=8
+<118>ScePsP[TID:0x18ba4]: Open Pad [0x0000000000030300, 0, 0]: ret=0x030c0500
+<118>ScePsP[TID:0x18ba4]: Open Pad [0x000000000002030e, 16, 0]: ret=0x030d0501
+<118>ScePsP[TID:0x18ba4]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000030300][0x1cabafca][DUALSHOCK4]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>[ScePsmUtil] sceImeClientInitialize 
+<118>[ScePsmUtil] sce::tts::InitializeCsharp() 
+<118>[ScePsmUtil] sce::pss::orbis::video::InitializeCsharp() 
+<118>[PSM] PsmFramework::Initailize() 184 msec. elapsed
+<118>Register libGlsSharedMediaNativaCall PInvokes
+<118>[SceCdlgApp] I/PSM.UI : UISystem timer started!! 00:00:00.0001153
+<118>[SceCdlgApp] I/PSM.UI : UI RenderingSettings Resolution: Pixels2K[1920,1080]
+<118>[SceCdlgApp] I/PSM.UI : OnAccessibilitySettingsChanged
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [56.12]msec / process time [2119]msec / GC[0] :  [UIInitialize] UISystem.InitializeTopMost
+<118>[VPA] PAllocatorInitialize system(addr=1356000000, size=4194304) video=(addr=13c7600000, size=41943040)
+<118>[PGraphics] Create PGraphicsDevice v[13c7600000 - 13c9e00000] s[1356000000 - 1356400000]
+<118>[PGraphics] Allocated compositor index 0
+<118>Initialized PGraphicsDevice 881207d80
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [100.75]msec / process time [2273]msec / GC[0] : => [UIInitialize] UISystem.InitializeGraphics: 
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata0, umount_type=0, user_id=0x1cabafca, dir_name=LBPxSAVE, mount_mode=0x00000002
+<118>[mbus] onNewClient. clientNum 11 over 8
+<118>SQLite MSG pthreadMutexInit 138: redundant call.
+<118>SQLite MSG pthreadMutexInit 138: redundant call.
+<118>SQLite MSG pthreadMutexInit 138: redundant call.
+<118>SQLite MSG pthreadMutexInit 138: redundant call.
+[PFS] umount[0x0000657d57fa2388] finished 0
+<118>[SceCdlgApp] I/PSM.UI : Allocating Emojis at Initialize...
+<118>[SceCdlgApp] I/PSM.UI : Allocating ShellUI Emojis...
+<118>[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from PNG...
+<118>[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from Atlas...
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={0}
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [66.71]msec / process time [2964]msec / GC[0] : => [UIInitialize] UISystem.PreloadSystemTexture
+<118>[SceCdlgApp] I/PSM.UI : SystemSound::Initialize() 
+<118>[SceCdlgApp] I/PSM.UI : VideoOutMode   : IsSystemDefault=True, IsVr=False
+<118>[SceCdlgApp] I/PSM.UI : VideoOutStatus : [1920 1080] : freq 59.94
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [834.39]msec / process time [2977]msec / GC[0] :  [UIInitialize] UISystem.InitializeBeforeRendering
+<118>[SceCdlgApp] W/PSM.UI : **** WARNING: Shown called without Alive status : TransitionScene
+<118>[SceCdlgApp] I/PSM.UI : SoundScriptManager initialized 
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : BlankScene : Scene
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : TransitionScene : TransitionScene
+<118>[SceCdlgApp] W/PSM.UI : Invalid widget type! _Count
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : Sce.Cdlg.Framework.Plugin : Plugin
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! /Application/resource/Sce.Cdlg.Framework.rco is loaded in main thread.
+<118>GetLocaleElement() failed in SetLocale
+<118>[SceCdlgApp] W/PSM.UI : cxml://CdlgFrameworkPlugin/tex_cdlg_bg is going to be loaded on main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/tex_cdlg_bg is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_root is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_bg is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : WARNING : Scene LayoutBuild : [14.72msec/1widgets] : Sce.Cdlg.Framework.Plugin : Plugin
+<118>[SceCdlgApp] I/PSM.UI : SceneQ : Loaded[0.97msec] Layout[0.00msec/0widgets] : Noname : ContainerScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SplashScreen : SplashScreenScene] -> [AppScreen : ApplicationScreenScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [AppScreen : ApplicationScreenScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101000]: with not preloaded user
+<118>[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002, blocks=16384, fingerprint=not set
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002(0x00000002), blocks=16384, fingerprint=not set
+[PFS] mount [0x0000657d2e5a6a01] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVE, mountPoint=/savedata0
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata0, umount_type=0, user_id=0x1cabafca, dir_name=LBPxSAVE, mount_mode=0x00000002
+[PFS] umount[0x0000657d2e5a6a01] finished 0
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={0}
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002, blocks=16384, fingerprint=not set
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002(0x00000002), blocks=16384, fingerprint=not set
+[PFS] mount [0x0000657d57fa38d7] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVE, mountPoint=/savedata0
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={2}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVExLITTLE, mountMode=0x00000002, blocks=480, fingerprint=not set
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVExLITTLE, mountMode=0x00000002(0x00000002), blocks=480, fingerprint=not set
+[PFS] mount [0x0000657d728ede71] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVExLITTLE, mountPoint=/savedata1
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata0, umount_type=0, user_id=0x1cabafca, dir_name=LBPxSAVE, mount_mode=0x00000002
+[PFS] umount[0x0000657d57fa38d7] finished 0
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata1, umount_type=1, user_id=0x1cabafca, dir_name=LBPxSAVExLITTLE, mount_mode=0x00000002
+<118>[ScePatchChecker] (*) check (title_id='CUSA00063', app_version='01.28', check_option=0): status=0, trigger=5 userId=0xffffffff return 0
+[PFS] umount[0x0000657d728ede71] finished 0
+<118>[ScePatchChecker] check (title_id='CUSA00063', app_version='01.28', check_option=0): status=0, dl_status=0, trigger=5 userId=0xffffffff return 0
+<118>[libSceSaveData] Backup at Umount has started. > LBPxSAVExLITTLE.
+<118>[libSceSaveData] Backup is running... > LBPxSAVExLITTLE using system I/O slot
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={0}
+<118>[SceLncUtil] blockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={1}
+<118>[libSceSaveData] id=43 : 0x809f0018(0x809f8705, 0x02000071)
+<118>[libSceSaveData] id=43 : 0x809f0018(0x809f8705, 0x02000071)
+<118>DBG AutoMounter(_getEventDetail 556):
+<118>	NoChg.
+<118>[libSceSaveData] id=43 : 0x809f0018(0x809f8705, 0x02000071)
+<118>AUDIO OUT DEVICE INFOMATION
+<118>[NONE                  ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[NONE                  ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[NONE                  ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[NONE                  ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[DS4 WIRELESS      ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[DS4 WIRELESS      ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[DS4 WIRELESS      ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[DS4 WIRELESS      ][0xFFFFFFFFFFFFFFFF][-1]
+<118>[libSceSaveData] id=43 : 0x809f0018(0x809f8705, 0x02000071)
+[PFS] mount [0x0000657d728edb38] finished 0 1 1 1 0 3 2
+<118>[libSceSaveData] Backup data was copied.(0/100.000%) > LBPxSAVExLITTLE
+[PFS] mount [0x0000657d728ed189] finished 0 1 1 1 0 3 2
+<118>[SceLncUtil] blockAppSuspend: name={SceNpTrophy}, appId={0x60000100}, refCount={2}
+[PFS] mount [0x0000657d46ca706b] finished 1 1 1 1 0 3 0
+[PFS] umount[0x0000657d46ca706b] finished 0
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpTrophy}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={0}
+<118>[libSceSaveData] Backup at Umount has succeeded. > LBPxSAVExLITTLE 15360 KiB in 4785.441 ms.
+[PFS] umount[0x0000657d728ed189] finished 0
+[PFS] umount[0x0000657d728edb38] finished 0
+[PFS] mount [0x0000657d2e5b93b5] finished 0 1 1 1 0 3 2
+[PFS] mount [0x0000657d2e5baf4d] finished 0 1 1 1 0 3 2
+[PFS] umount[0x0000657d2e5baf4d] finished 0
+[PFS] umount[0x0000657d2e5b93b5] finished 0
+<118>CMD_SETFRONTFACE
+<118>CMD_SETSHADEMODE
+<118>CMD_SETINVALIDATETEXTURECACHE
+<118>[SceShellCore] Libc Heap Status: free 36%, in-use 3909.7 KB, trend +113.7 KB/min, peak 4300.1 KB, when 155 [sec]
+<118>[BGFT] task(0000004d) tx stopped (128974848/128974848)
+<118>[UIProcess] malloc stats freeSize:38826048 (93%) inuseSize:3116992 peakSize:4666656 [pid:0x3b]
+<118>Task 0000004d : 0000000159991537(60911 msec) [type=1,subtype=8,slot=00] : ended (state=0,runstate=3,error=0x80f00633)
+<118>[SceShellUI] I/PSM.UI : [FirstClear] : ClearFrameBuffer=False
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVExLITTLE, mountMode=0x00000002, blocks=480, fingerprint=not set
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVExLITTLE, mountMode=0x00000002(0x00000002), blocks=480, fingerprint=not set
+[PFS] mount [0x0000657d2e5b80e2] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVExLITTLE, mountPoint=/savedata0
+<118>[SceLncUtil] tryBlockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={2}
+<118>[libSceSaveData] mount info : userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002, blocks=16384, fingerprint=not set
+<118>[libSceSaveData] api_id: 1, userId=0x1cabafca, titleId=, dirName=LBPxSAVE, mountMode=0x00000002(0x00000002), blocks=16384, fingerprint=not set
+[PFS] mount [0x0000657d2e5b8a71] finished 0 1 1 1 0 3 0
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=LBPxSAVE, mountPoint=/savedata1
+<118>[libSceSaveData] api_id: 9, param_type=0
+<118>[libSceSaveData] api_id: 7
+<118>[libSceSaveData] api_id: 9, param_type=0
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata0, umount_type=1, user_id=0x1cabafca, dir_name=LBPxSAVExLITTLE, mount_mode=0x00000002
+[PFS] umount[0x0000657d2e5b80e2] finished 0
+<118>[libSceSaveData] Backup at Umount has started. > LBPxSAVExLITTLE.
+<118>[libSceSaveData] Backup is running... > LBPxSAVExLITTLE using system I/O slot
+<118>[SceLncUtil] blockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={1}
+<118>[libSceSaveData] id=43 : 0x809f0018(0x809f8705, 0x02000071)
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata1, umount_type=0, user_id=0x1cabafca, dir_name=LBPxSAVE, mount_mode=0x00000002
+[PFS] umount[0x0000657d2e5b8a71] finished 0
+<118>[libSceSaveData] Backup data was copied.(0/100.000%) > LBPxSAVExLITTLE
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000f0c}, refCount={0}
+[PFS] mount [0x0000657d46ca7dc4] finished 1 1 1 1 0 3 0
+[PFS] umount[0x0000657d46ca7dc4] finished 0
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={0}
+<118>[libSceSaveData] Backup at Umount has succeeded. > LBPxSAVExLITTLE 15360 KiB in 1465.255 ms.
+<118>[SceShellUI] I/PSM.UI : [NoDraw] : ClearFrameBuffer=False
+<118>[SceShellCore] VM Stats: RSS 1234.7, kernel 287.3, wire count 387.6, swap out 4.7, page table CPU 3225/6144 GPU 378/2048
+<118>[SceShellCore] FMEM   0.5/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   9.5/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   6.0/  54.7 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.0/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  21.5/ 343.1 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 238.4/ 895.1 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   7.3/  12.7 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   6.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  10.4/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   3.4/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM   9.7/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   6.3/  37.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   2.9/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   5.0/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   6.5/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   4.5/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   5.6/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   1.7/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.0/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   1.9/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  59.3/ 300.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 176.1/ 614.2 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  63.8/ 359.0 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  58.1/ 163.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  55.8/ 246.7 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 350.7/ 849.9 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] FMEM 118.3/ 216.3 NPXS22010 SceCdlgApp
+<118>[SceShellCore] Libc Heap Status: free 36%, in-use 3913.9 KB, trend -5.1 KB/min, peak 4304.4 KB, when 186 [sec]
+<118>[SceCdlgApp] I/PSM.UI : UI system timer elapsed 00:01:00
+[GoldHEN] <payloader> accepted a new payload
+[GoldHEN] <payloader> TCP Mode
+[GoldHEN] <payloader> payload received and saved [temp_file: /user/temp/payload.53356 - size: 35852 - ip: 172.20.10.7]
+[GoldHEN] <payloader> found and jailbroken target process [proc: ScePartyDaemon - pid: 45]
+[GoldHEN] <payloader> launching payload... [format: BIN]
+[GoldHEN] <payloader> payload launched successfully
+[DEBUG] [source/main.c (_main:1026)] [NOTIFICATION]: selfdec2: start
+[DEBUG] [source/main.c (_main:1035)] [NOTIFICATION]: selfdec2 kbase=ffffffffd4140000
+[DEBUG] [source/main.c (_main:1074)] [NOTIFICATION]: selfdec2 max=7 lock=1 svcreq=0 seg=0 ctx=0 sm=1

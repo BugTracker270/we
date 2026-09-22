@@ -1,0 +1,1232 @@
+[
+  {
+    "sha": "b7326416c23ce14639e9180a24093bdc5eedb579",
+    "node_id": "C_kwDOCZIDQdoAKGI3MzI2NDE2YzIzY2UxNDYzOWU5MTgwYTI0MDkzYmRjNWVlZGI1Nzk",
+    "commit": {
+      "author": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2026-09-19T08:31:20Z"
+      },
+      "committer": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2026-09-19T08:31:20Z"
+      },
+      "message": "Add 14.00 support",
+      "tree": {
+        "sha": "26560f8e3a38371f362e5be09a10b7f7a9afc78a",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/26560f8e3a38371f362e5be09a10b7f7a9afc78a"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/b7326416c23ce14639e9180a24093bdc5eedb579",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/b7326416c23ce14639e9180a24093bdc5eedb579",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/b7326416c23ce14639e9180a24093bdc5eedb579",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/b7326416c23ce14639e9180a24093bdc5eedb579/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "46efae910f3705e0171edea5b94e572d01bc00e8",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/46efae910f3705e0171edea5b94e572d01bc00e8",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/46efae910f3705e0171edea5b94e572d01bc00e8"
+      }
+    ]
+  },
+  {
+    "sha": "46efae910f3705e0171edea5b94e572d01bc00e8",
+    "node_id": "C_kwDOCZIDQdoAKDQ2ZWZhZTkxMGYzNzA1ZTAxNzFlZGVhNWI5NGU1NzJkMDFiYzAwZTg",
+    "commit": {
+      "author": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2026-06-25T00:31:12Z"
+      },
+      "committer": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2026-06-25T00:31:12Z"
+      },
+      "message": "Add 13.52 support",
+      "tree": {
+        "sha": "95530dd1fdd89272a256f73df4991225390b874d",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/95530dd1fdd89272a256f73df4991225390b874d"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/46efae910f3705e0171edea5b94e572d01bc00e8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/46efae910f3705e0171edea5b94e572d01bc00e8",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/46efae910f3705e0171edea5b94e572d01bc00e8",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/46efae910f3705e0171edea5b94e572d01bc00e8/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/2847f1f3a7d73e36cac1fbd40803733ebae98e1d"
+      }
+    ]
+  },
+  {
+    "sha": "2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+    "node_id": "C_kwDOCZIDQdoAKDI4NDdmMWYzYTdkNzNlMzZjYWMxZmJkNDA4MDM3MzNlYmFlOThlMWQ",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2026-03-18T00:25:14Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2026-03-18T00:25:14Z"
+      },
+      "message": "Add 13.50 support",
+      "tree": {
+        "sha": "4985101012c5fc8faab4a8814840c30b786252d8",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/4985101012c5fc8faab4a8814840c30b786252d8"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/2847f1f3a7d73e36cac1fbd40803733ebae98e1d",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/2847f1f3a7d73e36cac1fbd40803733ebae98e1d/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "218ac148ad1905e20a3679626f7906ef9a5b8ea0",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/218ac148ad1905e20a3679626f7906ef9a5b8ea0",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/218ac148ad1905e20a3679626f7906ef9a5b8ea0"
+      }
+    ]
+  },
+  {
+    "sha": "b6d1840fa60ef46fb25c509e3ca7fd91f774927a",
+    "node_id": "C_kwDOCZIDQdoAKGI2ZDE4NDBmYTYwZWY0NmZiMjVjNTA5ZTNjYTdmZDkxZjc3NDkyN2E",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2026-01-28T09:07:38Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2026-01-28T09:07:38Z"
+      },
+      "message": "Add 13.04 support",
+      "tree": {
+        "sha": "a0404a945e51b60dc7be04c3afe24acf4856d839",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/a0404a945e51b60dc7be04c3afe24acf4856d839"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/b6d1840fa60ef46fb25c509e3ca7fd91f774927a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/b6d1840fa60ef46fb25c509e3ca7fd91f774927a",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/b6d1840fa60ef46fb25c509e3ca7fd91f774927a",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/b6d1840fa60ef46fb25c509e3ca7fd91f774927a/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba11c74caa9960d3f3413dbaa797b22f65bd5008",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ba11c74caa9960d3f3413dbaa797b22f65bd5008",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ba11c74caa9960d3f3413dbaa797b22f65bd5008"
+      }
+    ]
+  },
+  {
+    "sha": "ad4226ae4407f5c7950f26db1b021a8a9f565bbb",
+    "node_id": "C_kwDOCZIDQdoAKGFkNDIyNmFlNDQwN2Y1Yzc5NTBmMjZkYjFiMDIxYThhOWY1NjViYmI",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-10-05T03:08:04Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-10-05T03:08:04Z"
+      },
+      "message": "Add 13.02 support",
+      "tree": {
+        "sha": "609f3f33287ccd3f510e0284b970d434efde248e",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/609f3f33287ccd3f510e0284b970d434efde248e"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/ad4226ae4407f5c7950f26db1b021a8a9f565bbb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ad4226ae4407f5c7950f26db1b021a8a9f565bbb",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ad4226ae4407f5c7950f26db1b021a8a9f565bbb",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ad4226ae4407f5c7950f26db1b021a8a9f565bbb/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/3dd11883ff66628e70806b8ec38b2b29dda9ec59"
+      }
+    ]
+  },
+  {
+    "sha": "3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+    "node_id": "C_kwDOCZIDQdoAKDNkZDExODgzZmY2NjYyOGU3MDgwNmI4ZWMzOGIyYjI5ZGRhOWVjNTk",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-09-19T19:53:02Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-09-19T19:53:02Z"
+      },
+      "message": "Add 13.00 support",
+      "tree": {
+        "sha": "02a9ab6965dfddf02781a5b7184a9785d0e0f669",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/02a9ab6965dfddf02781a5b7184a9785d0e0f669"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/3dd11883ff66628e70806b8ec38b2b29dda9ec59",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/3dd11883ff66628e70806b8ec38b2b29dda9ec59/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9eb603b5d62b60a3f4075a8131c1758c8697f328",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/9eb603b5d62b60a3f4075a8131c1758c8697f328",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/9eb603b5d62b60a3f4075a8131c1758c8697f328"
+      }
+    ]
+  },
+  {
+    "sha": "9eb603b5d62b60a3f4075a8131c1758c8697f328",
+    "node_id": "C_kwDOCZIDQdoAKDllYjYwM2I1ZDYyYjYwYTNmNDA3NWE4MTMxYzE3NThjODY5N2YzMjg",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-08-24T22:22:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-08-24T22:22:40Z"
+      },
+      "message": "Fix 11.50 and 11.52 copyout",
+      "tree": {
+        "sha": "8fa2da503c473a1515278e5c69f145408b81ff7a",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/8fa2da503c473a1515278e5c69f145408b81ff7a"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/9eb603b5d62b60a3f4075a8131c1758c8697f328",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoq5CxCRC1aQ7uu5UhlAAADU0QADuWT1AoxGeLCQziz7cJs8VQ\nMQJX6DzPUTbluQkE5uTkTZT1d6/eSws+YDrfbJ5xb21iGjYbOAIqAqZH32Pxs/nO\n0XXyNOAwRRiov6+4Ilg9iAeIzYDbw0VphOJvsDv6Lr9FV5b3g1LNxqjFUd1KKHjI\noP2doVWQrERo6l8ijiuvw5dpSVsYV7qjxA0pzeDjlC5nFbCAO0TC5QNqkoMyY/r4\n3ZwaBM8nuVZyiF7a4o+LRuCuWXa2uyilslkAUmIcwmQVtmEf5UCGa38cmFd7KG9h\nRDVYjfw94ojmUBF3/+RRBNoDHBboh1rFcZlCmSRhXqNOI6DwRzfyfvobO1GAMjYo\ndajP8F2DBoyz7JMbuNVTkAaK1khhmC9OGXeh4CEQhFb3XfwQhCa/ZjDdq0YTtj9K\nNowLxpSfhN0IwHyi/v5CRsmWDo2fvZEFPuX9cjnlOcVUsvHrUVDaTGcFsUKObUcm\nYDOgX43zu+Zfl+s1A1YkcXqWyBAZNVH/n4og4uK6UWa5qh/yEVZORkONg+Z3IP94\nmWdUSpccyrj8TzxJEArHHyExU6/hrugwucHZaT/VJWRuEGUxGoG1NDivisTbHnOk\nvllEjHrvxGHYRKUeQJMfvh2uNOI4/HIiIrCSyI61cpWGWXF5sdB0QlTL9jY07cKc\nbYpz/R+Qpy1eBEHFzszU\n=hCbO\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8fa2da503c473a1515278e5c69f145408b81ff7a\nparent 7ccec2b7449daf42d31e2d6c650ea3d044201f1a\nauthor Al Azif <33132478+Al-Azif@users.noreply.github.com> 1756074160 -0700\ncommitter GitHub <noreply@github.com> 1756074160 -0700\n\nFix 11.50 and 11.52 copyout",
+        "verified_at": "2025-08-24T22:22:41Z"
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/9eb603b5d62b60a3f4075a8131c1758c8697f328",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/9eb603b5d62b60a3f4075a8131c1758c8697f328",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/9eb603b5d62b60a3f4075a8131c1758c8697f328/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7ccec2b7449daf42d31e2d6c650ea3d044201f1a",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/7ccec2b7449daf42d31e2d6c650ea3d044201f1a",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/7ccec2b7449daf42d31e2d6c650ea3d044201f1a"
+      }
+    ]
+  },
+  {
+    "sha": "fa40e69e5f5cf82990ab3f45f9ae494ede34e75c",
+    "node_id": "C_kwDOCZIDQdoAKGZhNDBlNjllNWY1Y2Y4Mjk5MGFiM2Y0NWY5YWU0OTRlZGUzNGU3NWM",
+    "commit": {
+      "author": {
+        "name": "Krisztián Kende",
+        "email": "krisztiankende@gmail.com",
+        "date": "2025-08-05T13:49:28Z"
+      },
+      "committer": {
+        "name": "Krisztián Kende",
+        "email": "krisztiankende@gmail.com",
+        "date": "2025-08-05T13:49:28Z"
+      },
+      "message": "Fix K672_DISABLE_ASLR offset",
+      "tree": {
+        "sha": "ad1ec849bca84da1f3a1ac58351d6aa46a597274",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/ad1ec849bca84da1f3a1ac58351d6aa46a597274"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/fa40e69e5f5cf82990ab3f45f9ae494ede34e75c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/fa40e69e5f5cf82990ab3f45f9ae494ede34e75c",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/fa40e69e5f5cf82990ab3f45f9ae494ede34e75c",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/fa40e69e5f5cf82990ab3f45f9ae494ede34e75c/comments",
+    "author": {
+      "login": "KrisztianKende",
+      "id": 35103486,
+      "node_id": "MDQ6VXNlcjM1MTAzNDg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35103486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KrisztianKende",
+      "html_url": "https://github.com/KrisztianKende",
+      "followers_url": "https://api.github.com/users/KrisztianKende/followers",
+      "following_url": "https://api.github.com/users/KrisztianKende/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KrisztianKende/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KrisztianKende/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KrisztianKende/subscriptions",
+      "organizations_url": "https://api.github.com/users/KrisztianKende/orgs",
+      "repos_url": "https://api.github.com/users/KrisztianKende/repos",
+      "events_url": "https://api.github.com/users/KrisztianKende/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KrisztianKende/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "KrisztianKende",
+      "id": 35103486,
+      "node_id": "MDQ6VXNlcjM1MTAzNDg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35103486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KrisztianKende",
+      "html_url": "https://github.com/KrisztianKende",
+      "followers_url": "https://api.github.com/users/KrisztianKende/followers",
+      "following_url": "https://api.github.com/users/KrisztianKende/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KrisztianKende/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KrisztianKende/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KrisztianKende/subscriptions",
+      "organizations_url": "https://api.github.com/users/KrisztianKende/orgs",
+      "repos_url": "https://api.github.com/users/KrisztianKende/repos",
+      "events_url": "https://api.github.com/users/KrisztianKende/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KrisztianKende/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f75e8e0b8578e85d205fe4b44c67815f1a845bf3",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/f75e8e0b8578e85d205fe4b44c67815f1a845bf3",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/f75e8e0b8578e85d205fe4b44c67815f1a845bf3"
+      }
+    ]
+  },
+  {
+    "sha": "f840e38747901a4954feaa834a40b32564ff81a5",
+    "node_id": "C_kwDOCZIDQdoAKGY4NDBlMzg3NDc5MDFhNDk1NGZlYWE4MzRhNDBiMzI1NjRmZjgxYTU",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-07-09T10:50:00Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-07-09T10:50:00Z"
+      },
+      "message": "Add missing noBD patches",
+      "tree": {
+        "sha": "0495107a9187e2348fdc4f4a2ede82f31fe12a97",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/0495107a9187e2348fdc4f4a2ede82f31fe12a97"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/f840e38747901a4954feaa834a40b32564ff81a5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/f840e38747901a4954feaa834a40b32564ff81a5",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/f840e38747901a4954feaa834a40b32564ff81a5",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/f840e38747901a4954feaa834a40b32564ff81a5/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ced9d28ab24e41221567130fa5378157faef33d2",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ced9d28ab24e41221567130fa5378157faef33d2",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ced9d28ab24e41221567130fa5378157faef33d2"
+      }
+    ]
+  },
+  {
+    "sha": "ced9d28ab24e41221567130fa5378157faef33d2",
+    "node_id": "C_kwDOCZIDQdoAKGNlZDlkMjhhYjI0ZTQxMjIxNTY3MTMwZmE1Mzc4MTU3ZmFlZjMzZDI",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-07-09T10:31:36Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-07-09T10:31:36Z"
+      },
+      "message": "Add 12.52 support",
+      "tree": {
+        "sha": "de474ead01718361e258f7029690199d012b94df",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/de474ead01718361e258f7029690199d012b94df"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/ced9d28ab24e41221567130fa5378157faef33d2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ced9d28ab24e41221567130fa5378157faef33d2",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ced9d28ab24e41221567130fa5378157faef33d2",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ced9d28ab24e41221567130fa5378157faef33d2/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "32570f368b2074d2ab8d429453eac56d4cdd3786",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/32570f368b2074d2ab8d429453eac56d4cdd3786",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/32570f368b2074d2ab8d429453eac56d4cdd3786"
+      }
+    ]
+  },
+  {
+    "sha": "3858b6a9836d0c7128f5e05d4425fde47625653f",
+    "node_id": "C_kwDOCZIDQdoAKDM4NThiNmE5ODM2ZDBjNzEyOGY1ZTA1ZDQ0MjVmZGU0NzYyNTY1M2Y",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-06-17T23:10:40Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-06-17T23:10:40Z"
+      },
+      "message": "Add NoBD patch",
+      "tree": {
+        "sha": "b1f8d17dda43a0d668f1299b0e93ec77c18d8e14",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/b1f8d17dda43a0d668f1299b0e93ec77c18d8e14"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/3858b6a9836d0c7128f5e05d4425fde47625653f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/3858b6a9836d0c7128f5e05d4425fde47625653f",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/3858b6a9836d0c7128f5e05d4425fde47625653f",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/3858b6a9836d0c7128f5e05d4425fde47625653f/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1de44b41970b4f89f80d7078f4f4f0fcedd596b7",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/1de44b41970b4f89f80d7078f4f4f0fcedd596b7",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/1de44b41970b4f89f80d7078f4f4f0fcedd596b7"
+      }
+    ]
+  },
+  {
+    "sha": "e31c4503f28f04cb11c1c30749b3f00da1afd6ab",
+    "node_id": "C_kwDOCZIDQdoAKGUzMWM0NTAzZjI4ZjA0Y2IxMWMxYzMwNzQ5YjNmMDBkYTFhZmQ2YWI",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-05-05T19:00:45Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-05-05T19:00:45Z"
+      },
+      "message": "Add 12.50 support",
+      "tree": {
+        "sha": "9479506deead83f2cb9d984946f96820c251eef1",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/9479506deead83f2cb9d984946f96820c251eef1"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/e31c4503f28f04cb11c1c30749b3f00da1afd6ab",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/e31c4503f28f04cb11c1c30749b3f00da1afd6ab",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/e31c4503f28f04cb11c1c30749b3f00da1afd6ab",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/e31c4503f28f04cb11c1c30749b3f00da1afd6ab/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e32a938c9ce1f6d14cbd51656e6cdbec68f39406",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/e32a938c9ce1f6d14cbd51656e6cdbec68f39406",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/e32a938c9ce1f6d14cbd51656e6cdbec68f39406"
+      }
+    ]
+  },
+  {
+    "sha": "9a0799575e0f475882ae3fca5d81ed6d4cfd4eb0",
+    "node_id": "C_kwDOCZIDQdoAKDlhMDc5OTU3NWUwZjQ3NTg4MmFlM2ZjYTVkODFlZDZkNGNmZDRlYjA",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-02-19T01:32:32Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2025-02-19T01:32:32Z"
+      },
+      "message": "Add 11.50-12.02 support\n\n- Fix bad 11.00 and 11.02 offset for *_MMAP_SELF_2",
+      "tree": {
+        "sha": "4bd3c6bb386116cdf4694df807e38da0df6ca063",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/4bd3c6bb386116cdf4694df807e38da0df6ca063"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/9a0799575e0f475882ae3fca5d81ed6d4cfd4eb0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/9a0799575e0f475882ae3fca5d81ed6d4cfd4eb0",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/9a0799575e0f475882ae3fca5d81ed6d4cfd4eb0",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/9a0799575e0f475882ae3fca5d81ed6d4cfd4eb0/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ffcd53412e40d9b5d80775912ce4d071faa68d96",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ffcd53412e40d9b5d80775912ce4d071faa68d96",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ffcd53412e40d9b5d80775912ce4d071faa68d96"
+      }
+    ]
+  },
+  {
+    "sha": "ffcd53412e40d9b5d80775912ce4d071faa68d96",
+    "node_id": "C_kwDOCZIDQdoAKGZmY2Q1MzQxMmU0MGQ5YjVkODA3NzU5MTJjZTRkMDcxZmFhNjhkOTY",
+    "commit": {
+      "author": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2024-01-31T06:56:39Z"
+      },
+      "committer": {
+        "name": "Al Azif",
+        "email": "33132478+Al-Azif@users.noreply.github.com",
+        "date": "2024-01-31T06:56:39Z"
+      },
+      "message": "Add 10.50-11.02 support",
+      "tree": {
+        "sha": "7e5ecccbcf4d02d3f03efcb387f4d3a600a04c18",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/7e5ecccbcf4d02d3f03efcb387f4d3a600a04c18"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/ffcd53412e40d9b5d80775912ce4d071faa68d96",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ffcd53412e40d9b5d80775912ce4d071faa68d96",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/ffcd53412e40d9b5d80775912ce4d071faa68d96",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/ffcd53412e40d9b5d80775912ce4d071faa68d96/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "00bd19010f84f721c9a520ffc135b40fae9503be",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/00bd19010f84f721c9a520ffc135b40fae9503be",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/00bd19010f84f721c9a520ffc135b40fae9503be"
+      }
+    ]
+  },
+  {
+    "sha": "00bd19010f84f721c9a520ffc135b40fae9503be",
+    "node_id": "C_kwDOCZIDQdoAKDAwYmQxOTAxMGY4NGY3MjFjOWE1MjBmZmMxMzViNDBmYWU5NTAzYmU",
+    "commit": {
+      "author": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2022-12-26T00:39:34Z"
+      },
+      "committer": {
+        "name": "Al-Azif",
+        "email": "alazif@miskatonic.io",
+        "date": "2022-12-26T00:39:34Z"
+      },
+      "message": "Add 10.00 and 10.01",
+      "tree": {
+        "sha": "bc301e4eef1ea87303c80d8bade965f0edc656d3",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/trees/bc301e4eef1ea87303c80d8bade965f0edc656d3"
+      },
+      "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/git/commits/00bd19010f84f721c9a520ffc135b40fae9503be",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/00bd19010f84f721c9a520ffc135b40fae9503be",
+    "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/00bd19010f84f721c9a520ffc135b40fae9503be",
+    "comments_url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/00bd19010f84f721c9a520ffc135b40fae9503be/comments",
+    "author": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Al-Azif",
+      "id": 33132478,
+      "node_id": "MDQ6VXNlcjMzMTMyNDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33132478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Al-Azif",
+      "html_url": "https://github.com/Al-Azif",
+      "followers_url": "https://api.github.com/users/Al-Azif/followers",
+      "following_url": "https://api.github.com/users/Al-Azif/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Al-Azif/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Al-Azif/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Al-Azif/subscriptions",
+      "organizations_url": "https://api.github.com/users/Al-Azif/orgs",
+      "repos_url": "https://api.github.com/users/Al-Azif/repos",
+      "events_url": "https://api.github.com/users/Al-Azif/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Al-Azif/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a7d18e38532bf79a3e7400c154049e3144b7ef7",
+        "url": "https://api.github.com/repos/Scene-Collective/ps4-payload-sdk/commits/7a7d18e38532bf79a3e7400c154049e3144b7ef7",
+        "html_url": "https://github.com/Scene-Collective/ps4-payload-sdk/commit/7a7d18e38532bf79a3e7400c154049e3144b7ef7"
+      }
+    ]
+  }
+]

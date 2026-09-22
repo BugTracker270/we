@@ -1,0 +1,899 @@
+] Loading SystemService
+<118>[PSM] ScePsmMonoSgenSetThreadType() thread_type = ::ORBIS
+<118>[PSM] Loading AudioOut
+<118>[PSM] Loading Camera
+<118>[PSM] debugger off
+<118>[PSM] AOT mode
+<118>[PSM] AOT mode
+<118>[libSceSaveData] api_id: 60, userId=0x1cabafca, titleId=, dirName=Settings, mountMode=0x00000009(0x00000001), blocks=96, fingerprint=not set
+<118>mount ---
+[PFS] mount [0x0000502f255988e2] finished 1 1 1 1 0 3 1
+<118>[libSceSaveData] Mounted > userId=0x1cabafca, dirName=Settings, mountPoint=/savedata0
+<118>[PSM] Loading VideoCoreServerInterface
+<118>[PSM] Loading Audiodec
+<118>[VCS]onNewClient() [APP->VCS] clientPid = 0x46, applicationId = 0x60000e0d, sprxType = 0.
+<118>[libSceSaveData] api_id: 2, mountPoint=/savedata0, umount_type=0, user_id=0x1cabafca, dir_name=Settings, mount_mode=0x00000009
+[PFS] umount[0x0000502f255988e2] finished 0
+<118>[PSM Mem] Allocated 12582912 bytes for Resource Heap
+<118>Initializing PSM Graphics for PGraphics
+<118>[mbus] onNewClient. clientNum 11 over 8
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x46 ch=7
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x46 ch=8
+<118>ScePsP[TID:0x18b63]: Open Pad [0x0000000000070300, 0, 0]: ret=0x03070600
+<118>ScePsP[TID:0x18b63]: Open Pad [0x000000000002030e, 16, 0]: ret=0x03080601
+<118>ScePsP[TID:0x18b63]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000070300][0x1cabafca][DUALSHOCK4]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>[ScePsmUtil] sceImeClientInitialize 
+<118>[ScePsmUtil] sce::tts::InitializeCsharp() 
+<118>[ScePsmUtil] sce::pss::orbis::video::InitializeCsharp() 
+<118>[PSM] PsmFramework::Initailize() 1544 msec. elapsed
+<118>Register libGlsSharedMediaNativaCall PInvokes
+<118>[SceCdlgApp] I/PSM.UI : UISystem timer started!! 00:00:00.0000765
+<118>[SceCdlgApp] I/PSM.UI : UI RenderingSettings Resolution: Pixels2K[1920,1080]
+<118>[SceCdlgApp] I/PSM.UI : OnAccessibilitySettingsChanged
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [62.93]msec / process time [4422]msec / GC[0] :  [UIInitialize] UISystem.InitializeTopMost
+<118>[VPA] PAllocatorInitialize system(addr=1455800000, size=4194304) video=(addr=1493e00000, size=41943040)
+<118>[PGraphics] Create PGraphicsDevice v[1493e00000 - 1496600000] s[1455800000 - 1455c00000]
+<118>[PGraphics] Allocated compositor index 0
+<118>Initialized PGraphicsDevice 881207d80
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [185.84]msec / process time [4771]msec / GC[0] : => [UIInitialize] UISystem.InitializeGraphics: 
+<118>[SceCdlgApp] I/PSM.UI : Allocating Emojis at Initialize...
+<118>[SceCdlgApp] I/PSM.UI : Allocating ShellUI Emojis...
+<118>[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from PNG...
+<118>[SceCdlgApp] I/PSM.UI : Allocating Unicode Emojis from Atlas...
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [220.83]msec / process time [5145]msec / GC[0] : => [UIInitialize] UISystem.PreloadSystemTexture
+<118>[SceCdlgApp] I/PSM.UI : SystemSound::Initialize() 
+<118>[SceCdlgApp] I/PSM.UI : VideoOutMode   : IsSystemDefault=True, IsVr=False
+<118>[SceCdlgApp] I/PSM.UI : VideoOutStatus : [1920 1080] : freq 59.94
+<118>[SceCdlgApp] I/PSM.UI : TimerLog: diff [597.73]msec / process time [5160]msec / GC[0] :  [UIInitialize] UISystem.InitializeBeforeRendering
+<118>[SceCdlgApp] W/PSM.UI : **** WARNING: Shown called without Alive status : TransitionScene
+<118>[SceCdlgApp] I/PSM.UI : SoundScriptManager initialized 
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : BlankScene : Scene
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : TransitionScene : TransitionScene
+<118>[SceCdlgApp] W/PSM.UI : Invalid widget type! _Count
+<118>[SceCdlgApp] W/PSM.UI : ** NOTICE: LoadSync : Sce.Cdlg.Framework.Plugin : Plugin
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! /Application/resource/Sce.Cdlg.Framework.rco is loaded in main thread.
+<118>GetLocaleElement() failed in SetLocale
+<118>[SceCdlgApp] W/PSM.UI : cxml://CdlgFrameworkPlugin/tex_cdlg_bg is going to be loaded on main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/tex_cdlg_bg is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_root is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : !!!! WARNING !!!! cxml://CdlgFrameworkPlugin/layout_cdlg_bg is loaded in main thread.
+<118>[SceCdlgApp] W/PSM.UI : WARNING : Scene LayoutBuild : [31.03msec/1widgets] : Sce.Cdlg.Framework.Plugin : Plugin
+<118>[SceCdlgApp] I/PSM.UI : SceneQ : Loaded[0.73msec] Layout[0.00msec/0widgets] : Noname : ContainerScene
+<118>[SceCdlg] setSuspend
+<118>[SceLncService] suspendApp() appId={0x60000e0d}, causeCode={0x0000000d}
+<118>[SceLncService] lockSuspendBlock(0x60000e0d)
+<118>[SceLncService] lockSuspendBlock: appId={0x60000e0d}
+<118>[SceLncService] sceApplicationSuspend(0x60000e0d)
+<118>[Syscore App] Suspend App : 0x60000e0d NPXS22010
+<118>[Syscore App] Suspend process : 0x46
+<118>[Syscore App] Suspend process : 0x46 => 0
+<118>[AppMgr Trace]: AppId=0x60000e0d suspended
+<118>[Syscore App] Suspend App : 0x60000e0d NPXS22010 => SCE_OK
+<118>[Syscore App]  ExpandCpuSetMode : disable
+<118>[SceLncService] sceApplicationSuspend(0x60000e0d) returned
+<118>MSG AutoMounter(int32_t AppIdManager::getPidWithIndex(SceApplicationId, int, pid_t *) 174):
+<118>	appId(0x60000e0d) with index(0) is not registered.
+<118>MSG AutoMounter(int32_t AutoMount::UsbMass::fakeEjection(SceApplicationId) 716):
+<118>	getPidWithIndex(0x60000e0d, 0) returned 0x80f40002.
+<118>[SceLncService] unlockSuspendBlock: appId={0x60000e0d}
+<118>[VCS]checkApplicationStatus() [LNC->VCS] App was Suspended. appId = 0x60000e0d.
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.5 KB, trend +63.9 KB/min, peak 4345.3 KB, when 48654 [sec]
+<118>[SceShellCore] VM Stats: RSS 1376.3, kernel 271.8, wire count 340.9, swap out 4.8, page table CPU 3439/6144 GPU 433/2048
+<118>[SceShellCore] FMEM   0.9/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM  10.4/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   9.1/  54.6 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.1/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  24.9/ 345.3 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 197.7/ 886.7 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   2.8/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   5.7/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM   8.7/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   3.0/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM   8.4/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   5.5/  37.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   2.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   4.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   5.7/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   4.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   5.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   1.4/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   1.7/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   1.7/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  39.8/ 305.0 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 210.1/ 624.0 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM 123.6/ 364.5 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  76.8/ 164.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  67.7/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 429.8/ 765.9 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] FMEM  12.1/  38.7 APOL00004 eboot.bin
+<118>[SceShellCore] FMEM 109.8/ 215.5 NPXS22010 SceCdlgApp
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:31:00
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48300} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48300} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48720} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+button_state_hook: 0010 0msec
+button_state_hook:"P0000
+"
+<118>[SceSysCore:button] type 1 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x1, msec=0, eventId=0, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Power Button Press
+<118>[Syscore App] PowerButtonEvent 0 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0 is handled by shell. OK 
+button_state_hook: 0011 2200msec
+button_state_hook:"p00DC
+"
+<118>[SceSysCore:button] type 2 220[msec]
+<118>[Syscore App] Push PowerButton event type=0x2, msec=0xdc, eventId=0x1, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Power Button Release (220 msec)
+<118>[Syscore App] PowerButtonEvent 0x1 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x1 is handled by shell. OK 
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.8 KB, trend +0.3 KB/min, peak 4345.3 KB, when 48779 [sec]
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0x2, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0x2 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x2 is handled by shell. OK 
+button_state_hook: 0021 2400msec
+<118>[SceSysCore:button] type 200 240[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0xf0, eventId=0x3, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (240 msec)
+<118>[Syscore App] PowerButtonEvent 0x3 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x3 is handled by shell. OK 
+<118>DBG AutoMounter(_getEventDetail 562):
+<118>	MediaRemoval.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 609):
+<118>	AppInstallerMediaClear starts without dispatching thread.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 611):
+<118>	AppInstallerMediaClear ended.
+<118>[SceAutoMount] libcam: ResetToDefault
+<118>[SceAutoMount] libcam: set speed [speed:02770 kbyte/sec][rotation:0]
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0x4, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0x4 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x4 is handled by shell. OK 
+<118>DBG AutoMounter(_getEventDetail 562):
+<118>	MediaRemoval.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 609):
+<118>	AppInstallerMediaClear starts without dispatching thread.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 611):
+<118>	AppInstallerMediaClear ended.
+<118>[SceAutoMount] libcam: ResetToDefault
+<118>[SceAutoMount] libcam: set speed [speed:02770 kbyte/sec][rotation:0]
+button_state_hook: 0021 20600msec
+<118>[SceSysCore:button] type 200 2060[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0x80c, eventId=0x5, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (2060 msec)
+<118>[Syscore App] PowerButtonEvent 0x5 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x5 is handled by shell. OK 
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0x6, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0x6 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x6 is handled by shell. OK 
+button_state_hook: 0021 2200msec
+<118>[SceSysCore:button] type 200 220[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0xdc, eventId=0x7, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (220 msec)
+<118>[Syscore App] PowerButtonEvent 0x7 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x7 is handled by shell. OK 
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0x8, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0x8 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x8 is handled by shell. OK 
+button_state_hook: 0021 1000msec
+<118>[SceSysCore:button] type 200 100[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0x64, eventId=0x9, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (100 msec)
+<118>[Syscore App] PowerButtonEvent 0x9 is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0x9 is handled by shell. OK 
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0xa, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0xa is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xa is handled by shell. OK 
+button_state_hook: 0021 4400msec
+<118>[SceSysCore:button] type 200 440[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0x1b8, eventId=0xb, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (440 msec)
+<118>[Syscore App] PowerButtonEvent 0xb is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xb is handled by shell. OK 
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0xc, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0xc is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xc is handled by shell. OK 
+button_state_hook: 0021 600msec
+<118>[SceSysCore:button] type 200 60[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0x3c, eventId=0xd, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (60 msec)
+<118>[Syscore App] PowerButtonEvent 0xd is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xd is handled by shell. OK 
+button_state_hook: 0020 0msec
+<118>[SceSysCore:button] type 100 0[msec]
+<118>[Syscore App] Push PowerButton event type=0x100, msec=0, eventId=0xe, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Press
+<118>[Syscore App] PowerButtonEvent 0xe is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xe is handled by shell. OK 
+<118>DBG AutoMounter(_getEventDetail 562):
+<118>	MediaRemoval.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 609):
+<118>	AppInstallerMediaClear starts without dispatching thread.
+<118>MSG AutoMounter(int32_t AutoMount::EventManager::notifyEvent(uint32_t, const void *, size_t) 611):
+<118>	AppInstallerMediaClear ended.
+<118>[SceAutoMount] libcam: ResetToDefault
+<118>[SceAutoMount] libcam: set speed [speed:02770 kbyte/sec][rotation:0]
+button_state_hook: 0021 18600msec
+<118>[SceSysCore:button] type 200 1860[msec]
+<118>[Syscore App] Push PowerButton event type=0x200, msec=0x744, eventId=0xf, factor=0
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_POWER_BUTTON
+<118>[SceSystemStateMgr] Eject Button Release (1860 msec)
+<118>[Syscore App] PowerButtonEvent 0xf is handled by shell.
+<118>[Syscore App] PowerButtonEvent 0xf is handled by shell. OK 
+<118>[SL] AppFocusChanged [APOL00004] -> [NPXS20001]
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [AppScreen : ApplicationScreenScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>[SceLncService] suspendApp() appId={0x60000e0d}, causeCode={0x00000000}
+<118>[VCS]checkFocusStatus() [LNC->VCS] Focus Change. appType = 1(SHELL_UI). appId = 0x60000201.
+<118>[SceLncService] BG MiniApp Status: APOL00004, RSS 12 MiB (+0.000 MiB), PageOut 0.000 MiB
+<118>D/88391:
+<118>D/88391:NPXS20102
+<118>D/88391:
+<118>D/88391:CUSA00063
+<118>D/88391:
+<118>D/88391:CUSA01015
+<118>D/88391:
+<118>D/88391:CUSA00063
+<118>[SceLncService] launchApp(CUSA00063)
+<118>[SceLncService] category={gd} VRMode={0,0}
+<118>[SceLncService] hnm,psnf,pc,tk,ns={0,0,0,0,0} appBootMode={0}
+<118>[SceLncService] appType={SCE_LNC_APP_TYPE_BIG_APP} [] appVer={01.28}
+<118>[SceLncService] Waiting for LoginMgr
+<118>[SceLncService] Num. of logged-in users is 1
+<118>[SceLncService] PrepareProcessLaunchDirCheck()
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_check.cpp at 170
+<118>AppGetInsertedDiscTitleIdList() ret = [0x80a30008]
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_check.cpp at 2079
+<118>disc not inserted error
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_mount.cpp at 4982
+<118>CheckPrepareProcessLaunchPkgApp() ret = 80a40009 errorData = [1cabafca]
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_application.cpp(211) preLaunchCheck: LNC_ISOK::0x80a40009
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(418) launchApp: LNC_ISOK::0x80a40009
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[UIProcess] malloc stats freeSize:38826144 (93%) inuseSize:3116896 peakSize:4676768 [pid:0x3a]
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : LaunchWaitingScene : LaunchWaitingScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [LaunchWaitingSceneBody : ApplicationExitScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [LaunchWaitingSceneBody : ApplicationExitScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>[ThemeColorManager] Update ThemeColor Skin to Blue
+<118>[SceLncUtil] W:\Build\J02697908\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(211) launchApp: LNC_ISOK::0x80a40009
+<118>[SceShellUI] W/PSM.UI : WARNING : Scene LayoutBuild : [6.08msec/5widgets] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[6.08msec/5widgets] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingScene : LaunchWaitingScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [LaunchWaitingSceneBody : ApplicationExitScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : LaunchWaitingScene : LaunchWaitingScene
+<118>[ThemeColorManager] Update ThemeColor Skin to Purple
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>[SceLncService] launchApp(CUSA00063)
+<118>[SceLncService] category={gd} VRMode={0,0}
+<118>[SceLncService] hnm,psnf,pc,tk,ns={0,0,0,0,0} appBootMode={0}
+<118>[SceLncService] appType={SCE_LNC_APP_TYPE_BIG_APP} [] appVer={01.28}
+<118>[SceLncService] Waiting for LoginMgr
+<118>[SceLncService] Num. of logged-in users is 1
+<118>[SceLncService] PrepareProcessLaunchDirCheck()
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_check.cpp at 170
+<118>AppGetInsertedDiscTitleIdList() ret = [0x80a30008]
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_check.cpp at 2079
+<118>disc not inserted error
+<118>[PS]Error: W:\Build\J02697908\vsh\shell\shell_core\process_starter\process_mount.cpp at 4982
+<118>CheckPrepareProcessLaunchPkgApp() ret = 80a40009 errorData = [1cabafca]
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_application.cpp(211) preLaunchCheck: LNC_ISOK::0x80a40009
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(418) launchApp: LNC_ISOK::0x80a40009
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : LaunchWaitingScene : LaunchWaitingScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [LaunchWaitingSceneBody : ApplicationExitScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [LaunchWaitingSceneBody : ApplicationExitScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>[ThemeColorManager] Update ThemeColor Skin to Blue
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.56msec/5widgets] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceLncUtil] W:\Build\J02697908\vsh\common_lib\lnc_util\src\lnc_util_ipc_client.cpp(211) launchApp: LNC_ISOK::0x80a40009
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LaunchWaitingScene : LaunchWaitingScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [LaunchWaitingSceneBody : ApplicationExitScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : ActiveUserChanged : To   : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : LaunchWaitingSceneBody : ApplicationExitScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : LaunchWaitingScene : LaunchWaitingScene
+<118>[ThemeColorManager] Update ThemeColor Skin to Purple
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>D/88391:
+<118>D/88391:NPXS20102
+<118>D/88391:
+<118>D/88391:APOL00004
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [AppScreen : ApplicationScreenScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [AppScreen : ApplicationScreenScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : ActiveUserChanged : From : [BLUE(userId = 1cabafca)]
+<118>[Theme/I] : ActiveUserChanged : To   : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101000]: with not preloaded user
+<118>[SceLncService] resumeApp() appId={0x60000e0d}, causeCode={0x00000000}
+<118>[AppDb] openDb()[1063]: [File:Open] openDb() call dbutil::Connection::Open() path[/l9UGn1iGzN/priv/mms/app.db] flags[0x10000002] result[0x0, 0]
+<118>[AppDb] AppInfoDbInitializeDaemon()[54]: [File:Open] AppInfoDbInitializeDaemon() call DbAccessor::Init() path[/l9UGn1iGzN/priv/mms/app.db] result[0x0, 0].
+<118>[SL] AppFocusChanged [NPXS20001] -> [APOL00004]
+<118>[VCS]checkFocusStatus() [LNC->VCS] Focus Change. appType = 4(MINI_APP). appId = 0x60000d0c.
+<118>[AppDb] AppInfoDbTerminateDaemon()[67]: [File:Close] AppInfoDbTerminateDaemon() call DbAccessor::Terminate().
+<118>[AppDb] Terminate()[768]: [File:Close] DbAccessor::Terminate() call dbutil::Connection::Close().
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.1 KB, trend -0.5 KB/min, peak 4345.3 KB, when 48810 [sec]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][07:51:28:338][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2191296 (35%), in-use 4034624 (65%), peak 4449536 (71%), when 48862 [sec]
+<118>[SL][07:51:28:529][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2191296 (35%), in-use 4034624 (65%), peak 4518464 (73%), when 48862 [sec]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.8 KB, trend +0.8 KB/min, peak 4412.6 KB, when 48902 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.0 KB, trend +2.0 KB/min, peak 4412.6 KB, when 48933 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:36:00
+<118>[SceSystemStateMgr] No user input for 180 seconds
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x70300]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.1 KB, trend +0.1 KB/min, peak 4412.6 KB, when 49122 [sec]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48720} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48720} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SL][07:56:28:027][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4518464 (73%), when 49161 [sec]
+<118>[SL][07:56:28:218][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4520544 (73%), when 49161 [sec]
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49140} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceSystemStateMgr] No user input for 420 seconds
+<118>* removeDevice:L1428 [MBUS] Receive device disconnect event.(deviceId=0x70300)
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x70300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x70300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x70300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x70300, ret=0x803b0003
+<118>@ checkAudioOutHandleStatus:L2487
+<118>ScePsP[TID:0x18870]: sceMbusEvent has been received. (eventId=2 REMOVED, deviceId=0x70300)
+<118>ScePsP[TID:0x18870]: Close Pad [0x03050301]: ret=0x00000000
+<118>ScePsP[TID:0x18870]: ConnectedDeviceStatus: count=1
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_REMOVED [DeviceId:0x70300][SubType:2][REASON:0]
+<118>#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x0000000000070300 / isForce : 0 / isDeviceRemoved : 1
+<118>[LoginMgr] OnLoginMgrDequeueEvent
+<118>[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":459520,"isDeviceRemoved":true,"isForce":false}
+<118>[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : [{"EventType":3,"deviceId":459520,"isDeviceRemoved":true,"isForce":false}] / isForce : False / isDeviceRemoved : True
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3941.9 KB, trend -0.2 KB/min, peak 4414.6 KB, when 49240 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:41:00
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][08:01:27:699][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189440 (35%), in-use 4036480 (65%), peak 4520544 (73%), when 49461 [sec]
+<118>[SL][08:01:27:887][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189440 (35%), in-use 4036480 (65%), peak 4520544 (73%), when 49461 [sec]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>@ jackDisconnected:L2697
+<118>* mbusOnJackDisconnected:L5627 jackDisconnected failed. ret = 0xfffffffd
+<118>* registerDevice:L1621 not found sub device id.
+<118>ScePsP[TID:0x18870]: sceMbusEvent has been received. (eventId=1 ADD, deviceId=0x90300)
+<118>ScePsP[TID:0x18870]: Open Pad [0x0000000000090300, 0, 0]: ret=0x03090301
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_ADDED [DeviceId:0x90300][type:1][subType:2]
+<118>D/125878 X
+<118>ScePsP[TID:0x18870]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000090300][0xffffffff][DUALSHOCK4]
+<118>#LOGIN MGR# SetDisableVibration( 0x0000000000090300, 1 )
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# sceSystemStateMgrSendCecOneTouchPlayCommand : 0(0x00000000)
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# isIduMode = 0
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# getControllerNum() : 1
+<118>#LOGIN MGR# [RunBusTransitionNewDevice] ret : -2135556047 / deviceUniqueId : 0x0000414228cdb325
+<118>#LOGIN MGR# [IsSameControllerDeviceConnected] _total=0
+<118>#LOGIN MGR# The device(0x90300) was auto assigned to User 0x1cabafca.
+<118>#LOGIN MGR# [Assign] DeviceId:0x0000000000090300 / UserId:0x1cabafca
+<118>#LOGIN MGR# [Controller::onHoldDevice] userId = 0x1cabafca / holdAudioOutDeivice : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 1 / scrachData : 128
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 255 / realState : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 2 / scrachData : 64
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+<118>@ connectDeviceByFunction:L1258
+<118>@ checkAudioOutHandleStatus:L2487
+<118>#LOGIN MGR# sceMbusBindDeviceWithUserId( 0x0000000000090300, 0x1cabafca ) : 0(0x00000000)
+<118>#LOGIN MGR# SetDisableVibration( 0x0000000000090300, 0 )
+<118>#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x90300, 0x1cabafca, 1 )
+<118>#LOGIN MGR# IsKeyRemapEnable start( 0x1cabafca )
+<118>#LOGIN MGR# IsKeyRemapEnable end( 0x1cabafca ) -> 0 
+<118>#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x90300, 0x1cabafca, 1 ) -> 0(0x00000000)
+<118>#LOGIN MGR# : \login_mgr.cpp(478) : NotifyDeviceAdd : OnDeviceAdded event send.
+<118>Event OnControllerActivated isAutoAssignComplete:1, m_systemState:1000, isSendEvent:1
+<118>#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x0000000000090300 / isForce : 0 / isDeviceRemoved : 0
+<118>[LoginMgr] OnLoginMgrDequeueEvent
+<118>[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":590592,"isDeviceRemoved":false,"isForce":false}
+<118>[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : [{"EventType":3,"deviceId":590592,"isDeviceRemoved":false,"isForce":false}] / isForce : False / isDeviceRemoved : False
+<118>#LOGIN MGR# [IsNeedControllerLightCalibration] isNeed : 0 / type : 0
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x90300]
+<118>#LOGIN MGR# Battery status changed.
+<118>Battery status : 0
+<118>Battery level : 5
+<118>ScePsP[TID:0x18870]: sceMbusEvent has been received. (eventId=16 OWNERCHG, deviceId=0x90300)
+<118>ScePsP[TID:0x18870]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000090300][0x1cabafca][DUALSHOCK4]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# The battery level of 0x90300 is getting low.
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_OWNER_CHANGED [DeviceId:0x90300][UserId:0x1cabafca]
+<118>#LOGIN MGR# [OnDeviceOwnerChanged] deviceId : 0x90300 / userId : 0x1cabafca 
+<118>[ProfileCacheManager] JobUpdate.Run(0x1CABAFCA, Normal)
+<118>* removeDevice:L1428 [MBUS] Receive device disconnect event.(deviceId=0x90300)
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x90300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x90300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x90300, ret=0x803b0003
+<118>**getHidBatteryState:L373 sceHidControlGetBatteryState() failed. devId=0x90300, ret=0x803b0003
+<118>@ checkAudioOutHandleStatus:L2487
+<118>ScePsP[TID:0x18870]: sceMbusEvent has been received. (eventId=2 REMOVED, deviceId=0x90300)
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_REMOVED [DeviceId:0x90300][SubType:2][REASON:0]
+<118>#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x0000000000090300 / isForce : 0 / isDeviceRemoved : 1
+<118>ScePsP[TID:0x18870]: Close Pad [0x03090301]: ret=0x00000000
+<118>ScePsP[TID:0x18870]: ConnectedDeviceStatus: count=1
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>[LoginMgr] OnLoginMgrDequeueEvent
+<118>[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":590592,"isDeviceRemoved":true,"isForce":false}
+<118>[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : [{"EventType":3,"deviceId":590592,"isDeviceRemoved":true,"isForce":false}] / isForce : False / isDeviceRemoved : True
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3948.5 KB, trend +6.7 KB/min, peak 4414.6 KB, when 49503 [sec]
+<118>[ProfileCacheManager] JobUpdate.Finish(0x1CABAFCA)
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+ugen0.3: <Sony Interactive Entertainment, Wireless Controller, >(VID=0x054c PID=0x05c4 depth=1 port=1 speed=2) at usbus0
+uaudio0: <Sony Interactive Entertainment Wireless Controller, class 0/0, rev 2.00/1.00, addr 2> on usbus0
+uaudio0: Play: 32000 Hz, 2 ch, 16-bit S-LE PCM format
+uaudio0: Record: 16000 Hz, 1 ch, 16-bit S-LE PCM format
+pcm3: <USB audio> on uaudio0
+usb_hid0: <Sony Interactive Entertainment Wireless Controller, class 0/0, rev 2.00/1.00, addr 2> on usbus0
+ugen0.3: <Sony Interactive Entertainment, Wireless Controller, > at usbus0 (disconnected)
+uaudio0: at uhub0, port 1, addr 2 (disconnected)
+<118>* removeDevice:L1428 [MBUS] Receive device disconnect event.(deviceId=0x1000000000003)
+pcm3: detached
+usb_hid0: at uhub0, port 1, addr 2 (disconnected)
+ugen0.3: <Sony Interactive Entertainment, Wireless Controller, >(VID=0x054c PID=0x05c4 depth=1 port=1 speed=2) at usbus0
+uaudio0: <Sony Interactive Entertainment Wireless Controller, class 0/0, rev 2.00/1.00, addr 3> on usbus0
+uaudio0: Play: 32000 Hz, 2 ch, 16-bit S-LE PCM format
+uaudio0: Record: 16000 Hz, 1 ch, 16-bit S-LE PCM format
+pcm3: <USB audio> on uaudio0
+usb_hid0: <Sony Interactive Entertainment Wireless Controller, class 0/0, rev 2.00/1.00, addr 3> on usbus0
+<118>[SceShellCore] VM Stats: RSS 1385.5, kernel 275.4, wire count 344.0, swap out 4.8, page table CPU 3439/6144 GPU 433/2048
+<118>[SceShellCore] FMEM   0.9/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM  10.4/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   9.1/  54.6 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.1/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  25.1/ 345.3 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 205.0/ 886.8 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   2.8/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   5.7/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM   8.7/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   3.0/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM   8.4/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   5.5/  37.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   2.6/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   4.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   5.7/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   4.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   5.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   1.4/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   1.8/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   1.7/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  39.9/ 305.0 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 210.5/ 624.0 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM 123.6/ 364.5 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  76.8/ 164.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  67.7/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 429.8/ 765.9 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] FMEM  12.1/  38.7 APOL00004 eboot.bin
+<118>[SceShellCore] FMEM 110.6/ 215.5 NPXS22010 SceCdlgApp
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.0 KB, trend +0.1 KB/min, peak 4414.6 KB, when 49534 [sec]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49140} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49140} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:46:00
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49560} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceSystemStateMgr] No user input for 180 seconds
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SL][08:06:27:342][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 49761 [sec]
+<118>[SL][08:06:27:532][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 49761 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3951.3 KB, trend +9.4 KB/min, peak 4414.6 KB, when 49828 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.0 KB, trend +0.0 KB/min, peak 4414.6 KB, when 49859 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:51:00
+<118>[SceSystemStateMgr] No user input for 420 seconds
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49560} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49560} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49980} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SceRnpsAppMgr] CRL download : status code (304) ETag="61f32d2ebeb7a02cee02281d622e0c2a:1579629436.347373"
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : checking NPXS24000
+<118>[SceRnpsAppMgr] EPKG download (NPXS24000): previous ETag=
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3943.7 KB, trend +1.7 KB/min, peak 4414.6 KB, when 50033 [sec]
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(690) getResponseHeader: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(625) GetEtagValue: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] EPKG download (NPXS24000): status code (404) max-age(3600=>3600)
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(1024) Download: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(957) DownloadAndInstallImpl: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : checking NPXS24005
+<118>[SceRnpsAppMgr] EPKG download (NPXS24005): previous ETag=
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(690) getResponseHeader: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(625) GetEtagValue: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] EPKG download (NPXS24005): status code (404) max-age(3600=>3600)
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(1024) Download: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(957) DownloadAndInstallImpl: RNPSAM_ISOK::0x8185000b
+<118>[SL][08:11:27:047][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 50060 [sec]
+<118>[SL][08:11:27:236][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 50060 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.0 KB, trend +0.0 KB/min, peak 4414.6 KB, when 50064 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 13:56:00
+<118>[SL][08:16:26:680][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 50360 [sec]
+<118>[SL][08:16:26:870][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 50360 [sec]
+<118>[SceSystemStateMgr] No user input for 900 seconds
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49980} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={49980} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50400} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:01:00
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][08:21:26:319][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4520544 (73%), when 50660 [sec]
+<118>[SL][08:21:26:508][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189312 (35%), in-use 4036608 (65%), peak 4535744 (73%), when 50660 [sec]
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc7, Not Primary >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc7 >>
+<118>[BGFT] [RDL2] [SoC] Error : getNotificationDetail(usercancelled) = 0x80550006
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc8, Primary >>
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.3 KB/min, peak 4429.4 KB, when 50695 [sec]
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafca, Primary >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafca >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafca >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafca >>
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.1 KB, trend +0.1 KB/min, peak 4429.4 KB, when 50726 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:06:00
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50400} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50400} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50820} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SL][08:26:25:988][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 50959 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3943.0 KB, trend +0.9 KB/min, peak 4429.4 KB, when 50943 [sec]
+<118>[SL][08:26:26:176][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 50959 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.1 KB, trend +0.0 KB/min, peak 4429.4 KB, when 50974 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:11:00
+<118>[SceShellCore][StorageStatsReport] ====================================================================
+<118>[SceShellCore][StorageStatsReport] Update: PERIODIC_CHECK_INTERVAL_SEC=[3600]
+<118>[SceShellCore][StorageStatsReport] writeMcUsageDataToFile: nothing to write to file
+<118>[SceShellCore][StorageStatsReport] processTimeSecForData [4522872]
+<118>[SceShellCore][StorageStatsReport] realTimeSecForData [0]
+<118>[SceShellCore][StorageStatsReport] HDD partition [WRITE] : 
+<118>[SceShellCore][StorageStatsReport]   da0x4           (system      ): bytes:           0B, transfer:            0
+<118>[SceShellCore][StorageStatsReport]   da0x4b          (system(b)   ): bytes:    703.25MiB, transfer:         5626
+<118>[SceShellCore][StorageStatsReport]   da0x5           (system_ex   ): bytes:           0B, transfer:            0
+<118>[SceShellCore][StorageStatsReport]   da0x5b          (system_ex(b)): bytes:    676.13MiB, transfer:         5409
+<118>[SceShellCore][StorageStatsReport]   da0x6           (old swap    ): bytes:     61.99GiB, transfer:       629233
+<118>[SceShellCore][StorageStatsReport]   da0x8           (app_tmp     ): bytes:      1.12GiB, transfer:        36433
+<118>[SceShellCore][StorageStatsReport]   da0x9           (system_data ): bytes:    119.13GiB, transfer:      5270076
+<118>[SceShellCore][StorageStatsReport]   da0x12          (update      ): bytes:    998.88MiB, transfer:         9189
+<118>[SceShellCore][StorageStatsReport]   da0x13          (user        ): bytes:    825.60GiB, transfer:     21466744
+<118>[SceShellCore][StorageStatsReport]   da0x14          (eap_user    ): bytes:      3.03MiB, transfer:          513
+<118>[SceShellCore][StorageStatsReport]   da0x6x0         (new swap    ): bytes:     61.99GiB, transfer:       628196
+<118>[SceShellCore][StorageStatsReport]   da0x6x1         (kernel log  ): bytes:     27.00KiB, transfer:           52
+<118>[SceShellCore][StorageStatsReport]   da0x6x2         (user log    ): bytes:    509.50KiB, transfer:          985
+<118>[SceShellCore][StorageStatsReport] Game   I/O slot [READ/WRITE]: IntHDD:[    56.21GiB/    49.41GiB], ExtHDD:[          0B/          0B]
+<118>[SceShellCore][StorageStatsReport] System I/O slot [READ/WRITE]: IntHDD:[    31.97GiB/   960.69GiB], ExtHDD:[          0B/          0B]
+<118>[SceShellCore][StorageStatsReport] System I/O slot by threads [READ/WRITE] (WRITE top 10 / total 360): 
+<118>[SceShellCore][StorageStatsReport]   SceLibNpRifMgrIpcDispatcher     :[    19.99MiB, BIO=        1784 /    418.68GiB, BIO=    13719473]
+<118>[SceShellCore][StorageStatsReport]   SceRecMain                      :[   108.36MiB, BIO=        2048 /    205.30GiB, BIO=     1683212]
+<118>[SceShellCore][StorageStatsReport]   SceAppInstServer                :[    29.32MiB, BIO=        2255 /    104.61GiB, BIO=     3428046]
+<118>[SceShellCore][StorageStatsReport]   SceNKWebProcessMain             :[   494.29MiB, BIO=       14898 /     50.92GiB, BIO=      508239]
+<118>[SceShellCore][StorageStatsReport]   SceSaveDataSessionJobCUSA       :[     7.62GiB, BIO=      266800 /     35.11GiB, BIO=     1367732]
+<118>[SceShellCore][StorageStatsReport]   SceSystemLoggerDeliveryJob      :[    28.89MiB, BIO=        1155 /     29.37GiB, BIO=     1271338]
+<118>[SceShellCore][StorageStatsReport]   SceSystemLogger                 :[    84.15MiB, BIO=        2913 /     20.19GiB, BIO=      891698]
+<118>[SceShellCore][StorageStatsReport]   SceNpMgrWorkerThread            :[    49.60MiB, BIO=        3059 /     19.73GiB, BIO=      927305]
+<118>[SceShellCore][StorageStatsReport]   SceFsstBdSchedWriter            :[   160.00KiB, BIO=           5 /     13.24GiB, BIO=      433778]
+<118>[SceShellCore][StorageStatsReport] System I/O slot all threads total: [   115.86GiB, BIO=     1675160 /    974.16GiB, BIO=    26744385]
+<118>[SceShellCore][StorageStatsReport] SMR Media Cache Info: NOTHING
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][08:31:25:622][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 51259 [sec]
+<118>[SL][08:31:25:810][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 51259 [sec]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50820} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={50820} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51240} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3947.8 KB, trend +5.8 KB/min, peak 4429.4 KB, when 51329 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.2 KB/min, peak 4429.4 KB, when 51360 [sec]
+<118>[SceSystemStateMgr] No user input for 1860 seconds
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:16:00
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SL][08:36:25:232][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 51558 [sec]
+<118>[SL][08:36:25:418][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 51559 [sec]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51240} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51240} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:21:00
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51660} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][08:41:24:870][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 51858 [sec]
+<118>[SceShellCore] Libc Heap Status: free 28%, in-use 4407.4 KB, trend +473.0 KB/min, peak 4429.4 KB, when 51842 [sec]
+<118>[SL][08:41:25:058][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 51858 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.0 KB/min, peak 4429.4 KB, when 51873 [sec]
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+ugen0.3: <Sony Interactive Entertainment, Wireless Controller, > at usbus0 (disconnected)
+uaudio0: at uhub0, port 1, addr 3 (disconnected)
+<118>* removeDevice:L1428 [MBUS] Receive device disconnect event.(deviceId=0x1000000010003)
+pcm3: detached
+usb_hid0: at uhub0, port 1, addr 3 (disconnected)
+<118>[SceShellCore] VM Stats: RSS 1386.2, kernel 272.0, wire count 340.3, swap out 4.8, page table CPU 3440/6144 GPU 433/2048
+<118>[SceShellCore] FMEM   0.9/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM  10.4/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   9.1/  54.6 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.1/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  25.6/ 345.3 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 205.0/ 888.8 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   2.8/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   5.7/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM   8.7/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   3.0/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM   8.4/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   5.5/  37.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   2.6/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   4.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   5.7/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   4.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   5.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   1.4/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   1.8/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   1.7/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  40.0/ 305.0 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 210.5/ 624.0 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM 123.6/ 364.5 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  76.8/ 164.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  67.7/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 429.8/ 765.9 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] FMEM  12.1/  38.7 APOL00004 eboot.bin
+<118>[SceShellCore] FMEM 110.6/ 215.5 NPXS22010 SceCdlgApp
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:26:00
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51660} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={51660} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52080} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SL][08:46:24:491][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52158 [sec]
+<118>[SL][08:46:24:678][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52158 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:31:00
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3961.1 KB, trend +19.2 KB/min, peak 4429.4 KB, when 52346 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.0 KB/min, peak 4429.4 KB, when 52377 [sec]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][08:51:24:103][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52457 [sec]
+<118>[SL][08:51:24:292][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52458 [sec]
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52080} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52080} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[UIProcess] malloc stats freeSize:38825984 (93%) inuseSize:3117056 peakSize:4676768 [pid:0x3a]
+<118>[UIProcess] malloc stats freeSize:38825984 (93%) inuseSize:3117056 peakSize:4676768 [pid:0x3a]
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52500} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:36:00
+<118>[SL][08:56:23:690][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52757 [sec]
+<118>[SL][08:56:23:877][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189024 (35%), in-use 4036896 (65%), peak 4535744 (73%), when 52757 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.1 KB/min, peak 4429.4 KB, when 52805 [sec]
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:41:00
+<118>[UIProcess] malloc stats freeSize:38826016 (93%) inuseSize:3117024 peakSize:4676768 [pid:0x3a]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52500} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52500} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52920} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[UIProcess] malloc stats freeSize:38825728 (93%) inuseSize:3117312 peakSize:4676768 [pid:0x3a]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SL][09:01:23:331][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2188960 (35%), in-use 4036960 (65%), peak 4535744 (73%), when 53057 [sec]
+<118>[SL][09:01:23:520][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2188960 (35%), in-use 4036960 (65%), peak 4535744 (73%), when 53057 [sec]
+<118>[NpPush] Disconnected. (code=8055a03d)
+<118>[NpPush] User(EliteK2027): disconnected in sleep. code=8055a03d
+<118>[NpPush] User(kinanthecranker): disconnected in active. code=8055a03d
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3941.1 KB, trend -1.2 KB/min, peak 4429.4 KB, when 53102 [sec]
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.6 KB, trend -1.7 KB/min, peak 4429.4 KB, when 53133 [sec]
+<118>[SceLncService] W:\Build\J02697908\vsh\shell\shell_core\lnc_service\lnc_manager.cpp(2175) getAppTitleId: LNC_ISOK::0x80940004
+<118>
+<118>*** PRESENCE OFFLINE (kinanthecranker) ***
+<118>
+<118>[NpPush] Disconnected. (code=8055a039)
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3939.9 KB, trend -0.7 KB/min, peak 4429.4 KB, when 53166 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:46:00
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.9 KB, trend +0.3 KB/min, peak 4429.4 KB, when 53197 [sec]
+<118>[NpPush] Disconnected. (code=8055a039)
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3940.3 KB, trend -0.7 KB/min, peak 4429.4 KB, when 53274 [sec]
+<118>[SceSystemStateMgr] No user input for 3780 seconds
+<118>[NpPush] Established.
+<118>
+<118>*** PRESENCE ONLINE (kinanthecranker) ***
+<118>
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.1 KB, trend +1.2 KB/min, peak 4429.4 KB, when 53305 [sec]
+<118>[SL][09:06:22:966][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 53356 [sec]
+<118>[SL][09:06:23:156][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2189216 (35%), in-use 4036704 (65%), peak 4535744 (73%), when 53356 [sec]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52920} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={52920} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={53340} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+[GoldHEN] <payloader> accepted a new payload
+[GoldHEN] <payloader> TCP Mode
+[GoldHEN] <payloader> payload received and saved [temp_file: /user/temp/payload.781093 - size: 23132 - ip: 172.20.10.7]
+[GoldHEN] <payloader> found and jailbroken target process [proc: ScePartyDaemon - pid: 45]
+[GoldHEN] <payloader> launching payload... [format: BIN]
+[GoldHEN] <payloader> payload launched successfully
+[DEBUG] [source/main.c (_main:157)] [NOTIFICATION]: KMEMFULL v1: start
+[DEBUG] [source/main.c (_main:169)] [NOTIFICATION]: KMEMFULL kbase=ffffffffc5530000
+[DEBUG] [source/main.c (_main:196)] [NOTIFICATION]: KMEMFULL gate ok first8=9010102464c457f
+[DEBUG] [source/main.c (_main:202)] [NOTIFICATION]: KMEMFULL range 0-1b265e8 chunk=1000 total=28468712
+<118>[SceShellCore] Libc Heap Status: free 35%, in-use 3942.3 KB, trend +0.3 KB/min, peak 4429.4 KB, when 53391 [sec]
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc5530000 4096B ok=1 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc5531000 8192B ok=2 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc5532000 12288B ok=3 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc592f000 4194304B ok=1024 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc5d2f000 8388608B ok=2048 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc612f000 12582912B ok=3072 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc652f000 16777216B ok=4096 h=0
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc692f000 20971520B ok=5120 h=0
+<118>[SceShellUI] W/PSM.UI : WARNING : Widget LayoutBuild : [5.32msec/11widgets] : NotificationMsgPanel(Panel)
+<118>[SceShellCore] VM Stats: RSS 1388.2, kernel 272.1, wire count 340.8, swap out 4.8, page table CPU 3446/6144 GPU 433/2048
+<118>[SceShellCore] FMEM   0.9/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM  10.4/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   9.1/  54.6 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.1/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  25.7/ 345.3 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 205.6/ 888.8 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   2.8/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   5.7/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM   9.3/  46.6 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   3.0/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM   8.4/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   5.5/  41.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   2.6/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   4.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   5.7/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   4.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   5.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   1.4/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   1.8/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   1.7/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  40.4/ 305.0 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 210.5/ 624.0 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM 123.6/ 364.5 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  76.8/ 164.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  67.7/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 429.8/ 765.9 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] FMEM  12.1/  38.7 APOL00004 eboot.bin
+<118>[SceShellCore] FMEM 110.9/ 215.5 NPXS22010 SceCdlgApp
+[DEBUG] [source/main.c (_main:271)] [NOTIFICATION]: KMEMFULL ffffffffc6d2f000 25165824B ok=6144 h=0
+[DEBUG] [source/main.c (_main:292)] [NOTIFICATION]: KMEMFULL done 28468712B ok=6951 holes=0
+<118>[UIProcess] malloc stats freeSize:38825728 (93%) inuseSize:3117312 peakSize:4676768 [pid:0x3a]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 14:51:00
+<118>[UIProcess] malloc stats freeSize:38825696 (93%) inuseSize:3117344 peakSize:4676768 [pid:0x3a]
+<118>[UIProcess] malloc stats freeSize:38825728 (93%) inuseSize:3117312 peakSize:4676768 [pid:0x3a]

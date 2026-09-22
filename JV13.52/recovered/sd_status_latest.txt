@@ -1,0 +1,6 @@
+last step=7 rc=0
+self=88304 max=7 hdr=992 segsz=69532
+rcs=0,0,0,0,0,0,0,
+rd0=0 rd1=1 rd2=ffffffea rd3=1
+rd4=1 rd5=0 rd6=0 rd7=0
+ctx=1 svc=0

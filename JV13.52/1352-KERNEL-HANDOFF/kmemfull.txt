@@ -1,0 +1,7 @@
+DONE
+done=28468712
+total=28468712
+reads_ok=6951
+holes=0
+first_hole=0x0
+last_hole=0x0

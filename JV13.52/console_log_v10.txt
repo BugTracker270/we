@@ -1,0 +1,168 @@
+
+=== capture attached 20:26:13 ===
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+
+=== capture attached 20:26:46 ===
+
+=== capture attached 20:26:47 ===
+
+=== capture attached 20:26:48 ===
+8>sceRemoteplayInitialize: 0x80fc0003
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+
+=== capture attached 20:26:48 ===
+
+=== capture attached 20:26:50 ===
+
+=== capture attached 20:26:53 ===
+.c (_main:295)] [NOTIFICATION]: KMEMv10 2683000 16384B
+[DEBUG] [source/main.c (_main:295)] [NOTIFICATION]: KMEMv10 2684000 20480B
+[DEBUG] [source/main.c (_main:295)] [NOTIFICATION]: KMEMv10 2685000 24576B
+[DEBUG] [source/main.c (_main:295)] [NOTIFICATION]: KMEMv10 2686000 28672B
+[DEBUG] [source/main.c (_main:316)] [NOTIFICATION]: KMEMv10 done 131072B stop=0
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x30300]
+
+=== capture attached 20:26:59 ===
+
+=== capture attached 20:27:19 ===
+
+=== capture attached 20:28:03 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:28:12 ===
+
+=== capture attached 20:29:10 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:29:13 ===
+
+=== capture attached 20:29:59 ===
+
+=== capture attached 20:30:12 ===
+
+=== capture attached 20:31:09 ===
+
+=== capture attached 20:31:10 ===
+
+=== capture attached 20:31:12 ===
+
+=== capture attached 20:31:12 ===
+
+=== capture attached 20:31:13 ===
+8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  15.3/  49.4 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.9/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.9/ 129.2 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:31:15 ===
+ ffffffff86ba2000 12288B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86ba3000 16384B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86ba4000 20480B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86ba5000 24576B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86ba6000 28672B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86c9f000 1048576B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86d9f000 2097152B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86e9f000 3145728B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff86f9f000 4194304B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8709f000 5242880B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8719f000 6291456B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8729f000 7340032B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8739f000 8388608B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8749f000 9437184B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8759f000 10485760B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffffff8769f000 11534336B
+<118>[SceShellUI] W/PSM.UI : WARNING : Widget LayoutBuild : [7.34msec/11widgets] : NotificationMsgPanel(Panel)
+
+=== capture attached 20:31:38 ===
+
+=== capture attached 20:33:05 ===
+
+=== capture attached 20:34:09 ===
+
+=== capture attached 20:34:41 ===
+
+=== capture attached 20:35:12 ===
+
+=== capture attached 20:36:03 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:37:21 ===
+
+=== capture attached 20:38:45 ===
+
+=== capture attached 20:38:51 ===
+Mv10 ffffc18716002000 12288B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc18716003000 16384B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc18716004000 20480B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc18716005000 24576B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc18716006000 28672B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc187160ff000 1048576B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc187161ff000 2097152B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc187162ff000 3145728B
+[DEBUG] [source/main.c (_main:307)] [NOTIFICATION]: KMEMv10 ffffc187163ff000 4194304B
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3834.1 KB, trend +0.1 KB/min, peak 4333.9 KB, when 1204 [sec]
+
+=== capture attached 20:39:06 ===
+
+=== capture attached 20:39:25 ===
+
+=== capture attached 20:40:50 ===
+
+=== capture attached 20:44:09 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:45:30 ===

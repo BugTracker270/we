@@ -1,0 +1,1184 @@
+
+=== capture attached 20:23:19 ===
+N MGR# [IsNeedControllerLightCalibration] isNeed : 0 / type : 0
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x30300]
+<118>#LOGIN MGR# Battery status changed.
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x1
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT
+<118>#LOGIN MGR# [IsPuConnectHdmi] start checkDeviceId : 0x7000 
+<118>#LOGIN MGR# [IsPuConnectHdmi] sceAvSettingGetDeviceInfo -> 0(0x00000000) 
+<118>#LOGIN MGR# [IsPuConnectHdmi] videoOutCapability = 0x1 
+<118>#LOGIN MGR# [IsPuConnectHdmi] end checkDeviceId : 0x7000 -> isReady = 0 
+<118>#LOGIN MGR# [NotifyMorpheusConnectStatusChangedForHmuSetupDialog] deviceId : 0xffffffffffffffff / userId : 0xffffffff / avSettingPuType : 0 / connectStatus : 6 
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_VIDEO_OUT_EVENT eventType=0x2
+<118>[ScePatchChecker] (*) check (title_id='CUSA01116', app_version='02.39', check_option=5): status=0, trigger=10 userId=0xff return 0
+<118>[ScePatchChecker] check (title_id='CUSA01116', app_version='', check_option=5): status=0, dl_status=0, trigger=10 userId=0xff return 0
+SERIAL_PRINT_TIME_TICK#: 45937 msec -- StartFarsightUI : end
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=0 start
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=0 end
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=1 start
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=1 end
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=2 start
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=2 end
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=3 start
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=3 end
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=4 start
+<118>[Syscore Umd] Event id=SCE_UMD_SYSTEM_VSH_READY(0xa), phase=4 end
+<118>[BOOT TIME]   ShellUI:   47360 msec: vsh resume progress: ready to boot game
+<118>[Performance Warning] framedrop count 43
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : ScreenShotScene : ScreenShotScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[2.11msec] Layout[0.00msec/0widgets] : ShareNavigationScene : ShareNavigationScene
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[LoginMgr] OnLoginMgrEnqueueEvent
+<118>[LoginMgr:EventQueue] Enqueue - param : {"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false}
+<118>[LoginMgr:Queue] Enqueue - queueType : Level2 / eventType : QueueEventTypeSelectUser / WhenEmpty : False / EnqueueType : QueueEnqueueTypeNormal
+<118>[LoginMgr:Queue] EnableEnqueue - enable : True / queueType : Level2
+<118>[LoginMgrImposePlugin] OnControllerActivated()
+<118>[LoginMgr:EventQueue] Dispatch - FetchOk
+<118>[LoginMgr:EventQueue] Dispatch(FetchOk) - EventType : QueueEventTypeSelectUser / IsCancel : False / IsRemoved : False
+<118>#LOGIN MGR# : \event_thread.cpp(170) : Run : Event Received : SCE_LOGIN_MGR_EVENT_LOGIN_STARTED
+<118>#LOGIN MGR# [OnLoginFinished]
+<118>[LoginMgrImposePlugin.NotifyLoadArgument] m_launchParam=[{"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false,"launchMode":"SelectUser"}]
+<118>[LoginMgrImposePlugin.NotifyLoadArgument] m_launchParamList.Count=[0]
+<118>[LoginMgrImposePlugin] root scene not found.
+<118>[LoginMgr] OnLoginMgrEnqueueEvent
+<118>[LoginMgr:EventQueue] Enqueue - param : {"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":false,"whenEmpty":false}
+<118>[LoginMgr:Queue] Enqueue - queueType : Level2 / eventType : QueueEventTypeSelectUser / WhenEmpty : False / EnqueueType : QueueEnqueueTypeNormal
+<118>[LoginMgr:Queue] EnableEnqueue - enable : False / queueType : Level2
+<118>[LoginMgr:Queue] Enqueue - Enqueue disable
+<118>[LoginMgr:EventQueue] Dispatch - Running
+<118>[LoginMgrImposePlugin] RequestNextScene()
+<118>[Performance Warning] framedrop count 3
+<118>[Theme/I] : Mount[ANONYMOUS] : [Icons] : default icons
+<118>[Theme/I] : Mount[ANONYMOUS] : [BgSceneGraph] : [HomeScreen:N/A][FuncScreen:N/A]
+<118>[Theme/I] : Mount[ANONYMOUS] : [Color] : [Font:FFFFFFFF][FontShadow:00000000][ThemedFocus:0000BAFF]
+<118>[Theme/I] : Mount[ANONYMOUS] : [Dimmer] : [Home:00000000][Function:00000000][Title:00000000]
+<118>[Theme/I] : Mount[ANONYMOUS] : [Bgm/SE] : [bgmHome:D][seDecide:D][seCancel:D][seCursor:D]
+<118>[Theme/I] : ** Mount finished : [ANONYMOUS][Type:Original] **
+<118>[ScePatchChecker] (*) check (title_id='CUSA02012', app_version='04.01', check_option=5): status=0, trigger=10 userId=0xff return 0
+<118>[ScePatchChecker] check (title_id='CUSA02012', app_version='', check_option=5): status=0, dl_status=0, trigger=10 userId=0xff return 0
+<118>[Performance Warning] framedrop count 1
+<118>[Performance Warning] framedrop count 1
+<118>[LoginMgrFrameScene] SetLocale() : locale=en-GB, isSystemLang=True
+<118>[LoginMgrFrameScene] SetLocale() : locale=en-GB, isSystemLang=True
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : Noname : LoginMgrImposePlugin
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : Noname : NoNameScene
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:000001]: with not preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [TopMenuBG : Scene] -> [UserSelectScene : UserSelectScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [UserSelectScene : UserSelectScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>[Performance Warning] framedrop count 4
+<118>[Performance Warning] framedrop count 1
+<118>[ScePatchChecker] (*) check (title_id='CUSA02282', app_version='01.01', check_option=5): status=0, trigger=10 userId=0xff return 0
+<118>[Performance Warning] framedrop count 3
+<118>[ScePatchChecker] check (title_id='CUSA02282', app_version='', check_option=5): status=0, dl_status=0, trigger=10 userId=0xff return 0
+<118>[SceShellUI] I/RNPS : CCTOR WarmUp - unable to find type by name: ReactNative.Views.Web.Dialog.Font, ReactNative.PUI.
+<118>[ScePatchChecker] (*) check (title_id='CUSA00063', app_version='01.28', check_option=5): status=0, trigger=10 userId=0xff return 0
+<118>[ScePatchChecker] check (title_id='CUSA00063', app_version='', check_option=5): status=0, dl_status=0, trigger=10 userId=0xff return 0
+<118>[BgDailyChecker] ScePatchCheckJob end (2026-09-20T18:19:30.93+01:00)
+SERIAL_PRINT_TIME_TICK#: 48310 msec -- LAP : HealthWarningController : ShowHealthWarning : finish animation
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: HealthWarning : Scene
+<118>[BgDailyChecker] BgDailyCheckerAutoResumeDownloadJob end (2026-09-20T18:19:31.03+01:00)
+<118>-- boot sequence finished --
+<118>[AppDb] EraseMediaDiscThumbnailAndTitleName()[269]: called
+<118>[AppDb] eraseAllFilesInDir()[115]: opendir error: path = [/user/temp/media_event_listener/thumbnail/]
+<118>[AppDb][Server] Rcv Event 3
+<118>enableMediaEvent()[923]: [MediaEvent] enableMediaEvent()
+<118>enableMediaEvent()[926]: [MediaEvent] enableMediaEvent() locked.
+<118>enableDiscEvent()[665]: [MediaEvent] enableDiscEvent() locked.
+<118>MSG AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterDiscInsertionCallback() 1238):
+<118>	callback for disc insertion event has not been registered yet.
+<118>[AppDb] DequeueCmdMsgFromShellUI()[518]: app_db_client: [queue]: 0, [msg] cmd: 13, opt:4, index: 0
+<118>MSG AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterDiscEjectionCallback() 1279):
+<118>	callback for disc insertion event has not been registered yet.
+<118>MSG AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterDiscMountCallback() 1130):
+<118>	callback for mount event has been not registered yet.
+<118>MSG AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterDiscUnmountCallback() 1190):
+<118>	callback for umount event has not been registered yet.
+<118>MSG AutoMounterMelUtil(int32_t sceAutomounterMelUtil::getDiscStatus(int *) 1403):
+<118>	no-disc state.
+<118>enableUsbStorage()[749]: [MediaEvent] enableUsbStorage() locked.
+<118>ERROR AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterUsbStorageMountCallback() 1320):
+<118>	callback for mount event has been not registered yet.
+<118>ERROR AutoMounterMelUtil(int32_t sceAutomounterMelUtil::unregisterUsbStorageUnmountCallback() 1361):
+<118>	callback for umount event has not been registered yet.
+<118>callbackUsbStorageMountInternal()[374]: [MediaEvent] callbackUsbStorageMountInternal() devNum=0
+<118>callbackUsbStorageMountInternal()[377]: [MediaEvent] callbackUsbStorageMountInternal() locked.
+<118>MSG AutoMounter(void AutoMount::PsmEventNotifier::enable() 426):
+<118>	PsmEventNotifier::enable()
+<118>InitializeExternalHddManager()[1248]: [MediaEvent] InitializeExternalHddManager()
+<118>InitializeExternalHddManager()[1250]: [MediaEvent] InitializeExternalHddManager()start
+<118>InitializeExternalHddManager()[1288]: [MediaEvent] usbId=0x0,last_connect=0,now_connect=0
+<118>InitializeExternalHddManager()[1361]: [MediaEvent] InitializeExternalHddManager()end.ret=0x0,promote_result=0x0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc7, Not Primary >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc7 >>
+<118>[BGFT] [RDL2] [SoC] Error : getNotificationDetail(usercancelled) = 0x80550006
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc8, Primary >>
+<118>[SceShellUI] W/PSM.UI : WARNING : Widget LayoutBuild : [23.97msec/15widgets] : UserSelect_UserListPanel(UserListPanel)
+<118>[BgDailyChecker] BgDailyCheckerPreOrderJob end (2026-09-20T18:19:31.13+01:00)
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[2.35msec/1widgets] : UserSelectScene : UserSelectScene
+<118>[LoginMgrRootScene.SetupScene] call StartSecne().
+<118>Start StartScene
+<118>m_launchParam : {"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false,"launchMode":"SelectUser"}
+<118>#LOGIN MGR# [EventThread::ForceEnqueueDeviceInfo] deviceId : 0x0000000000030300 / m_deviceId : 0xffffffffffffffff 
+<118>#LOGIN MGR# [EventThread::ForceEnqueueDeviceInfo] m_loginProcessInfo.m_deviceId : 0x0000000000030300 
+<118>#LOGIN MGR# [EventThread::ForceEnqueueDeviceInfo] m_loginProcessInfo.m_deviceType2 : 0 
+<118>[LoginMgr:EventQueue] IsRemoved - isRemoved : False
+<118>[UserSelectPanelManager] ChangePanel : [Unknown] -> [UserSelectWithDevice]
+<118>[UserSelectScene] CurrentSceneState : UserSelectWithDevice
+<118>Start GetUserInfo()
+<118>SetDeviceIndexBehavior: mode=SpecificDevice, param=0x0000000000030300
+<118>#LOGIN MGR# : \event_thread.cpp(170) : Run : Event Received : SCE_LOGIN_MGR_EVENT_LOGIN_STARTED
+<118>#LOGIN MGR# [OnLoginFinished]
+<118>End StartScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : LoginMgrRootScene : LoginMgrRootScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : LoginMgrFrame : LoginMgrFrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.05msec] : HealthWarning : Scene
+<118>Start GetUserInfoJob::Run()
+<118>[GetRegisteredUser] Start
+<118>[GetRegisteredUser] RegisteredUserNum : 3
+<118>[GetRegisteredUser] End
+<118>Finish GetUserInfoJob::Run()
+<118>[Performance Warning] framedrop count 17
+<118>Start GetUserInfoJob::Finish() / Cancelled False / Result True
+<118>Call GetUserInfoAction
+<118>[UserListPanel.UserListPanelWithDevice] OnGetUserInfoAction() : CurrentSceneState=UserSelectWithDevice, MySceneState=UserSelectWithDevice
+<118>[UserListPanel] OnGetUserInfoAction() : Name=UserListPanelWithDevice, Length=3
+<118>Finish GetUserInfo()
+<118>Finish GetUserInfoJob::Finish()
+<118>[Performance Warning] framedrop count 1
+<118>[BgDailyChecker] BgDailyCheckerTzdataUpdateJob end (2026-09-20T18:19:31.43+01:00)
+<118>D/89671:NEW_USER
+<118>[BgDailyChecker] BgDailyCheckerServerSwitchJob end (2026-09-20T18:19:31.53+01:00)
+<118>D/89671:0x1CABAFCA
+<118>[Performance Warning] framedrop count 2
+<118>[SceShellUI] I/PSM.UI : Created font: name=[__System__], size=[30], style=[Italic], weight=[Medium], handle=[0x9451832f]
+<118>[ProfileCacheManager] JobUpdate.Run(0x1CABAFCA, FirstTime)
+<118>[BgDailyChecker] BgDailyCheckerRnpsAppJob end (2026-09-20T18:19:31.64+01:00)
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x2b ch=8
+<118>[SceShellCore] Libc Heap Status: free 38%, in-use 3763.5 KB, trend +7284.2 KB/min, peak 3800.4 KB, when 31 [sec]
+<118>PRINT_TIME_TICK#: 49940 msec -- D/93790 start
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:000001]: with not preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [UserSelectScene : UserSelectScene] -> [SenWebViewScene2 : SenWebViewScene2]
+<118>[SceShellUI] I/PSM.UI :      Scene [SenWebViewScene2 : SenWebViewScene2] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>SetKeyRemapJob : Run(Start)
+<118>#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x30300, 0x1cabafca, 0 )
+<118>#LOGIN MGR# IsKeyRemapEnable start( 0x1cabafca )
+<118>#LOGIN MGR# IsKeyRemapEnable end( 0x1cabafca ) -> 0 
+<118>#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x30300, 0x1cabafca ) -> 0(0x00000000)
+<118>#LOGIN MGR# [LoginMgr] SetPadKeyRemap() ret : 0 / deviceId:0x30300 / userId:0x1cabafca / force : 0
+<118>SetKeyRemapJob : Run(End)
+<118>[Performance Warning] framedrop count 2
+<118>SetKeyRemapArgs : Finish / Cancelled False / Result True
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : Parent_SenWebViewScene2 : FrameModalScene
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:000001]: with not preloaded user
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc8 >>
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SenWebViewScene2 : SenWebViewScene2] -> [Parent_SenWebViewScene2 : FrameModalScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [Parent_SenWebViewScene2 : FrameModalScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>[SenWebViewScene2] ShowConnectingPanel() : type=Skip
+<118>[SenWebViewScene2] SetupWebView()
+<118>[GetWebProcessAction] Create & Start
+<118>[WebProcessMgr] GetWebProcess()
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.02msec/0widgets] : SenWebViewScene2 : SenWebViewScene2
+<118>[Performance Warning] framedrop count 3
+<118>[SceShellUI] I/PSM.UI : [WebRunLoop] Initialize
+<118>[SceShellUI] W/PSM.UI : -----------------------------------------------------------------
+<118>[SceShellUI] W/PSM.UI :   [WebContext] specified invalid userId!!(ffffffff)
+<118>[SceShellUI] W/PSM.UI : -----------------------------------------------------------------
+<118>[WebViewAssetMgr] TryGetWebView() Scene=SenWebViewScene2 Succeeded. AssetHandle<Hash=0x59cc977c Priority=LoginMgr> WebViewCount=1
+<118>[SenWebViewScene2] SetupWebView() GetWebView resType=Succeeded errorCode=0x0
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/LoginMgrUIProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x102010e1, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/LoginMgrUIProcess.self, fullPath = /system/common/lib/LoginMgrUIProcess.self
+<118>[Syscore App] new pid=0x3a[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x3a
+<118>[AppMgr Trace]: New Process, pid=0x3a, created.
+<118>[GetWebProcessAction] Dispose
+<118>[Performance Warning] framedrop count 4
+<118>[ProfileCacheManager] IN  HttpReceiver.ConnectHttp() TID:55.
+<118>[SenWebViewScene2] LoadingDialog : Pressed BackButton
+<118>[SenWebViewScene2] ExitProcess() : callerType=Vsh status=""
+<118>[SenWebViewScene2] ShowConnectingPanel() : <Update> type=None
+<118>[SenWebViewCommonJob] Create : Invoker ExitProcess
+<118>[AccountUpgradeCheckJob] sceNpAccountUpgradeCheckSendRequest() error=0x80553409
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafca, Primary >>
+<118>[SenWebViewCommonJob] Run(Start) : Invoker ExitProcess
+<118>#LOGIN MGR# [GetLoginFlag] userId : 0x1cabafca / value : 0x00000006
+<118>[SenWebViewCommonJob] Run(End) : Invoker ExitProcess
+<118>[SenWebViewCommonJob] Finish() : Invoker ExitProcess / Cancelled False / Result True
+<118>[SenWebViewScene2] TerminateWebView()
+<118>[WebViewAssetMgr] NotifyWebViewDisposed() Scene=SenWebViewScene2 Disposed WebView. AssetHandle<Hash=0x59cc977c Priority=LoginMgr> WebViewCount=0
+<118>[WebProcessMgr] ReleaseWebProcess()
+<118>[WebViewMgr] OnTerminateProcessBefore() WebContextType=LoginMgr isTerminateProcess=False
+<118>#LOGIN MGR# IsBusTransitionOfActiveDevice():0x00000000  deviceId : 0x30300 
+<118>LoginJob : Run(Start)
+<118>[Performance Warning] framedrop count 1
+<118>#LOGIN MGR# [Login] userId=0x1cabafca, isLoged-in=0
+<118>#LOGIN MGR# isIduMode = 0
+<118>#LOGIN MGR# #### LoginProcess start ####
+<118>#LOGIN MGR# isLogin = 0
+<118>[SceUserServiceServer] -> RUNNING (JobId: 1)
+<118>[SceUserServiceClient] Login: 0x1
+<118>[SceUserServiceClient] JobId: 1, GetJobStatus: 0x0, status: 1, result: 0x80960106 (BUSY)
+<118>[SceUserServiceServer] start job
+<118>[SceUserService] User "kinanthecranker" (0x1cabafca) logged in
+<118>[mbus] onNewClient. clientNum 9 over 8
+<118>[ProfileCacheManager] IN  HttpReceiver.RequestCallBack() TID:26.
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/IHCGwa6uv5/priv/cache/profile/0x1CABAFCA/avatar.png', permission=00700
+<118>
+<118>
+<118>[ProfileCacheManager] OUT HttpReceiver.RequestCallBack()
+<118>[SceLncService] Enable LoginMgrWebProcess.self to expand CPU
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/LoginMgrWebProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x102010f2, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/LoginMgrWebProcess.self, fullPath = /system/common/lib/LoginMgrWebProcess.self
+<118>[Syscore App] new pid=0x3b[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[ScePatchChecker] Patch Check Request (type=0 trigger=4)
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_entitlement.cpp/npManagerActiveSigninStateCallbackEntry(710): Updating user list (userId:1cabafca state:3)
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_entitlement.cpp/updateUserList(296): UserList Updating...
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_user_info.cpp/checkPremium(275): Calling checkPremium(cloudgame, apiVersion:2) for user(1cabafca)
+<118>[Performance Warning] framedrop count 1
+<118>[Syscore App] Add event : pid=0x3b
+<118>[AppMgr Trace]: New Process, pid=0x3b, created.
+<118>[SceLncUtil] blockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={1}
+<118>[SceLncUtil] unblockAppSuspend: name={SceNpUds}, appId={0x60000100}, refCount={0}
+<118>[SceUserServiceServer] -> FINISHED (JobId: 1) 0x0
+<118>[SceLncUtil] blockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={1}
+<118>[SceUserServiceServer] -> IDLE (JobId: 1) 0x0
+<118>IME:ime_framework.cpp(407):CbCheckLoginUser :login event arrived.
+<118>#LOGIN MGR# loginMethod = 3
+<118>#LOGIN MGR# userId = 0x1cabafca
+<118>#LOGIN MGR# isGuestUser = 0
+<118>#LOGIN MGR# setDataRet = 0
+<118>#LOGIN MGR# #### LoginProcess end ####
+<118>#LOGIN MGR# [Assign] DeviceId:0x0000000000030300 / UserId:0x1cabafca
+<118>#LOGIN MGR# [Controller::onHoldDevice] userId = 0x1cabafca / holdAudioOutDeivice : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 1 / scrachData : 128
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 2 / scrachData : 64
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 175 / realState : -256921681
+<118>@ connectDeviceByFunction:L1258
+<118>@ checkAudioOutHandleStatus:L2487
+<118>#LOGIN MGR# sceMbusBindDeviceWithUserId( 0x0000000000030300, 0x1cabafca ) : 0(0x00000000)
+<118>#LOGIN MGR# SetDisableVibration( 0x0000000000030300, 0 )
+<118>#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x30300, 0x1cabafca, 1 )
+<118>#LOGIN MGR# IsKeyRemapEnable start( 0x1cabafca )
+<118>#LOGIN MGR# IsKeyRemapEnable end( 0x1cabafca ) -> 0 
+<118>#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x30300, 0x1cabafca, 1 ) -> 0(0x00000000)
+<118>#LOGIN MGR# : \login_mgr.cpp(478) : NotifyDeviceAdd : OnDeviceAdded event send.
+<118>#LOGIN MGR# [IsJediPlus] isJediPlus : 0 / deviceId : 0x9000000000100
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_ADDED [DeviceId:0x9000000000100][type:2][subType:10]
+<118>#LOGIN MGR# : \login_mgr.cpp(515) : NotifyLoggedin : OnDeviceAdded(NotifyLoggedin) event send.
+<118>LoginJob : m_launchMode=SelectUser
+<118>LoginJob : Run(End)
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x3a
+<118>[Syscore App] process delete event : pid=0x3a
+<118>[AppMgr Trace]: pid=0x3a, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>ScePsP[TID:0x18870]: sceMbusEvent has been received. (eventId=16 OWNERCHG, deviceId=0x30300)
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_OWNER_CHANGED [DeviceId:0x30300][UserId:0x1cabafca]
+<118>#LOGIN MGR# [OnDeviceOwnerChanged] deviceId : 0x30300 / userId : 0x1cabafca 
+<118>ScePsP[TID:0x18870]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000030300][0x1cabafca][DUALSHOCK4]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>[SceLncUtil] unblockAppSuspend: name={SceSaveData}, appId={0x60000100}, refCount={0}
+<118>[Theme/I] : OnLogin : 1cabafca
+<118>[Theme/I] : ** Mount started **
+<118>[Theme/I] : Mount : [UID:1cabafca:BLUE]
+<118>[Theme/I] : Mount : packaged theme : [EID:UP4396-CUSA04449_00-DYNAMICTHEME0125]
+<118>[Sce.Vsh.Db.Shared.ConnectionManager] Open /IHCGwa6uv5/priv/mms/app.db, ReadOnly 
+<118>[ProfileCacheManager] OUT HttpReceiver.ConnectHttp()
+<118>[UserListPanel.UserListPanelWithDevice] RefreshPanelByLoggedin()
+<118>Start GetUserInfo()
+<118>LoginJob : Finish / Cancelled False / Result True
+<118>Start GetUserInfoJob::Run()
+<118>[GetRegisteredUser] Start
+<118>[WebProcessMgr] ReleaseWebProcess : DisposeContext() -> callback Succeeded.
+<118>[WebViewMgr] OnTerminateProcessAfter() WebContextType=LoginMgr
+<118>[GetRegisteredUser] RegisteredUserNum : 3
+<118>[GetRegisteredUser] End
+<118>Finish GetUserInfoJob::Run()
+<118>[Performance Warning] framedrop count 9
+<118>[Sce.Vsh.Db.Shared.ConnectionManager] Open /IHCGwa6uv5/priv/mms/notification.db, ReadWrite 
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [Parent_SenWebViewScene2 : FrameModalScene] -> [Noname : NoNameScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [Noname : NoNameScene] : Alive
+<118>SetDeviceIndexBehavior: mode=MergeAllConnectedDevice, param=null
+<118>Start GetUserInfoJob::Finish() / Cancelled False / Result True
+<118>Call GetUserInfoAction
+<118>[UserListPanel.UserListPanelWithDevice] OnGetUserInfoAction() : CurrentSceneState=UserSelectWithDevice, MySceneState=UserSelectWithDevice
+<118>[UserListPanel] OnGetUserInfoAction() : Name=UserListPanelWithDevice, Length=3
+<118>Finish GetUserInfo()
+<118>Finish GetUserInfoJob::Finish()
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafca >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafca >>
+<118>[sceProcessStarter] MountAddcont() pkg_path = [/user/addcont/I00000002/UP4396-CUSA04449_00-DYNAMICTHEME0125/ac.pkg] content_id = [UP4396-CUSA04449_00-DYNAMICTHEME0125]
+<118>[sceProcessStarter] AddcontMountPkg() pkg_path = [/user/addcont/I00000002/UP4396-CUSA04449_00-DYNAMICTHEME0125/ac.pkg]
+<118>
+<118>*** PRESENCE ONLINE (kinanthecranker) ***
+<118>
+<118>[ProfileCacheManager] JobUpdate.Finish(0x1CABAFCA)
+<118>[ProfileCacheManager] JobUpdate.Run(0x1CABAFC7, FirstTime)
+<118>[ProfileCacheManager] JobUpdate.Finish(0x1CABAFC7)
+<118>[ProfileCacheManager] JobUpdate.Run(0x1CABAFC8, FirstTime)
+<118>[LoginProcessFinishedCore] LoginMgr.LogoutMgr.IsLogoutAllStarted=False
+<118>PRINT_TIME_TICK#: 51898 msec -- D/93790 end
+<118>[BOOT TIME]   ShellUI:   52803 msec: vsh resume progress: resumed. (OpenForegroundSession finished)
+<118>#LOGIN MGR# : \event_thread.cpp(181) : Run : Event Received : SCE_LOGIN_MGR_EVENT_LOGIN_FINISHED
+<118>#LOGIN MGR# [OnLoginFinished] deviceId : 0x30300
+<118>#LOGIN MGR# [OnAudioFunctionChanged] Post OnLoginMgrVisibilityChanged(MicScreenDisappeared) - deviceId : 0x0000000000030300
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Parent_SenWebViewScene2 : FrameModalScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: UserSelectScene : UserSelectScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SenWebViewScene2 : SenWebViewScene2
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LoginMgrRootScene : LoginMgrRootScene
+<118>[Performance Warning] framedrop count 1
+<118>[Theme/I] : OnUnload : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : OnPreload : [NONE(userId = 1cabafca)] (Mount processing..)
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[3.66msec] Layout[0.00msec/0widgets] : TopMenuControlPlugin : TopMenuControlPlugin
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : ActiveUserChanged : From : [ANONYMOUS(userId = ffffffff)]
+<118>[Theme/I] : ActiveUserChanged : To   : [NONE(userId = 1cabafca)] (Mount processing..)
+<118>[LoginMgr] OnLoginMgrDequeueEvent
+<118>[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false,"launchMode":"SelectUser"}
+<118>[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : [{"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false,"launchMode":"SelectUser"}] / isForce : True / isDeviceRemoved : False
+<118>[LoginMgr:Queue] Dequeue - eventJson : {"EventType":3,"autoLogin":"false","deviceId":197376,"deviceUniqueId":71753203716861,"enqueueType":0,"isBusChange":false,"isHdmiDisconnected":false,"isHmdUpdatePu":false,"isHmdUpdatePup":false,"isMorpheusAllowedOfUse":true,"isRemotePlayConnected":false,"nativeDeviceType2":0,"nativeFunctionType":513,"remotePlayDevice":false,"remotePlayUser":false,"wakeOnDevice":true,"whenEmpty":false,"launchMode":"SelectUser"}
+<118>[ShellUI][SharedWebView][BVT] Constructor : 0 ms
+<118>[Performance Warning] framedrop count 2
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafca >>
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/SecureUIProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201101, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/SecureUIProcess.self, fullPath = /system/common/lib/SecureUIProcess.self
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_user_info.cpp/load(142): user:1cabafca account:3693992839577855314 SA-en authorization:false justification: owner:0 benefit:
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_user_info.cpp/show(157): user:1cabafc8 account:26770645713801516 SA-en owner:0 streamable:false homeshared:false
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_user_info.cpp/show(157): user:1cabafca account:3693992839577855314 SA-en owner:0 streamable:false homeshared:false
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_entitlement.cpp/updateTitleList(379): TitleList Updating... 
+<118>[CloudConnectMgr] INFO: cloud_connect_manager_common.cpp/showMemory(57): currentSystemSize:1572864, maxInuseSize:68352, currentInuseSize:67424
+<118>[Syscore App] new pid=0x3c[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : TopMenuFrameScene : VoiceRecognitionFrameScene
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : LiveArea : ContainerScene
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : ContentsArea : ContainerScene
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : SystemArea : ContainerScene
+<118>[SceShellUI] W/PSM.UI : ** NOTICE: LoadSync : TopMenuFG : Scene
+<118>[SceShellUI][BVT] TopMenuPlugin Loaded.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : TopMenuPlugin : TopMenuPlugin
+<118>[Performance Warning] framedrop count 1
+<118>[Syscore App] Add event : pid=0x3c
+<118>[AppMgr Trace]: New Process, pid=0x3c, created.
+<118>[Theme/I] : Mount : path [/addcont0]
+<118>[Theme/I] : Mount : formatVersion : [contents:4.0][systemsoftware:4.0]
+<118>[Theme/I] : Mount[BLUE] : [ThemeColor] : Purple
+<118>[Theme/I] : Mount[BLUE] : [BgTexture] : [HomeScreen:N/A][FuncScreen:N/A]
+<118>[Theme/I] : Mount[BLUE] : [Icons] : default/customized icons
+<118>[Theme/I] :  ContentIcons : [browser:C][gallery:C][livefromps:C][disc:C][discoverlay:C][tvvideo:C][library:C][usbmusic:C][shareplay:C][folder:C]
+<118>[Theme/I] :  SystemIcons  : [notification:C][friend:C][community:C][event:C][message:C][party:C][trophy:C][setting:C][power:C]
+<118>[Theme/I] :  SystemGlows  : [notification:C][friend:C][community:C][event:C][message:C][party:C][trophy:C][setting:C][power:C]
+<118>[Theme/I] :  SystemIconBgs: [functionareabar:D]
+<118>[Theme/I] : Mount[BLUE] : [BgSceneGraph] : [HomeScreen:C][FuncScreen:C]
+<118>[Theme/I] : Mount[BLUE] : [Color] : [Font:FFFFFFFF][FontShadow:FF130E0B][ThemedFocus:FF130E0B]
+<118>[Theme/I] : Mount[BLUE] : [Dimmer] : [Home:00FFFFFF][Function:00FFFFFF][Title:00FFFFFF]
+<118>[Theme/I] : Mount[BLUE] : [Bgm/SE] : [bgmHome:C][seDecide:C][seCancel:C][seCursor:C]
+<118>[Theme/I] : ** Mount finished : [BLUE][Type:Download][Label:MC-Cherry-Blossom-Lake] **
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:000001]: with not preloaded user
+<118>[Theme/I] : Apply [ANONYMOUS] : [Option:101001]: with not preloaded user
+<118>[BgDailyChecker] BgDailyCheckerRifManagerCheck end (2026-09-20T18:19:35.47+01:00)
+<118>UserContentRetriever.GetUrl(): https://nsx.sec.np.dl.playstation.net/nsx/cp/np/v1/manifestList.json
+<118>[ProfileCacheManager] IN  HttpReceiver.ConnectHttp() TID:55.
+<118>[Theme/I] : ** Unload started : [ANONYMOUS][Type:Original] **
+<118>[Theme/I] : ** Unload finished : [ANONYMOUS][Type:Original] **
+<118>[Theme/I] : ** Preload started : [BLUE][Type:Download][Label:MC-Cherry-Blossom-Lake] **
+<118>[Theme/I] : Preload[BLUE] : [BgTexture] : no entry
+<118>[Theme/I] : Preload[BLUE] : [Icons] : default/customized icons
+<118>UserContentRetriever.GetUrl(): https://nsx.sec.np.dl.playstation.net/nsx/cp/np/v1/ps4ContentArea/manifests/countries/sa/contentList.json
+<118>[ProfileCacheManager] IN  HttpReceiver.RequestCallBack() TID:62.
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/IHCGwa6uv5/priv/cache/profile/0x1CABAFC8/avatar.png', permission=00700
+<118>
+<118>
+<118>[ProfileCacheManager] OUT HttpReceiver.RequestCallBack()
+<118>[SceLncService] Enable SecureWebProcess.self to expand CPU
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/SecureWebProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201113, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/SecureWebProcess.self, fullPath = /system/common/lib/SecureWebProcess.self
+<118>[Syscore App] new pid=0x3d[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x3d
+<118>[AppMgr Trace]: New Process, pid=0x3d, created.
+<118>[Theme/I] : Preload[BLUE] : [BgSceneGraph] : [HomeScreen:C][FuncScreen:C]
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=CUSA00568,user=481013706
+<118>[ProfileCacheManager] OUT HttpReceiver.ConnectHttp()
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=CUSA06172,user=481013706
+<118>[ProfileCacheManager] JobUpdate.Finish(0x1CABAFC8)
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=0,opt=0,title=CUSA00572,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=0,opt=0,title=CUSA01780,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPXS20125,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=0,opt=0,title=NPXS20123,user=481013706
+<118>[Theme/I] : Preload[BLUE] : [BgSceneGraph] : [Mesh:113] [Mem:142490 bytes] [VMem:15870300 bytes]
+<118>[Theme/I] : Preload[BLUE] : [Color] : [Font:FFFFFFFF][FontShadow:FF130E0B]
+<118>[Theme/I] : Preload[BLUE] : [Dimmer] : [Home:00FFFFFF][Function:00FFFFFF][Title:00FFFFFF]
+<118>[Theme/I] : Preload[BLUE] : [Bgm] : customized sounds
+<118>[SceShellUI] E/PSM.UI : bgm p wrapper : StopBgmPlayer already stopped [/app0/systembgm/bgm_main.at9]
+<118>[SceShellUI] I/PSM.UI : LoadAsync of custom SE is finished.
+<118>[Theme/I] : ** Preload finished : [BLUE][Type:Download][Label:MC-Cherry-Blossom-Lake] **
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[ThemeColorManager] Update ThemeColor Skin to Purple
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.71msec] Layout[0.00msec/0widgets] : TopMenuControlPlugin : TopMenuControlPlugin
+<118>[SceShellUI] I/PSM.UI : **** Ignored unload request because of unload is already enqueued : Parent_SenWebViewScene2
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.04msec] : Parent_SenWebViewScene2 : FrameModalScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.05msec] : UserSelectScene : UserSelectScene
+<118>[SenWebViewScene2] HideConnectingPanel()
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.04msec] : SenWebViewScene2 : SenWebViewScene2
+<118>[LoginMgrRootScene:OnUnloaded]
+<118>[LoginMgr:EventQueue] EnableDispatch - launchMode : SelectUser --> True
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.48msec] : LoginMgrRootScene : LoginMgrRootScene
+<118>[SceShellUI] I/PSM.UI : Created font: name=[__System__], size=[22], style=[Normal], weight=[Medium], handle=[0x9551212f]
+<118>[SceShellUI] W/PSM.UI : WARNING : Scene LayoutBuild : [6.12msec/52widgets] : SystemArea : SystemAreaScene
+<118>[LoginMgr] OnLoginMgrDispatchEvent
+<118>[LoginMgr:EventQueue] Dispatch - NotFound
+<118>[LoginMgrImposePlugin] RequestUnload() - loginUserNum : 1
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : NoNameScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: LoginMgrFrame : LoginMgrFrameScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : LoginMgrImposePlugin
+<118>#LOGIN MGR# : \login_dialog_mgr.cpp(111) : Unloaded : 
+<118>#LOGIN MGR# : \login_dialog_mgr.cpp(240) : setResult : 
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [Noname : NoNameScene] -> [TopMenuBG : Scene]
+<118>[SceShellUI] I/PSM.UI :      Scene [TopMenuBG : Scene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[Performance Warning] framedrop count 1
+<118>[SceShellUI] I/PSM.UI : Created font: name=[__System__], size=[22], style=[Normal], weight=[Light], handle=[0x95511d2f]
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[6.12msec/52widgets] : SystemArea : SystemAreaScene
+<118>[SceShellUI] I/PSM.UI : Created font: name=[__System__], size=[26], style=[Normal], weight=[Normal], handle=[0x9551142f]
+<118>[Performance Warning] framedrop count 4
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.14msec/1widgets] : LiveAreaScene : LiveAreaScene
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=0,opt=0,title=NPXS20167,user=481013706
+<118>PRINT_TIME_TICK#: 57036 msec -- BootEffect : start
+SERIAL_PRINT_TIME_TICK#: 57036 msec -- BootEffect : start
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [TopMenuBG : Scene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.23msec/1widgets] : ContentAreaScene : ContentAreaScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.05msec] : Noname : NoNameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.06msec] : LoginMgrFrame : LoginMgrFrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[1.89msec] : Noname : LoginMgrImposePlugin
+<118>[Performance Warning] framedrop count 6
+<118>[AudioOut] sceAudioOutOpen() with restricted flag:pid=0x2b ch=8
+<118>[Performance Warning] framedrop count 2
+<118>GetPlusInfoJob : Run(Start)
+<118>GetPlusInfoJob : Run(End)
+<118>GetPlusInfoJob : Finish / Cancelled False / Result True
+<118>[UpdateUserInfoforPlus] upd_userId : 481013706 / type : Member
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07116,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07119,user=481013706
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/orbis-jsc-compiler.self
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07123,user=481013706
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201124, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/orbis-jsc-compiler.self, fullPath = /system/common/lib/orbis-jsc-compiler.self
+<118>[Syscore App] new pid=0x3e[Syscore App] attributeExe= 0
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/orbis-jsc-compiler.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x3e
+<118>[AppMgr Trace]: New Process, pid=0x3e, created.
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201135, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/orbis-jsc-compiler.self, fullPath = /system/common/lib/orbis-jsc-compiler.self
+<118>[Syscore App] new pid=0x3f[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x3f
+<118>[AppMgr Trace]: New Process, pid=0x3f, created.
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07126,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07134,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07138,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07141,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07144,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07147,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07152,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07155,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07158,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07163,user=481013706
+<118>[Sce.Vsh.Db.Shared.ConnectionManager] Open /IHCGwa6uv5/priv/messages/1cabafca/messages.db(),/IHCGwa6uv5/priv/messages/1cabafca/attachment.db(attach1), ReadOnly 
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07166,user=481013706
+<118>D/88391:NPXS20108
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07169,user=481013706
+<118>libpng warning: iCCP: cHRM chunk does not match sRGB
+<118>libpng warning: iCCP: cHRM chunk does not match sRGB
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07177,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07174,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07180,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07183,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07186,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07189,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07194,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07201,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07206,user=481013706
+<118>#LOGIN MGR# : \event_thread.cpp(129) : Run : Event Received : SCE_LOGIN_MGR_EVENT_RESUME_EVENT_WATCH
+<118>#LOGIN MGR# [RunDisableWaitData]
+<118>#LOGIN MGR# [DequeueDisableWaitData] deviceId : 0xffffffffffffffff / size : 0 
+<118>#LOGIN MGR# [RunDisableWaitData] ret : -2135556087 / deviceId : 0xffffffffffffffff 
+<118>PRINT_TIME_TICK#: 58870 msec -- BootEffect : end
+<118>PRINT_TIME_TICK#: 58870 msec -- FinishBootEffect : Shell UI is Ready.
+SERIAL_PRINT_TIME_TICK#: 58870 msec -- BootEffect : end
+SERIAL_PRINT_TIME_TICK#: 58910 msec -- FinishBootEffect : Shell UI is Ready.
+<118>[BVT] Cold boot time : 58917 msec
+<118>[BVT] frame drop : 129
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07211,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07214,user=481013706
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x3b
+<118>[Syscore App] process delete event : pid=0x3b
+<118>[AppMgr Trace]: pid=0x3b, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x3e
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[Syscore App] process delete event : pid=0x3e
+<118>[AppMgr Trace]: pid=0x3e, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07222,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07229,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07232,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07236,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07242,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07244,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07252,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07255,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07262,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07266,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07270,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07273,user=481013706
+<118>[UCMan] eventHandler()[124]: PUSH:cmd=1,opt=0,title=NPIA07278,user=481013706
+<118>[System Telemetry(EVT d11)] Elapsed time for retrieving online friends : 0 msec, sentLog=False
+<118>[ShellUI][SharedWebView][BVT] OnFinishedLoad : 9523 ms
+<118>[ShellUI][SharedWebView][BVT] OnNotifyDidFinishLoading : 11329 ms
+<118>[ShellUI][SharedWebView][BVT] OnFinishedLoad : 12075 ms
+<118>[SceShellUI] I/PSM.UI : ----- WebView Created AC CanvasTexture2D -----2 (1920:1080)
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={48} isFirstTime={1}
+<118>[SceWorkaroundCtl] start DownloadFile
+<118>[SceWorkaroundCtl] ifModifiedSince={Thu, 10 Dec 2020 08:29:25 +0000}
+<118>[SceWorkaroundCtl] statusCode={304}
+<118>[SceWorkaroundCtl] W:\Build\J02697908\vsh\shell\shell_core\workaround_ctl\http_client.cpp(139) Get: WC_CHECK::0x814c0006 (statusCode != SCE_HTTP_STATUS_CODE_NOT_MODIFIED value is false)
+<118>[SceWorkaroundCtl] W:\Build\J02697908\vsh\shell\shell_core\workaround_ctl\workaround_ctl_manager.cpp(288) DownloadFile: WC_ISOK::0x814c0006
+<118>[SceWorkaroundCtl] update lastDownloadTime
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceSysCore] System CPU cores: c0
+<118>D/88391:
+<118>D/88391:NPXS20123
+<118>D/88391:
+<118>D/88391:NPXS20105
+<118>D/88391:
+<118>D/88391:NPXS20102
+<118>[ShellUI][SharedWebView][BVT] OnNotifyDidFinishLoading : 19034 ms
+<118>[ShellUI][SharedWebView][BVT] OnNotifyDidFinishLoading : 19085 ms
+<118>[ShellUI][SharedWebView][BVT] OnFinishedLoad : 19132 ms
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> []
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : WebBrowserPlugin : WebBrowserPlugin
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : WebBrowserScene : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [SettingsScene : SettingScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SettingsScene : SettingScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SettingsScene : SettingScene] -> [WebViewDialog : WebViewDialogScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [WebViewDialog : WebViewDialogScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : BrowserMain : MainScene
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/NKUIProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201142, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/NKUIProcess.self, fullPath = /system/common/lib/NKUIProcess.self
+<118>[Syscore App] new pid=0x41[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x41
+<118>[AppMgr Trace]: New Process, pid=0x41, created.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : SettingsScene : SettingScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : BookmarkScene : BookmarkView
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : BookmarkEditScene : BookmarkEditView
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : HistoryScene : HistoryView
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : WebViewDialog : WebViewDialogScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [WebViewDialog : WebViewDialogScene] -> [BrowserMain : MainScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [BrowserMain : MainScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : Created font: name=[__System__], size=[33], style=[Normal], weight=[Normal], handle=[0x9551842f]
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [BrowserMain : MainScene] -> [OptionMenu : WebBrowserScene : OptionMenuScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [OptionMenu : WebBrowserScene : OptionMenuScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : OptionMenuContainer : WebBrowserScene : OptionMenuContainerScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : OptionMenu : WebBrowserScene : OptionMenuScene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [OptionMenu : WebBrowserScene : OptionMenuScene] -> []
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: OptionMenu : WebBrowserScene : OptionMenuScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: OptionMenuContainer : WebBrowserScene : OptionMenuContainerScene
+<118>[SceShellUI] I/PSM.UI : **** Ignored unload request because of unload is already enqueued : OptionMenuContainer : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : OptionMenu : WebBrowserScene : OptionMenuScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.05msec] : OptionMenuContainer : WebBrowserScene : OptionMenuContainerScene
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/NKNetworkProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201154, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/NKNetworkProcess.self, fullPath = /system/common/lib/NKNetworkProcess.self
+<118>[Syscore App] new pid=0x42[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x42
+<118>[AppMgr Trace]: New Process, pid=0x42, created.
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [HistoryScene : HistoryView]
+<118>[SceShellUI] I/PSM.UI :      Scene [HistoryScene : HistoryView] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[Syscore App] Start sceApplicationAddProcess /IHCGwa6uv5/common/lib/NKWebProcess.self
+<118>[Syscore App] calling add process
+<118>[Syscore App] processSpawn(pid, 0x60000201, 0x10201166, appParam, processParam, 0, 0, 0, param, debug, 0)
+<118>[Syscore App] appParam: appType = 0x5, rootPath = /mnt/sandbox/NPXS20001_000, titleId = NPXS20001
+<118>[Syscore App] processParam: elfPath = /IHCGwa6uv5/common/lib/NKWebProcess.self, fullPath = /system/common/lib/NKWebProcess.self
+<118>[Syscore App] new pid=0x43[Syscore App] attributeExe= 0
+<118>[Syscore App] Ready to exec
+<118>[Syscore App] wait for NOTE_EXIT|NOTE_EXEC
+<118>[Syscore App] Add event : pid=0x43
+<118>[AppMgr Trace]: New Process, pid=0x43, created.
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [HistoryScene : HistoryView] -> [BrowserMain : MainScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [BrowserMain : MainScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[PSM Debug] Saving to file: /user/home/1cabafca/webbrowser/frequency_thumb/D8CF126B0E07.jpg
+<118>[SceNetEv] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} contentId={8}, serviceName={netev}
+<118>[SceNetEv] start DownloadFile, contentId={8}, serviceName={netev}
+<118>[SceNetEv] ifModifiedSince={Tue, 02 Mar 2021 16:11:59 +0000}
+<118>[SceNetEv] statusCode={304}
+<118>[SceNetEv] W:\Build\J02697908\vsh\shell\shell_core\netev\netev_http_client.cpp(139) Get: NETEV_CHECK::0x80414409 (statusCode != SCE_HTTP_STATUS_CODE_NOT_MODIFIED value is false)
+<118>[SceNetEv] W:\Build\J02697908\vsh\shell\shell_core\netev\netev_manager.cpp(345) DownloadFile: NETEV_ISOK::0x80414409
+<118>[SceNetEv] update lastDownloadTime, contentId={8}, serviceName={netev}
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceShellCore] VM Stats: RSS 1141.3, kernel 267.5, wire count 330.9, swap out 0.0, page table CPU 2778/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   1.3/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM  10.8/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   9.3/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   3.2/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  49.9/ 344.8 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 394.0/ 883.0 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.9/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  14.8/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  13.0/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.0/  19.5 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.1/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.8/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.8/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.8/ 359.4 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  69.1/ 161.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  57.6/ 242.9 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 203.7/ 428.5 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3833.3 KB, trend +1339.4 KB/min, peak 3891.6 KB, when 62 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:01:00
+<118>[SceShellCore] Delete /user/TRASH/0/sticker/history_tmp.json
+<118>[SceShellCore] Delete /user/TRASH/0/sticker/history_sticker.png
+<118>[SceShellCore] CPU Utilization: 0.03 0.01 0.00 0.00 0.01 0.00 1.00 0.27
+<118>[SceShellCore] CPU Top: timestamp 86 to 89 (3.0 sec)
+<118>[SceShellCore] 99% 1023 SceIdleCpu1
+<118>[SceShellCore] 99% 1023 SceIdleCpu2
+<118>[SceShellCore] 99% 1023 SceIdleCpu3
+<118>[SceShellCore] 99% 1023 SceIdleCpu4
+<118>[SceShellCore] 99% 1023 SceIdleCpu5
+<118>[SceShellCore] 97% 1023 SceIdleCpu0
+<118>[SceShellCore] 73% 1023 SceIdleCpu7
+<118>[SceShellCore] 71%  750 NPXS20001 SceNKWebProcessMain
+<118>[SceShellCore] 17%  605 NPXS20001 SceShellUIMain
+<118>[SceShellCore]  9%  297 NPXS20973 SceAoutWriteAll
+<118>[SceShellCore]  3%  750 NPXS20001 SceNKHeap Helper Thread
+<118>[SceShellCore]  2%   40 swi4: SceClock7
+<118>[SceShellCore]  2%   68 ScePagedaemon0
+<118>[SceShellCore]  2%   20 irq269: sdhci0
+<118>[SceShellCore]  1%   92 SceThreadTaskq
+<118>[SceShellCore]  1%  749 NPXS20001 SceNKUIProcessMain
+<118>[SceShellCore]  1%  748 NPXS20001 SceStrawIPCReceiver
+<118>[SceShellCore]  1%  750 NPXS20001 SceNKcurlThread
+<118>[SceShellCore]  1%  302 NPXS20973 SceAinIntvl
+<118>[SceShellCore]  1%  750 NPXS20001 SceNKNetworkProcessMain
+<118>[BVT] CPU Time : 3813 usec. 
+<118>[SceShellCore] CPU Utilization: 0.03 0.00 0.00 0.00 0.01 0.00 1.00 0.20
+<118>[SceShellCore] CPU Top: timestamp 98 to 101 (3.0 sec)
+<118>[SceShellCore] 99% 1023 SceIdleCpu1
+<118>[SceShellCore] 99% 1023 SceIdleCpu2
+<118>[SceShellCore] 99% 1023 SceIdleCpu3
+<118>[SceShellCore] 99% 1023 SceIdleCpu4
+<118>[SceShellCore] 99% 1023 SceIdleCpu5
+<118>[SceShellCore] 97% 1023 SceIdleCpu0
+<118>[SceShellCore] 80% 1023 SceIdleCpu7
+<118>[SceShellCore] 75%  750 NPXS20001 SceNKWebProcessMain
+<118>[SceShellCore] 16%  605 NPXS20001 SceShellUIMain
+<118>[SceShellCore]  9%  297 NPXS20973 SceAoutWriteAll
+<118>[SceShellCore]  2%   40 swi4: SceClock7
+<118>[SceShellCore]  2%  750 NPXS20001 SceNKHeap Helper Thread
+<118>[SceShellCore]  1%   20 irq269: sdhci0
+<118>[SceShellCore]  1%   92 SceThreadTaskq
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  _________________  .____  ________    ___ ______________ _______
+ /  _____________  \ |    | \______ \  /   |   \_   _____/ \      \
+/   \  ___  /   |   \|    |  |    |  \/    ~    \    __)_  /   |   \
+\    \_\  \/    |    \    |__|    `   \    Y    /        \/    |    \
+ \______  /\_______  /_______ \_____  /\___|_  /_______  /\____|__  /
+        \/         \/        \/     \/       \/        \/         \/
+
+                              Coded By
+        _________.__  ____________________________ ________
+       /   _____/|__|/   _________    _________   \_____   \
+       \_____  \ |  |\_____  \   |    |  |       _/ /   |   \
+       /        \|  |/        \  |    |  |    |   \/    |    \
+      /_______  /|__/_______  /  |____|  |____|_  /\_________/
+              \/            \/                  \/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[GoldHEN] Installing GoldHEN in Kernel...
+_aio_multi_delete() line=3797 error=16 0x10
+[GoldHEN] FakePKG hooks installed!
+[GoldHEN] FakeSelf hooks installed!
+[GoldHEN] SceShellCore patches installed!
+[GoldHEN] Kernel patches installed!
+[GoldHEN] SceShellUI patches installed!
+[GoldHEN] SceRemotePlay patches installed!
+[GoldHEN] Klog server on port 3232
+[GoldHEN] All done!
+[GoldHEN] <payloader> Server started at 9090 port
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [BrowserMain : MainScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>D/88391:
+<118>D/88391:NPXS20108
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [SystemArea : SystemAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SystemArea : SystemAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3802.1 KB, trend -11.0 KB/min, peak 3891.6 KB, when 93 [sec]
+<118>[SceShellCore] VM Stats: RSS 1233.9, kernel 268.5, wire count 332.3, swap out 0.0, page table CPU 2966/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   0.3/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   4.6/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   5.3/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   2.6/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  17.8/ 344.8 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 345.0/ 888.5 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  14.5/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.8/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.0/  37.0 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  69.6/ 163.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  59.5/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 391.0/ 766.0 NPXS20001 SceNKWebProcess
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3804.4 KB, trend +2.4 KB/min, peak 3891.6 KB, when 204 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3805.4 KB, trend +3.4 KB/min, peak 3891.6 KB, when 235 [sec]
+<118>[SceShellCore] VM Stats: RSS 1234.2, kernel 268.5, wire count 332.0, swap out 0.0, page table CPU 2968/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   0.3/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   4.6/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   5.3/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   2.6/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  17.9/ 344.8 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 345.0/ 887.8 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  14.5/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.9/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.1/  41.1 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellCore] FMEM  69.7/ 163.3 NPXS20001 SceNKUIProcess
+<118>[SceShellCore] FMEM  59.5/ 244.6 NPXS20001 SceNKNetworkProcess
+<118>[SceShellCore] FMEM 391.0/ 766.0 NPXS20001 SceNKWebProcess
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: BrowserMain : MainScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SettingsScene : SettingScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: BookmarkScene : BookmarkView
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: BookmarkEditScene : BookmarkEditView
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: HistoryScene : HistoryView
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: WebViewDialog : WebViewDialogScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: WebBrowserScene : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: WebBrowserPlugin : WebBrowserPlugin
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SystemArea : SystemAreaScene] -> []
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[SceShellUI] W/PSM.UI : SystemSound called when there is no FocusActiveScene !
+<118>[VCS]closeSession() [APP->VCS] clientPid = 0x43.
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/user/home/1cabafca/webbrowser/window_left.txt', permission=00700
+<118>
+<118>
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.43msec] : BrowserMain : MainScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : SettingsScene : SettingScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : BookmarkScene : BookmarkView
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/user/home/1cabafca/webbrowser/window_right.txt', permission=00700
+<118>
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : BookmarkEditScene : BookmarkEditView
+<118>
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.05msec] : HistoryScene : HistoryView
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.59msec] : WebViewDialog : WebViewDialogScene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: WebBrowserScene to QueueTop.
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/user/home/1cabafca/webbrowser/endhistory.txt', permission=00700
+<118>
+<118>
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: WebBrowserScene : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[1.02msec] : WebBrowserScene : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: WebBrowserScene to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.04msec] : WebBrowserScene : WebBrowserScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.10msec] : WebBrowserScene : WebBrowserScene
+<118>
+<118>
+<118>~~~~~~~~~~ 	int CreateWithSystemPermission() type=FILE, path='/user/home/1cabafca/webbrowser/setting.txt', permission=00700
+<118>
+<118>
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x43
+<118>[Syscore App] process delete event : pid=0x43
+<118>[AppMgr Trace]: pid=0x43, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[SceShellUI] I/PSM.UI : [WebSecurity] Dispose start
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x42
+<118>[Syscore App] process delete event : pid=0x42
+<118>[AppMgr Trace]: pid=0x42, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>exit NKUIProcess 
+<118>[Syscore App] EVFILT_PROC NOTE_EXIT received : pid=0x41
+<118>[Syscore App] process delete event : pid=0x41
+<118>[AppMgr Trace]: pid=0x41, deleted.
+<118>[Syscore App] Syscore Event Queue Push : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[AppMgr] checkAppTerminated pid=0x2b is still alive in 0x60000201
+<118>[Syscore App]  ExpandCpuSetMode : enable
+<118>[Syscore App] Syscore Event Queue Pop : SCE_SYSCORE_EVENT_ON_PROCESS_UNLOADED
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.36msec] : WebBrowserPlugin : WebBrowserPlugin
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : NormalStack : SettingPageNormalStack
+<118>sceRemoteplayInitialize: 0x80fc0003
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_menu : SettingPage
+<118>[SceShellCore] Libc Heap Status: free 38%, in-use 3796.8 KB, trend -8.8 KB/min, peak 3891.6 KB, when 301 [sec]
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_menu : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils_payloader_launchpad : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader_launchpad : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellCore] VM Stats: RSS 717.4, kernel 261.3, wire count 325.1, swap out 0.0, page table CPU 2367/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   0.4/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   9.3/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   5.3/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   2.6/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  18.4/ 344.8 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 342.9/ 883.6 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  14.5/  43.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.9/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.1/  43.2 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+<118>[SL][17:24:10:680][Thread 0x00018846][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2285376 (37%), in-use 3940544 (63%), peak 3985024 (64%), when 325 [sec]
+<118>[SL][17:24:10:883][Thread 0x00018846][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2285376 (37%), in-use 3940544 (63%), peak 4437920 (71%), when 325 [sec]
+[DEBUG] [source/main.c (_main:193)] [NOTIFICATION]: KMEMv9: start
+[DEBUG] [source/main.c (_main:204)] [NOTIFICATION]: KMEMv9 kbase=ffffffff85680000
+[DEBUG] [source/main.c (_main:210)] [NOTIFICATION]: KMEMv9 T0 r=0 v=9010102464c457f
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P0 1520000 r=0 v=205359534942524f
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P1 1521000 r=0 v=ffffffff85df1204
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P2 1b265e8 r=0 v=0
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P3 1b266e8 r=0 v=0
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P4 2000000 r=0 v=0
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P5 269c000 r=0 v=ffffc18715c02c00
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P6 269c0a0 r=0 v=0
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P7 269c140 r=0 v=2
+[DEBUG] [source/main.c (_main:234)] [NOTIFICATION]: KMEMv9 P8 2834ae8 r=0 v=4
+[DEBUG] [source/main.c (_main:246)] [NOTIFICATION]: KMEMv9 probe done
+[DEBUG] [source/main.c (_main:256)] [NOTIFICATION]: KMEMv9 probe only - not dumping
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3847.4 KB, trend +42.7 KB/min, peak 4333.9 KB, when 332 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3833.7 KB, trend -3.9 KB/min, peak 4333.9 KB, when 363 [sec]
+<118>[SceShellCore] VM Stats: RSS 718.3, kernel 261.2, wire count 324.8, swap out 0.0, page table CPU 2371/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   0.4/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   9.3/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   5.3/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   2.6/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  18.9/ 344.8 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 343.0/ 883.6 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  14.9/  46.6 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.9/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   8.1/  43.2 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:06:00
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={423} isFirstTime={1}
+<118>[SceHidConfigService] start DownloadFile
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={423} isFirstTime={1}
+<118>[SceHidConfigService] start DownloadFile
+<118>[SceHidConfigService] VerifySignature : size: total(610), signature(256), message(354) [byte]
+<118>[SceHidConfigService] VerifySignature : pass
+<118>[SceHidConfigService] DownloadFile : [UsbPower]
+<118>[SceHidConfigService] ifModifiedSince={Mon, 01 Mar 2021 07:07:09 +0000}
+<118>[SceHidConfigService] SERVER_URL={http://ps4-system.sec.np.dl.playstation.net/ps4-system/hidusbpower/np/v00/hidusbpower.env}
+<118>[SceHidConfigService] DownloadFile : [RevokeList]
+<118>[SceHidConfigService] ifModifiedSince={Fri, 09 Mar 2018 03:55:47 +0000}
+<118>[SceHidConfigService] SERVER_URL={http://ps4-system.sec.np.dl.playstation.net/ps4-system/hid_config/np/v00/hid_config.env}
+<118>[SceHidConfigService] statusCode={304}
+<118>[SceHidConfigService] W:\Build\J02697908\vsh\shell\shell_core\hid_config_service\http_client.cpp(139) Get: HCS_CHECK::0x81560006 (statusCode != SCE_HTTP_STATUS_CODE_NOT_MODIFIED value is false)
+<118>[SceHidConfigService] W:\Build\J02697908\vsh\shell\shell_core\hid_config_service\hid_config_service_manager.cpp(241) DownloadFile: HCS_ISOK::0x81560006
+<118>[SceHidConfigService] update lastDownloadTime
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] statusCode={304}
+<118>[SceHidConfigService] W:\Build\J02697908\vsh\shell\shell_core\hid_config_service\http_client.cpp(139) Get: HCS_CHECK::0x81560006 (statusCode != SCE_HTTP_STATUS_CODE_NOT_MODIFIED value is false)
+<118>[SceHidConfigService] W:\Build\J02697908\vsh\shell\shell_core\hid_config_service\hid_config_service_manager.cpp(241) DownloadFile: HCS_ISOK::0x81560006
+<118>[SceHidConfigService] update lastDownloadTime
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+
+=== capture attached 20:26:13 ===
+
+=== capture attached 20:26:47 ===
+
+=== capture attached 20:26:47 ===
+
+=== capture attached 20:26:48 ===
+
+=== capture attached 20:26:48 ===
+
+=== capture attached 20:26:50 ===
+
+=== capture attached 20:26:54 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:27:11 ===
+
+=== capture attached 20:27:53 ===
+
+=== capture attached 20:28:09 ===
+
+=== capture attached 20:29:06 ===
+
+=== capture attached 20:29:10 ===
+
+=== capture attached 20:29:25 ===
+
+=== capture attached 20:30:09 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:30:14 ===
+
+=== capture attached 20:31:10 ===
+
+=== capture attached 20:31:10 ===
+
+=== capture attached 20:31:12 ===
+
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.02msec] : SettingsPlugin : SettingsApplication
+
+=== capture attached 20:31:12 ===
+
+=== capture attached 20:31:14 ===
+
+=== capture attached 20:31:15 ===
+
+=== capture attached 20:31:46 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:33:17 ===
+
+=== capture attached 20:34:10 ===
+
+=== capture attached 20:34:45 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:35:19 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:36:20 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:38:22 ===
+
+=== capture attached 20:38:46 ===
+
+=== capture attached 20:38:53 ===
+
+=== capture attached 20:39:09 ===
+
+=== capture attached 20:40:12 ===
+
+=== capture attached 20:43:17 ===

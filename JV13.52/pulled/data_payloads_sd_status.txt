@@ -1,0 +1,8 @@
+last step=7 rc=7
+self=88304 max=7 hdr=992 segsz=69532
+rcs=0,0,0,0,0,0,7,
+hdrptr=fffffb620556c000 verify=3 ctxid_out=3 ctx20=3
+bus=556c000 bufB=556c000 cbb=fffffb620556c000 smflag=1
+digest=0 dptr=0 idx=0 copyin=0
+ownbus=1c38c000 keyhead=0 smflag2=1 ctxstate=300000001
+ctx=0 svc=0

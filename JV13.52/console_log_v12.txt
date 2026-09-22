@@ -1,0 +1,112 @@
+
+=== capture attached 20:37:27 ===
+
+=== capture attached 20:38:45 ===
+
+=== capture attached 20:38:53 ===
+
+=== capture attached 20:39:09 ===
+
+=== capture attached 20:40:05 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:41:25 ===
+
+=== capture attached 20:44:09 ===
+
+=== capture attached 20:45:57 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:47:32 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:48:33 ===
+
+=== capture attached 20:49:09 ===
+
+=== capture attached 20:49:25 ===
+
+=== capture attached 20:50:12 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:50:35 ===
+
+=== capture attached 20:52:03 ===
+
+=== capture attached 20:53:00 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:53:38 ===
+
+=== capture attached 20:54:08 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:54:39 ===
+
+=== capture attached 20:55:05 ===
+lf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.1/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  50.7/ 282.7 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 146.1/ 588.7 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  54.6/ 359.4 NPXS20001 orbis-jsc-compiler.self
+
+=== capture attached 20:55:40 ===

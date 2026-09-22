@@ -1,0 +1,463 @@
+
+===== reconnecting capture start 16:27:22 (1500s) =====
+<118>[SL][13:22:15:802][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301920 (37%), in-use 3924000 (63%), peak 4423840 (71%), when 2113 [sec]
+<118>[SL][13:22:15:990][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301920 (37%), in-use 3924000 (63%), peak 4423840 (71%), when 2114 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3850.9 KB, trend +19.2 KB/min, peak 4320.2 KB, when 2114 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.0 KB, trend +0.0 KB/min, peak 4320.2 KB, when 2145 [sec]
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2100} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:36:00
+<118>[SceSystemStateMgr] No user input for 900 seconds
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.4 KB, trend +0.3 KB/min, peak 4320.2 KB, when 2304 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.0 KB, trend +0.0 KB/min, peak 4320.2 KB, when 2335 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.1 KB, trend +0.1 KB/min, peak 4320.2 KB, when 2404 [sec]
+<118>[SL][13:27:15:391][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301856 (37%), in-use 3924064 (63%), peak 4423840 (71%), when 2413 [sec]
+<118>[SL][13:27:15:576][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301856 (37%), in-use 3924064 (63%), peak 4423840 (71%), when 2413 [sec]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:41:00
+<118>* registerDevice:L1621 not found sub device id.
+<118>ScePsP[TID:0x1886a]: sceMbusEvent has been received. (eventId=1 ADD, deviceId=0x50300)
+<118>ScePsP[TID:0x1886a]: Open Pad [0x0000000000050300, 0, 0]: ret=0x03040301
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_ADDED [DeviceId:0x50300][type:1][subType:2]
+<118>D/125878 X
+<118>ScePsP[TID:0x1886a]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>#LOGIN MGR# SetDisableVibration( 0x0000000000050300, 1 )
+<118>  [o][0x0000000000050300][0xffffffff][DUALSHOCK4]
+<118>#LOGIN MGR# sceSystemStateMgrSendCecOneTouchPlayCommand : 0(0x00000000)
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# isIduMode = 0
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# getControllerNum() : 1
+<118>#LOGIN MGR# [RunBusTransitionNewDevice] ret : -2135556047 / deviceUniqueId : 0x00004142583812fd
+<118>#LOGIN MGR# [IsSameControllerDeviceConnected] _total=0
+<118>#LOGIN MGR# The device(0x50300) was auto assigned to User 0x1cabafca.
+<118>#LOGIN MGR# [Assign] DeviceId:0x0000000000050300 / UserId:0x1cabafca
+<118>#LOGIN MGR# [Controller::onHoldDevice] userId = 0x1cabafca / holdAudioOutDeivice : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 1 / scrachData : 128
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+<118>#LOGIN MGR# [AudioDeviceStateChange] updState : 0 / functionType : 2 / scrachData : 64
+<118>#LOGIN MGR# [AudioDeviceStateChange] function : 0 / isEnabled : 0 / realState : 0
+<118>@ connectDeviceByFunction:L1258
+<118>@ checkAudioOutHandleStatus:L2487
+<118>#LOGIN MGR# sceMbusBindDeviceWithUserId( 0x0000000000050300, 0x1cabafca ) : 0(0x00000000)
+<118>#LOGIN MGR# SetDisableVibration( 0x0000000000050300, 0 )
+<118>#LOGIN MGR# EnablePadKeyRemapping start( 1, 0x50300, 0x1cabafca, 1 )
+<118>#LOGIN MGR# IsKeyRemapEnable start( 0x1cabafca )
+<118>#LOGIN MGR# IsKeyRemapEnable end( 0x1cabafca ) -> 0 
+<118>#LOGIN MGR# EnablePadKeyRemapping end( 1, 0x50300, 0x1cabafca, 1 ) -> 0(0x00000000)
+<118>#LOGIN MGR# : \login_mgr.cpp(478) : NotifyDeviceAdd : OnDeviceAdded event send.
+<118>Event OnControllerActivated isAutoAssignComplete:1, m_systemState:1000, isSendEvent:1
+<118>#LOGIN MGR# [DeviceQueueMgr::Dequeue(new)] deviceId : 0x0000000000050300 / isForce : 0 / isDeviceRemoved : 0
+<118>@ jackDisconnected:L2697
+<118>@ checkAudioOutHandleStatus:L2487
+<118>[LoginMgr] OnLoginMgrDequeueEvent
+<118>[LoginMgr:EventQueue] Dequeue - param : {"EventType":3,"deviceId":328448,"isDeviceRemoved":false,"isForce":false}
+<118>[LoginMgr:Queue] Dequeue - queueType : Level2 / eventType : QueueEventTypeSelectUser / eventJson : [{"EventType":3,"deviceId":328448,"isDeviceRemoved":false,"isForce":false}] / isForce : False / isDeviceRemoved : False
+<118>ScePsP[TID:0x1886a]: sceMbusEvent has been received. (eventId=16 OWNERCHG, deviceId=0x50300)
+<118>ScePsP[TID:0x1886a]: ConnectedDeviceStatus: count=2
+<118>  [c][DeviceId          ][UserId    ][Model     ]
+<118>  [o][0x0000000000050300][0x1cabafca][DUALSHOCK4]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>  [ ][0xffffffffffffffff][0xffffffff][none      ]
+<118>#LOGIN MGR# [IsNeedControllerLightCalibration] isNeed : 0 / type : 0
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_OWNER_CHANGED [DeviceId:0x50300][UserId:0x1cabafca]
+<118>#LOGIN MGR# [OnDeviceOwnerChanged] deviceId : 0x50300 / userId : 0x1cabafca 
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x50300]
+<118>#LOGIN MGR# Battery status changed.
+<118>Battery status : 0
+<118>Battery level : 5
+<118>#LOGIN MGR# The battery level of 0x50300 is getting low.
+<118>[ProfileCacheManager] JobUpdate.Run(0x1CABAFCA, Normal)
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader_launchpad : SettingPage] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.20msec] : SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3831.1 KB, trend -1.0 KB/min, peak 4320.2 KB, when 2492 [sec]
+<118>[ProfileCacheManager] JobUpdate.Finish(0x1CABAFCA)
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [SystemArea : SystemAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SystemArea : SystemAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SystemArea : SystemAreaScene] -> []
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[SceShellUI] W/PSM.UI : SystemSound called when there is no FocusActiveScene !
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.07msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : NormalStack : SettingPageNormalStack
+<118>sceRemoteplayInitialize: 0x80fc0003
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_menu : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils_payloader_launchpad : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader_launchpad : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_launchpad : SettingPage
+[DEBUG] [source/main.c (_main:598)] [NOTIFICATION]: selfdec2: start
+[DEBUG] [source/main.c (_main:607)] [NOTIFICATION]: selfdec2 kbase=ffffffff95568000
+[DEBUG] [source/main.c (_main:614)] [NOTIFICATION]: selfdec2 max=6 lock=1 svcreq=0 seg=0
+[DEBUG] [source/main.c (_main:669)] [NOTIFICATION]: selfdec2 self=88304B hdr=992 seg0 off=13e0 sz=10f9c
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 1
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 1 rc=0 ffffff8004188000 0 0
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 2
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 2 rc=0 0 21344000 ffffd6ba06ab6a00
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 3
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 3 rc=0 ffffff800418c000 21344000 ffffd6ba06ab6a00
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 4
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 4 rc=0 0 21348000 ffffd6ba06ab6a00
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 5
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 5 rc=0 0 0 160
+[DEBUG] [source/main.c (_main:708)] [NOTIFICATION]: selfdec2 -> step 6
+[DEBUG] [source/main.c (_main:719)] [NOTIFICATION]: selfdec2 step 6 rc=0 3 3 3
+[DEBUG] [source/main.c (_main:783)] [NOTIFICATION]: selfdec2: done
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.3 KB, trend +0.2 KB/min, peak 4320.2 KB, when 2523 [sec]
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2100} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2100} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2520} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SL][13:32:14:993][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301696 (37%), in-use 3924224 (63%), peak 4423840 (71%), when 2713 [sec]
+<118>[SL][13:32:15:181][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301696 (37%), in-use 3924224 (63%), peak 4423840 (71%), when 2713 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:46:00
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader_launchpad : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3840.8 KB, trend +8.7 KB/min, peak 4320.2 KB, when 2842 [sec]
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_menu : SettingPage] -> [SystemArea : SystemAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SystemArea : SystemAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.02msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: id_goldhen_utils to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: SettingsBGScene to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: id_goldhen_menu to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: NormalStack to QueueTop.
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SystemArea : SystemAreaScene] -> [ContentAreaScene : ContentAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [ContentAreaScene : ContentAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.03msec] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.17msec] : SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [ContentAreaScene : ContentAreaScene] -> [SystemArea : SystemAreaScene]
+<118>[SceShellUI] I/PSM.UI :      Scene [SystemArea : SystemAreaScene] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : SystemAreaPSPlus : SystemAreaPluginPSPlus
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [SystemArea : SystemAreaScene] -> []
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[SceShellUI] W/PSM.UI : SystemSound called when there is no FocusActiveScene !
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : NormalStack : SettingPageNormalStack
+<118>sceRemoteplayInitialize: 0x80fc0003
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : SettingsBGScene : Scene
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_menu : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils_payloader_autorun : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader_autorun : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_autorun : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader_autorun : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils_payloader_launchpad : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader_launchpad : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader_autorun : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils_payloader_autorun : SettingPage
+[DEBUG] [source/main.c (_main:599)] [NOTIFICATION]: selfdec2: start
+[DEBUG] [source/main.c (_main:608)] [NOTIFICATION]: selfdec2 kbase=ffffffff95568000
+[DEBUG] [source/main.c (_main:615)] [NOTIFICATION]: selfdec2 max=7 lock=1 svcreq=0 seg=0
+[DEBUG] [source/main.c (_main:670)] [NOTIFICATION]: selfdec2 self=88304B hdr=992 seg0 off=13e0 sz=10f9c
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 1
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 1 rc=0 ffffff8004190000 0 0
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 2
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 2 rc=0 0 49964000 ffffd6ba07b2aa80
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 3
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 3 rc=0 ffffff8004194000 49964000 ffffd6ba07b2aa80
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 4
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 4 rc=0 0 49968000 ffffd6ba07b2aa80
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 5
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 5 rc=0 0 0 160
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 6
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 6 rc=0 1 3 3
+[DEBUG] [source/main.c (_main:709)] [NOTIFICATION]: selfdec2 -> step 7
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 step 7 rc=0 0 1 ffffffea
+[DEBUG] [source/main.c (_main:784)] [NOTIFICATION]: selfdec2: done
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.3 KB, trend +0.0 KB/min, peak 4320.2 KB, when 2873 [sec]
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2520} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2520} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>#LOGIN MGR# Receive Event : SCE_MBUS_EVENT_DEVICE_STATUS_UPDATED [DeviceId:0x50300]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.3 KB, trend +0.1 KB/min, peak 4320.2 KB, when 2976 [sec]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2940} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SL][13:37:14:627][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4423840 (71%), when 3012 [sec]
+<118>[SL][13:37:14:818][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4423840 (71%), when 3012 [sec]
+<118>[UIProcess] malloc stats freeSize:38837536 (93%) inuseSize:3105504 peakSize:4011008 [pid:0x3a]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:51:00
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3839.0 KB, trend +6.8 KB/min, peak 4320.2 KB, when 3156 [sec]
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.3 KB, trend +0.0 KB/min, peak 4320.2 KB, when 3187 [sec]
+<118>[SL][13:42:14:253][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4423840 (71%), when 3312 [sec]
+<118>[SL][13:42:14:441][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4423840 (71%), when 3312 [sec]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2940} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={2940} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 00:56:00
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={3360} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader_launchpad : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_menu : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_menu : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_menu : SettingPage] -> [id_goldhen_utils : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils : SettingPage] -> [id_goldhen_utils_payloader : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : OnFocusActiveSceneChanged [id_goldhen_utils_payloader : SettingPage] -> [id_goldhen_utils_payloader_launchpad : SettingPage]
+<118>[SceShellUI] I/PSM.UI :      Scene [id_goldhen_utils_payloader_launchpad : SettingPage] : Alive
+<118>SetDeviceIndexBehavior: mode=SpecificUser, param=0x1cabafca
+<118>[Theme/I] : Apply [BLUE] : [Option:111111]: with preloaded user
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_launchpad : SettingPage
+[DEBUG] [source/main.c (_main:610)] [NOTIFICATION]: selfdec2: start
+[DEBUG] [source/main.c (_main:619)] [NOTIFICATION]: selfdec2 kbase=ffffffff95568000
+[DEBUG] [source/main.c (_main:626)] [NOTIFICATION]: selfdec2 max=7 lock=1 svcreq=0 seg=0
+[DEBUG] [source/main.c (_main:681)] [NOTIFICATION]: selfdec2 self=88304B hdr=992 seg0 off=13e0 sz=10f9c
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 1
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 1 rc=0 ffffff8004198000 0 0
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 2
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 2 rc=0 0 4a778000 ffffd6ba070df000
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 3
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 3 rc=0 ffffff800419c000 4a778000 ffffd6ba070df000
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 4
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 4 rc=0 0 4a77c000 ffffd6ba070df000
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 5
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 5 rc=0 0 0 160
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 6
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 6 rc=0 1 1 3
+[DEBUG] [source/main.c (_main:720)] [NOTIFICATION]: selfdec2 -> step 7
+[DEBUG] [source/main.c (_main:731)] [NOTIFICATION]: selfdec2 step 7 rc=0 0 1 ffffffea
+[DEBUG] [source/main.c (_main:795)] [NOTIFICATION]: selfdec2: done
+<118>[SceShellCore] VM Stats: RSS 643.2, kernel 260.8, wire count 320.4, swap out 0.0, page table CPU 2425/6144 GPU 367/2048
+<118>[SceShellCore] FMEM   0.4/   4.5 NPXS20977 SceSysAvControl.elf
+<118>[SceShellCore] FMEM   9.3/  74.3 NPXS20991 SceSysCore.elf
+<118>[SceShellCore] FMEM   5.4/  54.3 NPXS20973 orbis_audiod.elf
+<118>[SceShellCore] FMEM   2.6/  11.2 NPXS20976 GnmCompositor.elf
+<118>[SceShellCore] FMEM  19.8/ 341.0 NPXS20000 SceShellCore
+<118>[SceShellCore] FMEM 357.0/ 881.1 NPXS20001 SceShellUI
+<118>[SceShellCore] FMEM   3.5/   8.3 NPXS21003 SceAvCapture
+<118>[SceShellCore] FMEM   8.5/  24.5 NPXS21000 SceGameLiveStreaming
+<118>[SceShellCore] FMEM  16.5/  65.7 NPXS21002 ScePartyDaemon
+<118>[SceShellCore] FMEM   4.3/  25.4 NPXS21004 SceVideoCoreServer
+<118>[SceShellCore] FMEM  10.8/  51.3 NPXS21006 SceRemotePlay
+<118>[SceShellCore] FMEM   9.4/ 173.3 NPXS21010 SceCloudClientDaemon
+<118>[SceShellCore] FMEM   3.3/  10.8 NPXS21016 SceSpZeroConf
+<118>[SceShellCore] FMEM   8.6/ 156.0 NPXS21002 webrtc_daemon.self
+<118>[SceShellCore] FMEM   6.9/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  33.8/ 270.2 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM  88.4/ 558.4 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  36.4/ 358.8 NPXS20001 orbis-jsc-compiler.self
+<118>[SL][13:47:13:882][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4423840 (71%), when 3611 [sec]
+<118>[SceShellCore][StorageStatsReport] ====================================================================
+<118>[SceShellCore][StorageStatsReport] Update: PERIODIC_CHECK_INTERVAL_SEC=[3600]
+<118>[SceShellCore][StorageStatsReport] writeMcUsageDataToFile: nothing to write to file
+<118>[SceShellCore][StorageStatsReport] processTimeSecForData [4470989]
+<118>[SceShellCore][StorageStatsReport] realTimeSecForData [0]
+<118>[SceShellCore][StorageStatsReport] HDD partition [WRITE] : 
+<118>[SceShellCore][StorageStatsReport]   da0x4           (system      ): bytes:           0B, transfer:            0
+<118>[SceShellCore][StorageStatsReport]   da0x4b          (system(b)   ): bytes:    703.25MiB, transfer:         5626
+<118>[SceShellCore][StorageStatsReport]   da0x5           (system_ex   ): bytes:           0B, transfer:            0
+<118>[SceShellCore][StorageStatsReport]   da0x5b          (system_ex(b)): bytes:    676.13MiB, transfer:         5409
+<118>[SceShellCore][StorageStatsReport]   da0x6           (old swap    ): bytes:     61.98GiB, transfer:       629088
+<118>[SceShellCore][StorageStatsReport]   da0x8           (app_tmp     ): bytes:      1.12GiB, transfer:        36433
+<118>[SceShellCore][StorageStatsReport]   da0x9           (system_data ): bytes:    117.67GiB, transfer:      5207048
+<118>[SceShellCore][StorageStatsReport]   da0x12          (update      ): bytes:    998.56MiB, transfer:         9181
+<118>[SceShellCore][StorageStatsReport]   da0x13          (user        ): bytes:    825.47GiB, transfer:     21462295
+<118>[SceShellCore][StorageStatsReport]   da0x14          (eap_user    ): bytes:      2.94MiB, transfer:          489
+<118>[SceShellCore][StorageStatsReport]   da0x6x0         (new swap    ): bytes:     61.98GiB, transfer:       628081
+<118>[SceShellCore][StorageStatsReport]   da0x6x1         (kernel log  ): bytes:     27.00KiB, transfer:           52
+<118>[SceShellCore][StorageStatsReport]   da0x6x2         (user log    ): bytes:    493.50KiB, transfer:          955
+<118>[SceShellCore][StorageStatsReport] Game   I/O slot [READ/WRITE]: IntHDD:[    56.20GiB/    49.41GiB], ExtHDD:[          0B/          0B]
+<118>[SceShellCore][StorageStatsReport] System I/O slot [READ/WRITE]: IntHDD:[    30.77GiB/   959.09GiB], ExtHDD:[          0B/          0B]
+<118>[SceShellCore][StorageStatsReport] System I/O slot by threads [READ/WRITE] (WRITE top 10 / total 357): 
+<118>[SceShellCore][StorageStatsReport]   SceLibNpRifMgrIpcDispatcher     :[    18.63MiB, BIO=        1686 /    418.68GiB, BIO=    13719211]
+<118>[SceShellCore][StorageStatsReport]   SceRecMain                      :[   108.36MiB, BIO=        2048 /    205.30GiB, BIO=     1683212]
+<118>[SceShellCore][StorageStatsReport]   SceAppInstServer                :[    29.00MiB, BIO=        2204 /    104.61GiB, BIO=     3428034]
+<118>[SceShellCore][StorageStatsReport]   SceNKWebProcessMain             :[   490.47MiB, BIO=       14652 /     50.92GiB, BIO=      508235]
+<118>[SceShellCore][StorageStatsReport]   SceSaveDataSessionJobCUSA       :[     7.62GiB, BIO=      266800 /     35.11GiB, BIO=     1367732]
+<118>[SceShellCore][StorageStatsReport]   SceSystemLoggerDeliveryJob      :[    27.80MiB, BIO=        1115 /     28.76GiB, BIO=     1244813]
+<118>[SceShellCore][StorageStatsReport]   SceSystemLogger                 :[    78.55MiB, BIO=        2766 /     19.96GiB, BIO=      881661]
+<118>[SceShellCore][StorageStatsReport]   SceNpMgrWorkerThread            :[    48.24MiB, BIO=        2953 /     19.73GiB, BIO=      927275]
+<118>[SceShellCore][StorageStatsReport]   SceFsstBdSchedWriter            :[   160.00KiB, BIO=           5 /     13.24GiB, BIO=      433778]
+<118>[SceShellCore][StorageStatsReport] System I/O slot all threads total: [   114.67GiB, BIO=     1653481 /    972.84GiB, BIO=    26688434]
+<118>[SceShellCore][StorageStatsReport] SMR Media Cache Info: NOTHING
+<118>[SL][13:47:14:075][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4426400 (71%), when 3612 [sec]
+<118>[SceRnpsAppMgr] PERIODIC_CHECK_INTERVAL_SEC={600}
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : trigger = 0, num_apps = 2
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3834.1 KB, trend +1.8 KB/min, peak 4322.7 KB, when 3626 [sec]
+<118>[SceRnpsAppMgr] CRL download : status code (304) ETag="61f32d2ebeb7a02cee02281d622e0c2a:1579629436.347373"
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : checking NPXS24000
+<118>[SceRnpsAppMgr] EPKG download (NPXS24000): previous ETag=
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(690) getResponseHeader: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(625) GetEtagValue: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] EPKG download (NPXS24000): status code (404) max-age(3600=>3600)
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(1024) Download: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(957) DownloadAndInstallImpl: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] CheckAllRnpsApps : checking NPXS24005
+<118>[SceRnpsAppMgr] EPKG download (NPXS24005): previous ETag=
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(690) getResponseHeader: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_http.cpp(625) GetEtagValue: RNPSAM_ISOK::0x80432025
+<118>[SceRnpsAppMgr] EPKG download (NPXS24005): status code (404) max-age(3600=>3600)
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(1024) Download: RNPSAM_ISOK::0x8185000b
+<118>[SceRnpsAppMgr] W:\Build\J02697908\vsh\shell\shell_core\rnps_app_mgr\rnps_app_mgr_updater.cpp(957) DownloadAndInstallImpl: RNPSAM_ISOK::0x8185000b
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc7, Not Primary >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc7 >>
+<118>[BGFT] [RDL2] [SoC] Error : getNotificationDetail(usercancelled) = 0x80550006
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafc8, Primary >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafc8 >>
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< start checking user = 1cabafca, Primary >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onAdd() <<< end checking user = 1cabafca >>
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< start checking user = 1cabafca >>
+<118>[BGFT] [RDL2] [SoC] getNotificationDetail(notstarted) : count=0
+<118>[BGFT] [RDL2] [SoC] onCancel() <<< end checking user = 1cabafca >>
+<118>[SceSystemStateMgr] No user input for 60 seconds
+<118>[SceShellCore] Libc Heap Status: free 37%, in-use 3832.3 KB, trend +0.0 KB/min, peak 4322.7 KB, when 3657 [sec]
+<118>[SceShellUI] I/PSM.UI : UI system timer elapsed 01:01:00
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={3360} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceHidConfigService] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={3360} isFirstTime={0}
+<118>[SceHidConfigService] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceWorkaroundCtl] PERIODIC_DOWNLOAD_INTERVAL_SEC={86400} elapsed={3780} isFirstTime={0}
+<118>[SceWorkaroundCtl] PERIODIC_CHECK_INTERVAL_SEC={420}
+<118>[SceNetEv] PERIODIC_CHECK_INTERVAL_SEC={480}
+<118>[SL][13:52:13:495][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][BEGIN][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4426400 (71%), when 3911 [sec]
+<118>[SceShellCore] Libc Heap Status: free 29%, in-use 4300.4 KB, trend +476.0 KB/min, peak 4322.7 KB, when 3903 [sec]
+<118>[SL][13:52:13:687][Thread 0x00018845][INFO][TRACE][ALWAYS][MAIN STREAM][END  ][Heap]sanity OK, free 2301632 (37%), in-use 3924288 (63%), peak 4426400 (71%), when 3911 [sec]
+<118>[SceSystemStateMgr] No user input for 60 seconds
+===== capture end after 1 connections =====

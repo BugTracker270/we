@@ -1,0 +1,15 @@
+=== offline key-bank scan ===
+1352k.elf                            20,080,104 B  scanned in  33.3s  exact-keybank-hits=0  terminator-hits=1
+1350.elf                             21,657,064 B  scanned in  35.6s  exact-keybank-hits=0  terminator-hits=1
+1302.elf                             21,657,064 B  scanned in  35.5s  exact-keybank-hits=0  terminator-hits=1
+kernel1304.elf                       21,657,064 B  scanned in  35.7s  exact-keybank-hits=0  terminator-hits=1
+1150k.elf                            20,080,096 B  scanned in  33.1s  exact-keybank-hits=0  terminator-hits=1
+secure_modules.bin                   13,369,344 B  scanned in  22.0s  exact-keybank-hits=0  terminator-hits=0
+eap_fs_image.img                      7,278,592 B  scanned in  11.9s  exact-keybank-hits=0  terminator-hits=0
+system_fs_image.img                SKIPPED (too large: 368,705,536 B)
+torus2_firmware.bin                     524,288 B  scanned in   0.9s  exact-keybank-hits=0  terminator-hits=0
+wlan_firmware.bin                       524,288 B  scanned in   0.9s  exact-keybank-hits=0  terminator-hits=0
+PS4UPDATE1.PUP.dec                 SKIPPED (too large: 326,035,559 B)
+libkernel.sprx                          449,264 B  scanned in   0.7s  exact-keybank-hits=0  terminator-hits=0
+libc.sprx                             1,388,944 B  scanned in   2.3s  exact-keybank-hits=0  terminator-hits=0
+libkernel_sys_13.52.bin                 479,232 B  scanned in   0.8s  exact-keybank-hits=0  terminator-hits=0

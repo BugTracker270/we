@@ -1,0 +1,168 @@
+
+===== reconnecting capture start 15:33:14 (900s) =====
+d[0.00msec] : id_goldhen_menu : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils_payloader : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : id_goldhen_utils_payloader_launchpad : SettingPage
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.01msec] : NormalStack : SettingPageNormalStack
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : ** Unload enqueue: Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.06msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : **** SceneQueue Reordered : rule 1-A: Noname to QueueTop.
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.00msec] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Unloaded[0.02msec] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : SettingsPlugin : SettingsApplication
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.00msec] Layout[0.00msec/0widgets] : Noname : FrameScene
+<118>[SceShellUI] I/PSM.UI : SceneQ : Loaded[0.01msec] Layout[0.00msec/0widgets] : id_goldhen_utils_payloader_launchpad : SettingPage
+nf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  49.6/ 292.3 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 116.3/ 580.5 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  43.3/ 358.8 NPXS20001 orbis-jsc-compiler.self
+nf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  49.6/ 292.3 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 116.5/ 580.5 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  43.4/ 358.8 NPXS20001 orbis-jsc-compiler.self
+nf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  49.6/ 292.3 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 118.6/ 580.5 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  45.6/ 358.8 NPXS20001 orbis-jsc-compiler.self
+nf
+<118>[SceShellCore] FMEM   7.0/  18.1 NPXS21019 SceSocialScreenMgr
+<118>[SceShellCore] FMEM   5.0/   9.8 NPXS21007 SceMusicCoreServer
+<118>[SceShellCore] FMEM   7.2/  14.4 NPXS21020 SceVoiceAndAgent
+<118>[SceShellCore] FMEM   2.1/   5.1 NPXS20967 fs_cleaner.elf
+<118>[SceShellCore] FMEM   2.1/  10.2 NPXS20974 SceVdecProxy.elf
+<118>[SceShellCore] FMEM   2.0/  10.3 NPXS20975 SceVencProxy.elf
+<118>[SceShellCore] FMEM  49.6/ 292.3 NPXS20001 SecureUIProcess.self
+<118>[SceShellCore] FMEM 120.8/ 580.5 NPXS20001 SecureWebProcess.self
+<118>[SceShellCore] FMEM  47.7/ 358.8 NPXS20001 orbis-jsc-compiler.self
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: TimeoutError ---
+--- connect failed: TimeoutError ---
+--- connect failed: TimeoutError ---
+--- connect failed: TimeoutError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+--- connect failed: ConnectionRefusedError ---
+===== capture end after 16 connections =====

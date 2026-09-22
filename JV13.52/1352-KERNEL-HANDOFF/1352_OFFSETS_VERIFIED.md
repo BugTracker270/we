@@ -135,9 +135,45 @@ surface between _aio_multi_wait (blocking) and _aio_multi_delete/_aio_multi_poll
 operating on the same per-proc aio table (stride 0x598, sel at +0x4a0) is the
 primary 0-day audit target this session bequeaths to Workstream B.
 
-### Remaining audit TODOs (§7 Workstream B)
-1. Audit the shared lookup/release helpers 0x24e550 / 0x24e510 / 0x24dd80 for
-   missing locking/refcount on the aio context (delete vs wait race).
+### 8. orbis_idt.c — the id→object layer (bug=663's true home)
+
+The aio helpers are not aio code: they are Sony's **generic ID-table allocator**,
+`W:\Build\J02697906\sys\freebsd\sys\kern\orbis_idt.c` (also used by helper
+0x24dd90 and presumably many other Sony drivers — every subsystem with
+"handle/id + generation" semantics).
+
+`orbis_idt` lookup @ 0x24e550 (called from _aio_multi_delete/poll with the
+32-bit user id split: idx = id & 0x1fff, gen = (id>>13)&0x1fff... actually
+entry gen at +0x28 << 13 | idx compared to full id):
+
+```
+1. mtx_lock(table)                       [0x378a80: lock cmpxchg @+0x18]
+2. idx bounds check vs table->count (+0x220)<<7
+3. entry = table->buckets[..]; validate gen (entry+0x28<<13 | idx == id)
+4. validate state word [entry+0x26] == 3
+5. entry->owner(+0x18) = curthread  (marked "in use by me")
+6. mtx_unlock + re-validate owner still == curthread (retry loop)
+7. state re-check == 3; if entry->obj(+0x10) != NULL:
+       *out = entry;  return entry->obj    <- POINTER RETURNED
+8. mtx_unlock                            [0xa3950/0xa3a00 family]
+```
+
+**The TOCTOU window:** the object pointer is handed to the caller **after the
+table lock is released**, and the caller (e.g. `_aio_multi_wait`, which *blocks*
+on the returned aio ctx) uses it unlocked. A concurrent `_aio_multi_delete` on
+the same id (different thread, same process — both unprivileged) can transition
+the entry (state, generation bump, obj free) between steps 6-8 and the waiter's
+subsequent dereference. Owner-check at +0x18 partially guards it, but the waiter
+sleeps *while holding owner*, and delete paths must decide whether to
+steal/free — that interplay is where a UAF would live, and where an 8-byte fix
+(a flag/refcount) would produce exactly "14.00 = 13.52 + 8".
+
+**This is the concrete 0-day audit target for the next session:**
+diff the delete-vs-wait ownership protocol in orbis_idt.c against every caller
+(aio 662/663/664/665/666/669 + any other subsystem using 0x24e550-family
+lookups — xref `orbis_idt.c` string at 0x7ae4b5-ish, all call sites of
+0x24e550/0x24e510/0x24dd90). A second UAF in a *different* orbis_idt consumer
+would be a genuinely new bug with the same reachability as bug=663.
 2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
 3. rtsock / priv_check unprivileged-path check (§11) — rtsock strings at 0x7becb1+,
    priv_check 0x7a3574, `copyin` string anchor 0x7984fc now also known.

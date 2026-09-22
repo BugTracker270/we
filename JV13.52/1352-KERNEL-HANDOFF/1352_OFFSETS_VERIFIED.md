@@ -187,13 +187,44 @@ orbis_idt.c's own implementation block: 0x24dd80..0x24ef30 (25 functions;
 lookup=0x24e550, release=0x24e510, insert/delete-family around 0x24dd90/0x24dea0/
 0x24e440/0x24e480/0x24eb50; 0x24d820 = 67-caller mega-entry, likely id-alloc).
 
-**Next-session audit procedure:** for each priority-1 consumer, replicate the §8
-analysis — does the caller hold a reference across the entry's unlock, and can a
-second unprivileged thread free/replace the object in that window? If orbis_evf
-or kern_dynlib has the same shape as vfs_aio2's bug=663, that is a genuinely new
-0-day with identical reachability — and by §5.3's "+8 bytes" reasoning, likely
-still live in 14.00 unless Sony's fix covered the *generic* layer rather than
-just the aio caller.
+### 10. orbis_evf.c first-pass audit (priority-1 consumer) — no immediate finding
+
+The event-flag syscalls are **sysent[538..546]** (handlers 0x6c500..0x6cc90,
+all in orbis_evf.c; family: 538=3-arg create?, 539=1-arg delete, 540/541=1-arg,
+542=5-arg wait, 543=4-arg, 544/545=2-arg set/clear, 546=3-arg).
+
+**sysent[539] evf-delete @0x6c750 — decoded ownership protocol:**
+```
+lookup(0x24e550) -> obj; flag check (0x24dd80: [obj+0x22]&1)
+call 0x6c320 (drain/cancel waiters — BEFORE removal)     <- key ordering
+release(0x24e510)
+re-lookup variant 0x24eb50 -> obj2
+remove-from-table (0x24e480); release(0x24e510)
+[obj2+0x49]&1 path: 0x44bb30 / dec [obj2+0x50] refcount / 0x44b950
+free both (r13 table ctx?, r15 obj) via 0x96e0
+```
+
+**sysent[542] evf-wait @0x6c880:** lookup -> 0x6b8c0 (wait core, presumably
+msleep with the evf's own lock) -> copyout results -> release(0x24e510).
+The waiter holds orbis_idt "owner" across the block — **same shape as
+bug=663's wait** — but the delete path *drains waiters (0x6c320) before
+removing the entry from the table (0x24e480) and only then frees*. That
+ordering is the correct mitigation; no UAF window is evident at this depth.
+
+**Honest verdict (per §10.10): no finding yet in orbis_evf.** To close it out,
+the next session must still verify: (a) 0x6c320 really cancels *all* waiters
+(incl. ones entering 0x6b8c0 concurrently — the lookup-vs-drain race),
+(b) 0x24eb50's re-lookup semantics (does it also take owner? if not, a second
+deleter could interleave), (c) the refcount protocol at +0x50 vs 0x44bb30.
+Same checklist then applies to kern_dynlib (0x1b73c8..) — unaudited so far.
+
+## SESSION STATUS (successor session 1)
+Done: dump verified (8/8, sha256 match) · mapping proven (identity; +0x800000
+refuted) · all chain offsets + 27 patch sites verified · second-pass shown
+unnecessary (v11 covers it) · bug=663 localized to vfs_aio2/orbis_idt ·
+consumer map built · orbis_evf first-pass (negative, correctly-ordered drain).
+Open: kern_dynlib audit · orbis_budget · 0x6c320/0x24eb50 depth-pass ·
+symbol widening · rtsock/priv_check · KASAN oracle.
 2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
 3. rtsock / priv_check unprivileged-path check (§11) — rtsock strings at 0x7becb1+,
    priv_check 0x7a3574, `copyin` string anchor 0x7984fc now also known.

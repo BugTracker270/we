@@ -168,12 +168,32 @@ sleeps *while holding owner*, and delete paths must decide whether to
 steal/free — that interplay is where a UAF would live, and where an 8-byte fix
 (a flag/refcount) would produce exactly "14.00 = 13.52 + 8".
 
-**This is the concrete 0-day audit target for the next session:**
-diff the delete-vs-wait ownership protocol in orbis_idt.c against every caller
-(aio 662/663/664/665/666/669 + any other subsystem using 0x24e550-family
-lookups — xref `orbis_idt.c` string at 0x7ae4b5-ish, all call sites of
-0x24e550/0x24e510/0x24dd90). A second UAF in a *different* orbis_idt consumer
-would be a genuinely new bug with the same reachability as bug=663.
+### 9. orbis_idt consumer map (xref-complete) — the 0-day target list
+
+All call sites of the orbis_idt entry points, attributed by provenance-string
+proximity (17,531 lea refs to `W:\Build\J02697906\...` strings used as the
+attribution oracle):
+
+| consumer file | entry points called | reachability | audit priority |
+|---|---|---|---|
+| `sys\freebsd\sys\kern\orbis_evf.c` | lookup/release (callers @0x6c78c..0x6ccc2) | **event-flag syscalls — unprivileged, any process** | **1** |
+| `sys\freebsd\sys\kern\kern_dynlib.c` + `subr_dynlib.c` | release/lookup (@0x1b73c8..0x1b760c, 0x3b9887) | **sceKernelLoadModule family — unprivileged** | **1** |
+| `sys\freebsd\sys\kern\vfs_aio2.c` | all (@0x11f987..0x123a22) | unprivileged (the KNOWN bug=663 home) | reference surface |
+| `sys\freebsd\sys\kern\orbis_budget.c` | lookup (@0xa6520..0xa780a) | budget syscalls — likely unprivileged | 2 |
+| `sys\dev\mem\memutil.c` | (@0x48a071..0x48a13f) | /dev/mem — check perms | 3 |
+| `sys\internal\modules\sdbgp\`, `ipmimgr\`, `dev\usb\cam` | | internal/dev — low priority | 4 |
+
+orbis_idt.c's own implementation block: 0x24dd80..0x24ef30 (25 functions;
+lookup=0x24e550, release=0x24e510, insert/delete-family around 0x24dd90/0x24dea0/
+0x24e440/0x24e480/0x24eb50; 0x24d820 = 67-caller mega-entry, likely id-alloc).
+
+**Next-session audit procedure:** for each priority-1 consumer, replicate the §8
+analysis — does the caller hold a reference across the entry's unlock, and can a
+second unprivileged thread free/replace the object in that window? If orbis_evf
+or kern_dynlib has the same shape as vfs_aio2's bug=663, that is a genuinely new
+0-day with identical reachability — and by §5.3's "+8 bytes" reasoning, likely
+still live in 14.00 unless Sony's fix covered the *generic* layer rather than
+just the aio caller.
 2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
 3. rtsock / priv_check unprivileged-path check (§11) — rtsock strings at 0x7becb1+,
    priv_check 0x7a3574, `copyin` string anchor 0x7984fc now also known.

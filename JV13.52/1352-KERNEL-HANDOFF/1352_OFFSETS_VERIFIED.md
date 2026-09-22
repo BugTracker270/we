@@ -75,11 +75,37 @@ Any audit finding must be checked against bug-663's surface as the patched refer
 kbase+0x11f6f0 → .text 0x11f6f0 — wait, that's the pre-patch sysent[661] handler;
 sysent[663] @ 0x110a7c0 is the real target to disassemble. TODO below.)
 
-## 6. Remaining TODOs for the audit (Workstream B entry)
+## 6. sysent[663] IDENTIFIED — `_aio_multi_wait` @ RVA 0x11ff50
 
-1. Disassemble sysent[663] handler (0x110a7c0 sy_call) — this is the *patched*
-   bug surface; diff neighbours.
+The known chain's kernel bug entry (`bug=663` per ps4_offsets.js). Handler shape
+(disassembly in successor session notes):
+
+```
+sysent[663] narg=5  sy_call=kbase+0x11ff50
+0x11ff50  5-arg unpacker: args -> (rdi=td, rsi=arg0 ptr, edx=arg1 count, rcx=arg2,
+           r8d=arg3, r9=arg4) -> tail into 0x11ff70 (real body)
+body:
+  - reads td->td_proc fields (+0xab8, +0xaf4) -> selects a per-proc aio context
+    (stride 0x598 array, sel == 1 check, error path via priv-check-style call 0x1232d0)
+  - arg1 (count) validated: (count-1) < 0x81  i.e. count in 1..0x81
+  - arg3 >= 3 rejected (EINVAL path, line 0xfbf)
+  - count >= 2 path:  alloca(count*4 + 15, 16-aligned) on KERNEL STACK
+                      call 0x2bd4e0 (memset/memcpy family)
+  - final: copyin(arg0, dest, count*4)   via 0x2bd790 ("copyin" str @0x7984fc)
+  - errors print "%s() line=%d error=%d 0x%x" with __func__ "_aio_multi_wait"
+    (string @0x797fbf) -> lines 0xfaf/0xfb5/0xfbf/0xfce
+```
+
+**This is the patched reference surface.** Per §7 B7: any audit finding in the
+`aio_multi_*` family (there will be sibling syscalls — 662 `narg=3` unpacks 2 args
+differently, 664/665/666 neighbours) must be diffed against this known-bug family
+before being reported as new. The neighbouring syscalls and the copyin/alloca
+helpers (0x2bd4e0, 0x2bd790) are the first places to look for *un*patched cousins.
+
+### Remaining audit TODOs (§7 Workstream B)
+1. Enumerate the whole aio_multi_* syscall family (scan .text for the sibling
+   `__func__` strings near `_aio_multi_wait` @0x797fbf) and audit each.
 2. Widen `extract_symbols.py` over the whole image (label the 13.6 MB of .text).
-3. rtsock / priv_check unprivileged-path check (§11 open question) — rtsock
-   strings at 0x7becb1+, priv_check 0x7a3574.
+3. rtsock / priv_check unprivileged-path check (§11) — rtsock strings at 0x7becb1+,
+   priv_check 0x7a3574, `copyin` string anchor 0x7984fc now also known.
 4. KASAN FreeBSD 9 oracle for candidates (§7 B5), honest triage per §5.6/§10.10.
